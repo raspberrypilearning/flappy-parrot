@@ -14,13 +14,11 @@ If you don't press any keys then Flappy should just fall down the stage.
     
 [[[generic-scratch-backdrop-from-library]]]
 
-+ Add the Flappy character. You'll need a sprite with costumes for wings up and wings down. **parrot** is a good choice.
++ Add a sprite with costumes for wings up and wings down. **parrot** is a good choice. Name your sprite __Flappy___.
+
+![screenshot](images/flappy-parrot.png)
 
 [[[generic-scratch-sprite-from-library]]]
-
-+ Change the name of your sprite to __Flappy__.
-
-    ![screenshot](images/flappy-stage.png)
 
 [[[generic-scratch-rename-sprite]]]
 
