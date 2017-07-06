@@ -1,14 +1,22 @@
-title: flappy-parrot
+title: Flappy Parrot
 hero_image: images/banner.png
-description: flappy-parrot description
+description: Create a game in the style of the popular mobile game Flappy Bird.
 original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
-theme: red # all possible values: blue, green, navy, orange, red, turquoise, violet, yellow
-duration: 1 # 1, 2 or 3
+theme: cc-prototype
 listed: false
 ingredient: false
-copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-interests: "games, jokes/pranks, music/sound, photography, physical computing, robots, space"
-technologies: "electronics, html/css, physical computing, python, scratch"
+duration: 2
+interests: "games, graphics, animals"
+technology: "scratch"
 steps:
-  - title: Step one
+  - title: "Introduction"
+  - title: "What you will need"
+  - title: "Make Flappy fall"
+  - title: "Make Flappy fly"
+  - title: "Add the pipes"
+  - title: "Make the pipes move"
+  - title: "Detect collision with the pipes"
+  - title: "Add scoring"
+  - title: "Challenge: adjust the difficulty"
+  - title: "Challenge: add a high score"
+  - title: "Challenge: fall off the stage"
