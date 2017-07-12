@@ -1,25 +1,49 @@
 
 
-## Add the pipes
+## Make Flappy fall
+
+If you don't press any keys then Flappy should just fall down the screen. 
+
++ Add a sprite with costumes for wings up and wings down. **Parrot** is a good choice. Name your sprite __Flappy__.
+
+    ![screenshot](images/flappy-parrot.png)
+
+    [[[generic-scratch-sprite-from-library]]]
+
+    [[[generic-scratch-rename-sprite]]]
+
++ When the game starts Flappy should be just to the left of the centre of the screen. At coordinates (-50, 0). Can you make Flappy go to the starting position at the start of the game. 
+
+    ![screenshot](images/flappy-start.png)
+    
+[[[generic-scratch-set-coordinates]]]
 
 
++ Flappy also needs to be smaller, about 50% should do it. You can either use the shrink tool or a `set size to ( )` block.   
 
++ Now you need to make Flappy keep falling down the stage.
 
-Next we'll add some obstacles for Flappy to fly through.
+--- hints ---
+--- hint ---
+You need to add code to make Flappy keep falling after your setup code.
 
+![screenshot](images/flappy-setup.png)
 
+---/hint ---
+--- hint ---
+Try using these blocks:
 
-+ Click on the `Paint new sprite` {.blockgrey} button.
-+ Name your costume **pipe**.
-+ If the costume is in `Bitmap Mode` {.blockgrey} click on the `Convert to vector` {.blockgrey} button.
-+ Click on the `Zoom -` {.blockgrey} so that you can see the entire drawing area.
-+ Click on the `Rectangle` {.blockgrey}, pick a colour, and click on the `Filled rectangle` {.blockgrey} button.
-+ Click and drag two boxes, one from the top middle and one from the bottom middle as shown:
+![screenshot](images/flappy-setup.png)
 
-![screenshot](images/pipe_design.png)
+Changing Flappy's y position by -3 each time round a loop should be about right. 
+---/hint ---
+--- hint ---
+Your code should look like this:
 
-+ You can shade your pipes by clicking on the `Color a shape` {.blockgrey} button and click on the `Horizontal gradient` {.blockgrey} button. Choose two shades of the same colour one for the foreground and one for the background. When you click to fill the shapes, the colours will fade between your chosen colours.
-+ Name your sprite **Pipe**.
+---/hint ---
+--- /hints ---
+
++ Test your code and make sure Flappy starts in the middle of the screen and falls to the bottom. 
 
 
 

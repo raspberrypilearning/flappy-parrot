@@ -1,61 +1,66 @@
 
 
-## Make Flappy fall
+## Add the backdrop and pipes
 
-If you don't press any keys then Flappy should just fall down the stage. 
+This project uses moving obstacles to create the feeling of movement. Pipes move across the stage from right to left. 
+
+There is one Pipe sprite which gets cloned (copied) and moved to create lots of obstacles. 
+
+First let's create the pipes. 
 
 + Open a new empty Scratch project.
 
 [[[generic-scratch-new-project]]]
 
-+ Replace the background with an outdoor landscape. **desert** is a good choice.
++ You can delete the cat sprite. 
+
++ Replace the background with an outdoor landscape. **blue sky** is a good choice.
 
     ![screenshot](images/flappy-stage.png)
     
 [[[generic-scratch-backdrop-from-library]]]
 
-+ Add a sprite with costumes for wings up and wings down. **parrot** is a good choice. Name your sprite __Flappy___.
++ Click on the `Paint new sprite` button.
 
-![screenshot](images/flappy-parrot.png)
++ Name your sprite **Pipes**.
 
-[[[generic-scratch-sprite-from-library]]]
++ The `Pipes` sprite will have a pair of pipes with a gap in the middle. You'll be able to move the sprite up and down to get the gap in a different place. 
 
-[[[generic-scratch-rename-sprite]]]
+    Let's take a look at how this is going to work. 
 
-+ When the game starts Flappy should be just to the left of the centre of the screen. At coordinates (-50, 0). 
+    This picture shows an example of how the pipes could be positioned, the parts outside the stage are normally hidden, you only see it when you drag the sprite:
+    
+    ![screenshot](images/flappy-pipes-position.png)
 
-    ![screenshot](images/flappy-start.png)
-    Can you make Flappy go to the starting position at the start of the game. 
++ You can't draw a pipe as big as the pipes need to be, but you can increase the size of a sprite when it's used. 
 
-[[[generic-scratch-set-coordinates]]]
+    Add code to make the sprite bigger. 
+    
+    ![screenshot](images/flappy-scale-pipes.png)
+    
+    This will make it easier to see how big you need to make the pipes.
 
++ Switch the Paint editor to Vector mode. 
 
-+ Flappy also needs to be smaller, about 50% should do it. You can either use the shrink tool or a `set size to ( )` block.   
+[[[generic-scratch-vector-mode]]
 
-+ Now you need to make Flappy fall down the stage. 
++ Draw a black outline rectangle for the top pipe as shown:
 
---- hints ---
---- hint ---
-You need to add code to make Flappy keep falling after your setup code.
+    ![screenshot](images/flappy-pipes-rectangle.png)
 
-![screenshot](images/flappy-setup.png)
++ Shade your pipe with a left-to-right gradient. 
 
----/hint ---
---- hint ---
-Try using these blocks:
+   ![screenshot](images/flappy-pipes-filled.png)
 
-![screenshot](images/flappy-setup.png)
+[[[generic-scratch-vector-gradient]]
 
-Changing Flappy's y position by -3 each time round a loop should be about right. 
----/hint ---
---- hint ---
-Your code should look like this:
++ Click on the duplicate (stamper) tool and then on your pipe to create a copy. 
 
----/hint ---
---- /hints ---
+    Drag the copy of the sprite to the bottom of the screen, in line with the top sprite.
+    
+    ![screenshot](images/flappy-pipes-duplicate.png)
 
-+ Test your code and make sure Flappy starts in the middle of the screen and falls to the bottom. 
++ If you like, you can add extra rectangles to the ends of the pipes: 
 
-
-
+    ![screenshot](images/pipe-ends.png)
 

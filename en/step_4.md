@@ -1,32 +1,35 @@
 
+## Make the pipes move
 
-## Make Flappy fly
+Next you'll get the pipes moving across the screen to create an obstacle course. 
 
++ First let's get the pipes to start on the right of the screen and glide across to the left: 
 
+    ![screenshot](images/flappy-glide.png)
 
++ Test your code and make sure the pipe slowly glide across to the left. 
 
-Next, we want Flappy to flap upwards when you press the space bar.
++ That's one pair of pipes, but you want to keep them coming. You can use `clones` (copies) of a sprite. 
 
+    Change your code so that it looks like this:
 
+    ![screenshot](images/flappy-clones.png)
+    
+    Notice that the original sprite is hidden. 
+    
++ Now you should have lots of pipes, but the gap is always in the same place. 
 
-+ Click on the __Costumes__ tab and name the costumes **wings up** and **wings down**.
-+ Now switch back to the __Scripts__ tab and add this script:
-```blocks
-    when [space v] key pressed
-        switch costume to [wings down v]
-        repeat (10)
-            change y by (6)
-        end
-        switch costume to [wings up v]
-        repeat (10)
-            change y by (6)
-        end
-```
++ Let's add some variety by giving each pipe a random y position. 
 
+    ![screenshot](images/flappy-random.png)
+    
+    Notice that you need to set the y position to glide so that your pipes move in a straight line!
+    
++ Test your project and make sure you have pipes moving across the stage with gaps at different heights. 
 
-
-__Click the green flag__, are you able to control Flappy with the space bar? Do you notice that sometimes you press the space bar but Flappy doesn't move? We'll fix that next...
-
+    ![screenshot](images/flappy-random.png)
+    
+    
 
 
 

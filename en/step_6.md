@@ -1,36 +1,31 @@
 
 
-## Make the pipes move
+## Make Flappy fly
 
 
 
 
-Next we'll make the pipes move and arrange them randomly to provide an obstacle course for Flappy.
+Next, we want Flappy to flap upwards when you press the space bar.
 
 
 
-+ Click on your **Pipe** sprite and select the `Scripts` {.blockgrey} tab.
-+ Add the following scripts:
++ Click on the __Costumes__ tab and name the costumes **wings up** and **wings down**.
++ Now switch back to the __Scripts__ tab and add this script:
 ```blocks
-    when FLAG clicked
-        hide
-        set size to (200)%
-        forever
-            create clone of [myself v]
-            wait (2) secs
-
-    when I start as a clone
-        go to x: (240) y: (pick random (-80) to (80))
-        show
-        repeat (120)
-            change x by (-4)
+    when [space v] key pressed
+        switch costume to [wings down v]
+        repeat (10)
+            change y by (6)
         end
-        delete this clone
+        switch costume to [wings up v]
+        repeat (10)
+            change y by (6)
+        end
 ```
 
 
 
-__Click the green flag__, do pipes appear with gaps to fly through at different heights? If you find it difficult to navigate Flappy through the pipes without touching them, you can make the gap bigger in the **pipe** sprite by editing the costume.
+__Click the green flag__, are you able to control Flappy with the space bar? Do you notice that sometimes you press the space bar but Flappy doesn't move? We'll fix that next...
 
 
 
