@@ -14,7 +14,7 @@ First let's create the pipes.
 
 + You can delete the cat sprite. 
 
-+ Replace the background with an outdoor landscape. **blue sky** is a good choice.
++ Replace the background with an outdoor landscape. `blue sky` is a good choice.
 
     ![screenshot](images/flappy-stage.png)
     
@@ -36,7 +36,7 @@ First let's create the pipes.
 
     Add code to make the sprite bigger. 
     
-    ![screenshot](images/flappy-scale-pipes.png)
+    ![screenshot](images/flappy-pipes-size.png)
     
     This will make it easier to see how big you need to make the pipes.
 
