@@ -52,7 +52,7 @@ First let's create the pipes.
 
    ![screenshot](images/flappy-pipes-filled.png)
 
-[[[generic-scratch-vector-gradient]]
+[[[generic-scratch-vector-gradient]]]
 
 + Click on the duplicate (stamper) tool and then on your pipe to create a copy. 
 
