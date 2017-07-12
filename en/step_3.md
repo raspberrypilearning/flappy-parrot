@@ -42,7 +42,7 @@ First let's create the pipes.
 
 + Switch the Paint editor to Vector mode. 
 
-[[[generic-scratch-vector-mode]]
+[[[generic-scratch-vector-mode]]]
 
 + Draw a black outline rectangle for the top pipe as shown:
 
