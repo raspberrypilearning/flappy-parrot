@@ -27,7 +27,7 @@ Next you'll get the pipes moving across the screen to create an obstacle course.
     
 + Test your project and make sure you have pipes moving across the stage with gaps at different heights. 
 
-    ![screenshot](images/flappy-random.png)
+    ![screenshot](images/flappy-pipes-test.png)
     
     
 
