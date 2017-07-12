@@ -62,5 +62,5 @@ First let's create the pipes.
 
 + If you like, you can add extra rectangles to the ends of the pipes: 
 
-    ![screenshot](images/pipe-ends.png)
+    ![screenshot](images/flappy-pipe-ends.png)
 
