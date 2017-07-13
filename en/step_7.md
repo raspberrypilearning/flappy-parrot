@@ -4,15 +4,13 @@
 
 To make the game a challenge, the player needs to guide Flappy through the gaps without touching the pipes or the edges of the screen. Now we'll add some blocks to detect if Flappy hits something. This is called __collision detection__. 
 
-+ Let's add a sound to play when Flappy collides. Click on the **Flappy** sprite then on the `Sounds` {.blockgrey} tab.
-
-+ Click the `Choose sound from library` {.blockgrey} button and add a collision sound for **Flappy**. The **screech** sound is good.
++ Add a sound to play when Flappy collides. The **screech** sound is good.
 
 + You're going to use a `wait until` {.blockcontrol} block to check for Flappy touching the pipes. 
 
     Use a new `on green flag clicked` {.blockcontrol} block:
     
-    ![screenshot](images/flappy-wait.png)
+    ![screenshot](images/flappy-wait-until.png)
     
     Any code you place after a `wait until` {.blockcontrol} block will only run after the condition is detected. 
     
@@ -22,7 +20,7 @@ To make the game a challenge, the player needs to guide Flappy through the gaps 
 --- hint ---
 You need to fill in the condition in the wait until` {.blockcontrol} block to check for Flappy __touching__ the __edge__ of the screen __or__ __touching__ the __Pipes__ sprite.  
 
-![screenshot](images/flappy-wait.png)
+![screenshot](images/flappy-wait-until.png)
 
 And you'll need to add code to __play__ the screech sound after the `wait until` {.blockcontrol} block. 
 --- /hint ---

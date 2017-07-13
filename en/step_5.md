@@ -14,12 +14,8 @@ Now you can add a sprite called Flappy. If you don't press any keys then Flappy 
 	
 + Flappy needs to be smaller, about 25% should do it. You can either use the shrink tool or a `set size to ( )` block.  
 
-	![screenshot](images/flappy-small.png)
-
 + When the game starts Flappy should be just to the left of the centre of the screen. At coordinates (-50, 0). Can you make Flappy go to the starting position at the start of the game. 
-
-    ![screenshot](images/flappy-start.png)
-    
+   
 [[[generic-scratch-set-coordinates]]]
 
 
