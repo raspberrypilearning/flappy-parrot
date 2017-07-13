@@ -1,12 +1,11 @@
 
 
-## adjust the difficulty
+## Challenge: Adjust the difficulty
 
 --- challenge ---
 
 
-+ __How many ways can you make this game easier or harder?__
-+ __Well done you’ve finished the basic game. There are more things you can do to your game though. Have a go at these challenges!__
+Is the game too hard or too easy for you? How can you change the difficulty? Adjust the game until you are happy with it. 
 
 
 --- /challenge ---

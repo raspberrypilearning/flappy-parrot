@@ -2,31 +2,42 @@
 
 ## Make Flappy fly
 
+Next, we want Flappy to flap upwards when you press the space bar. You'll need to time your taps to get through the gaps in the pipes. 
 
++ Add the following code to make Flappy fly upwards when you tap the spacebar:
 
+    ![screenshot](images/flappy-up.png)
 
-Next, we want Flappy to flap upwards when you press the space bar.
++ Now you need to get Flappy's wings flapping. 
 
+    Click on the __Costumes__ tab and name the costumes **wings up** and **wings down**.
 
+    ![screenshot](images/flappy-wings.png)
+    
++ Can you make Flappy's costume change to __wings down__ when you press space and then __wings up__ half way through the upward movement?
 
-+ Click on the __Costumes__ tab and name the costumes **wings up** and **wings down**.
-+ Now switch back to the __Scripts__ tab and add this script:
-```blocks
-    when [space v] key pressed
-        switch costume to [wings down v]
-        repeat (10)
-            change y by (6)
-        end
-        switch costume to [wings up v]
-        repeat (10)
-            change y by (6)
-        end
-```
+--- hints ---
+--- hint ---
+You'll need to use `switch costume to` {.blocklooks} blocks. 
+--- /hint ---
+--- hint ---
+You'll need to split the upward motion in half so that you can change costume at the beginngin and in the middle. 
+--- /hint ---
+--- hint ---
+Split your code like this:
 
+![screenshot](images/flappy-wings-hint.png)
+    
+And add blocks to `switch costume to` {.blocklooks} __wings down__ at the beginning and __wings up__ in the middle. 
+--- /hint ---
+--- hint ---
+Your code should look like this:
 
+![screenshot](images/flappy-wings-code.png)
 
-__Click the green flag__, are you able to control Flappy with the space bar? Do you notice that sometimes you press the space bar but Flappy doesn't move? We'll fix that next...
+--- /hint ---
+--- /hints ---
 
-
++ Now you can test your code, but nothing bad happens if you hit a pipe. 
 
 

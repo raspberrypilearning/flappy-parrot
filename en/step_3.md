@@ -50,7 +50,7 @@ First let's create the pipes.
 
 + Shade your pipe with a left-to-right gradient. 
 
-   ![screenshot](images/flappy-pipes-filled.png)
+    ![screenshot](images/flappy-pipes-filled.png)
 
 [[[generic-scratch-vector-gradient]]]
 
@@ -60,7 +60,7 @@ First let's create the pipes.
     
     ![screenshot](images/flappy-pipes-duplicate.png)
 
-+ If you like, you can add extra rectangles to the ends of the pipes: 
++ If you like, you can add extra shaded rectangles to the ends of the pipes: 
 
     ![screenshot](images/flappy-pipes-ends.png)
 

@@ -29,6 +29,8 @@ Next you'll get the pipes moving across the screen to create an obstacle course.
 
     ![screenshot](images/flappy-pipes-test.png)
     
++ __Tip:__ You can stop the pipes scrolling by clicking the red stop button. 
+    
     
 
 
