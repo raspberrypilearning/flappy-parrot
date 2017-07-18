@@ -1,4 +1,4 @@
-## **Step 2:** Make Flappy fly
+## Make Flappy fly
 
 Next, we want Flappy to flap upwards when you press the space bar.
 

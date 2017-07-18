@@ -14,11 +14,11 @@ technologies: scratch
 site_areas: codeclub, scratch
 steps:
 - title: Introduction
-- title: "**Step 1:** Make Flappy fall"
-- title: "**Step 2:** Make Flappy fly"
-- title: "**Step 3:** Fix the controls"
-- title: "**Step 4:** Add the pipes"
-- title: "**Step 5:** Make the pipes move"
-- title: "**Step 6:** Detect collision with the pipes"
-- title: "**Step 7:** Add scoring"
+- title: Make Flappy fall
+- title: Make Flappy fly
+- title: Fix the controls
+- title: Add the pipes
+- title: Make the pipes move
+- title: Detect collision with the pipes
+- title: Add scoring
 

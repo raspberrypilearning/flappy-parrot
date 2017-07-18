@@ -1,4 +1,4 @@
-## **Step 5:** Make the pipes move
+## Make the pipes move
 
 Next we'll make the pipes move and arrange them randomly to provide an obstacle course for Flappy.
 

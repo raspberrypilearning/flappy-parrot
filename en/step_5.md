@@ -1,4 +1,4 @@
-## **Step 4:** Add the pipes
+## Add the pipes
 
 Next we'll add some obstacles for Flappy to fly through.
 

@@ -1,4 +1,4 @@
-## **Step 3:** Fix the controls
+## Fix the controls
 
 We'd like Flappy to respond every time we press the space bar. But when we push the space bar Flappy begins two loops of movements. If we push the space bar again before these loops have finished, Scratch ignores the second press. To solve this, we'll use a variable to count up how many flaps we need to do.
 

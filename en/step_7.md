@@ -1,4 +1,4 @@
-## **Step 6:** Detect collision with the pipes
+## Detect collision with the pipes
 
 To make the game a challenge, the player needs to guide Flappy through the gaps without touching the pipes or the edges of the screen. Now we'll add some blocks to detect if Flappy hits something.
 

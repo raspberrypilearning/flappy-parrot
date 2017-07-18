@@ -1,4 +1,4 @@
-## **Step 1:** Make Flappy fall
+## Make Flappy fall
 
 
 

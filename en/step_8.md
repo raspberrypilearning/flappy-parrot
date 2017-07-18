@@ -1,4 +1,4 @@
-## **Step 7:** Add scoring
+## Add scoring
 
 The player should score a point every time Flappy makes it though a pipe. Let's add that next.
 
