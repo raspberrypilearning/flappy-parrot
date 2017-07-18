@@ -10,13 +10,7 @@ Press the space bar to flap and try to navigate through the gaps in the pipes!
 
 If you need to print this project, please use the [Printer friendly version](./print).
 
---- collapse ---
----
-title: Club leader notes
----
 
-
---- /collapse ---
 
 
 --- collapse ---
