@@ -1,0 +1,24 @@
+---
+hero_image: images/banner.png
+theme: red
+duration: 1
+listed: false
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: Flappy Parrot
+description: 
+original_url: https://codeclubprojects.org/en-GB/scratch/flappy-parrot
+interests: ''
+technologies: scratch
+site_areas: codeclub, scratch
+steps:
+- title: Introduction
+- title: "**Step 1:** Make Flappy fall"
+- title: "**Step 2:** Make Flappy fly"
+- title: "**Step 3:** Fix the controls"
+- title: "**Step 4:** Add the pipes"
+- title: "**Step 5:** Make the pipes move"
+- title: "**Step 6:** Detect collision with the pipes"
+- title: "**Step 7:** Add scoring"
+
