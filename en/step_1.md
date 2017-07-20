@@ -8,7 +8,7 @@ Press the space bar to flap and try to navigate through the gaps in the pipes!
 
 ### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](./print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/flappy-parrot/print).
 
 
 
