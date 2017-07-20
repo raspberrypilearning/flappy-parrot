@@ -24,6 +24,8 @@ First let's create the pipes.
 
 + Name your sprite **Pipes**.
 
+[[[generic-scratch-rename-sprite]]]
+
 + The `Pipes` sprite will have a pair of pipes with a gap in the middle. You'll be able to move the sprite up and down to get the gap in a different place. 
 
     Let's take a look at how this is going to work. 

@@ -8,7 +8,10 @@ In this project we’ll make our own version of the highly popular mobile game F
 
 Press the space bar to flap and try to navigate through the gaps in the pipes!
 
-![screenshot](images/flappy_screenshot.png)
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/169322077/?autostart=false" frameborder="0"></iframe>
+  <img src="images/flappy_screenshot.png">
+</div>
 
 ### What you will learn
 
