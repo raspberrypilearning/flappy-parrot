@@ -7,7 +7,7 @@ ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
 title: Flappy Parrot
-description: 
+description: Fly a parrot between pipes without hitting them.
 original_url: https://codeclubprojects.org/en-GB/scratch/flappy-parrot
 interests: ''
 technologies: scratch
