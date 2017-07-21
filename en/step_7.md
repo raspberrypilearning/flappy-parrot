@@ -11,7 +11,7 @@ To make the game a challenge, the player needs to guide Flappy through the gaps 
 + Add the following script:
 ```blocks
     when FLAG clicked
-        wait until ((touching [edge v]?) or (touching [Pipe v]?))
+        wait until <(touching [edge v]?) or (touching [Pipe v]?)>
         play sound [screech v]
         say [Game Over!]
         broadcast [GameOver v]
