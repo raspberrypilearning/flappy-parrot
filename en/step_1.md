@@ -17,6 +17,6 @@ Press the space bar to flap and try to navigate through the gaps in the pipes!
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder)
 
 
