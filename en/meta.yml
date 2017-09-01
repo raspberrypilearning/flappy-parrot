@@ -2,7 +2,7 @@
 title: Flappy Parrot
 hero_image: images/banner.png
 description: Create a game in the style of the popular mobile game Flappy Bird.
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+original_url: https://codeclubprojects.org/en-GB/scratch/flappy-parrot
 theme: cc-prototype
 listed: false
 ingredient: false
@@ -20,4 +20,3 @@ steps:
 - title: Add scoring
 - title: 'Challenge: adjust the difficulty'
 - title: 'Challenge: add a high score'
-
