@@ -2,11 +2,11 @@
 
 ## Introduction
 
-In this project we’ll make our own version of the highly popular mobile game Flappy Bird. This project requires Scratch 2.0.
+Create a game in which you have to guide a parrot through scrolling pipes to score points.
 
 ### What you will make
 
-Press the space bar to flap and try to navigate through the gaps in the pipes!
+Click the green flag to start the game. Press the space bar to flap, and try to fly through the gaps in the pipes! You'll score 1 point for every pipe that you manage to get through.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/169322077/?autostart=false" frameborder="0"></iframe>
@@ -18,5 +18,3 @@ Press the space bar to flap and try to navigate through the gaps in the pipes!
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 + [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder)
-
-

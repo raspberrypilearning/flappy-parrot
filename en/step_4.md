@@ -1,37 +1,38 @@
 
 ## Make the pipes move
 
-Next you'll get the pipes moving across the screen to create an obstacle course. 
+Next you'll get the pipes moving across the screen to create an obstacle course.
 
-+ First let's get the pipes to start on the right of the screen and glide across to the left: 
++ Create a clone of your 'Pipes' sprite every 2 seconds. Each clone should scroll across the stage from right to left (towards the parrot).
 
-    ![screenshot](images/flappy-glide.png)
+![screenshot](images/flappy-clones-test.png)
 
-+ Test your code and make sure the pipe slowly glide across to the left. 
+__Tip:__ You can stop the pipes scrolling by clicking the red stop button.
 
-+ That's one pair of pipes, but you want to keep them coming. You can use `clones` (copies) of a sprite. 
+--- hints --- --- hint ---
+When the __green flag is clicked__, the 'Pipes' sprite should __hide__. The sprite can then __create a clone__ and __wait__ for 2 seconds. This should be repeated __forever__.
 
-    Change your code so that it looks like this:
+__When started__, each clone should __go to__ the far-right of the stage, __show__ and then __glide__ back towards the left of the stage before being __deleted__.
+--- /hint --- --- hint ---
+Here are the code blocks you'll need to create a clone every 2 seconds:
+![screenshot](images/flappy-clones-blocks1.png)
+Here are the code blocks you'll need to make each clone move across the stage:
+![screenshot](images/flappy-clones-blocks2.png)
+--- /hint --- --- hint ---
+This is what your code should look like:
+![screenshot](images/flappy-clones-code.png)
+--- /hint --- --- /hints ---
 
-    ![screenshot](images/flappy-clones.png)
-    
-    Notice that the original sprite is hidden. 
-    
-+ Now you should have lots of pipes, but the gap is always in the same place. 
++ Now you should have lots of pipes, but the gap is always in the same place. Add some variety by putting the gap between each set of pipes at a different height.
 
-+ Let's add some variety by giving each pipe a random y position. 
+![screenshot](images/flappy-height-test.png)
 
-    ![screenshot](images/flappy-random.png)
-    
-    Notice that you need to set the y position to glide so that your pipes move in a straight line!
-    
-+ Test your project and make sure you have pipes moving across the stage with gaps at different heights. 
-
-    ![screenshot](images/flappy-pipes-test.png)
-    
-+ __Tip:__ You can stop the pipes scrolling by clicking the red stop button. 
-    
-    
-
-
-
+--- hints --- --- hint ---
+Each newly created __clone__ should __go to__ a __random__ y position. The clone should then glide across the stage, using the clone's __y position__ to keep it moving in a straight line.
+--- /hint --- --- hint ---
+You'll need to use these 2 extra blocks:
+![screenshot](images/flappy-height-blocks.png)
+--- /hint --- --- hint ---
+This is what your code should look like:
+![screenshot](images/flappy-height-code.png)
+--- /hint --- --- /hints ---
