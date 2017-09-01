@@ -1,3 +1,3 @@
 # flappy-parrot
 
-This project can be found at: https://projects.raspberrypi.org/en/projects/flappy-parrot
+Create a game in which you have to guide a parrot through scrolling pipes to score points.
