@@ -27,6 +27,8 @@ This is what your code should look like:
 
 ![screenshot](images/flappy-height-test.png)
 
+[[[generic-scratch-coordinates]]]
+
 --- hints --- --- hint ---
 Each newly created __clone__ should __go to__ a __random__ y position. The clone should then glide across the stage, using the clone's __y position__ to keep it moving in a straight line.
 --- /hint --- --- hint ---

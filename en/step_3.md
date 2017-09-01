@@ -2,17 +2,13 @@
 
 ## Add the backdrop and pipes
 
-This project uses moving obstacles to create the feeling of movement. Pipes move across the stage from right to left.
-
-There is one Pipe sprite which gets cloned (copied) and moved to create lots of obstacles.
-
 First let's create the pipes.
 
 + Open a new empty Scratch project.
 
 [[[generic-scratch-new-project]]]
 
-+ Replace the background with an outdoor landscape. `blue sky` is a good choice.
++ Add a background with an outdoor landscape. `blue sky` is a good choice.
 
     ![screenshot](images/flappy-stage.png)
 

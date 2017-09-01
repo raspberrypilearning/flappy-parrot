@@ -2,18 +2,20 @@
 
 ## Detect collision with the pipes
 
-To make the game a challenge, the player needs to guide Flappy through the gaps without touching the pipes or the edges of the screen. Now we'll add some blocks to detect if Flappy hits something. This is called __collision detection__. 
+To make the game a challenge, the player needs to guide Flappy through the gaps without touching the pipes or the edges of the screen. Now we'll add some blocks to detect if Flappy hits something. This is called __collision detection__.
 
-+ Add a sound to play when Flappy collides. The **screech** sound is good.
++ Add a sound from the library to play when Flappy collides. The **screech** sound is good.
 
-+ You're going to use a `wait until` {.blockcontrol} block to check for Flappy touching the pipes. 
+[[[generic-scratch-sound-from-library]]]
+
++ You're going to use a `wait until` {.blockcontrol} block to check for Flappy touching the pipes.
 
     Use a new `on green flag clicked` {.blockcontrol} block:
-    
+
     ![screenshot](images/flappy-wait-until.png)
-    
-    Any code you place after a `wait until` {.blockcontrol} block will only run after the condition is detected. 
-    
+
+    Any code you place after a `wait until` {.blockcontrol} block will only run after the condition is detected.
+
 + Can you add to the code so Flappy screeches if she touches a pipe **or** touches the edge of the stage.  
 
 --- hints ---
@@ -22,13 +24,14 @@ You need to fill in the condition in the wait until` {.blockcontrol} block to ch
 
 ![screenshot](images/flappy-wait-until.png)
 
-And you'll need to add code to __play__ the screech sound after the `wait until` {.blockcontrol} block. 
+And you'll need to add code to __play__ the screech sound after the `wait until` {.blockcontrol} block.
 --- /hint ---
 --- hint ---
 Try using these blocks:
 
 ![screenshot](images/flappy-collision-blocks.png)
 
+You might need to use one of these blocks more than once.
 --- /hint ---
 --- hint ---
 Your code should look like this:
@@ -38,26 +41,18 @@ Your code should look like this:
 --- /hint ---
 --- /hints ---
 
-+ Test your code. Notice that you only hear the screech the first time you have a collision. That's okay, because the game ends if you have a collision. 
++ Test your code. Notice that you only hear the screech the first time you have a collision. That's okay, because the game ends if you have a collision.
 
 + Add the highlighted code to stop the game after a collision is detected:
 
     ![screenshot](images/flappy-game-over.png)
-    
-    The `stop` {.blockcontrol} block stops other Flappy scripts that are running. Flappy won't fall after a collision. 
-    
-    The `broadcast` {.blockevents} block tells other sprites that the game is over. 
-    
-+ Add the following code to the **Pipes** sprite so that the pipes stop when a `Game Over` message is received. 
+
+    The `stop` {.blockcontrol} block stops other Flappy scripts that are running. Flappy won't fall after a collision.
+
+    The `broadcast` {.blockevents} block tells other sprites that the game is over.
+
++ Add the following code to the **Pipes** sprite so that the pipes stop when a `Game Over` message is received.
 
     ![screenshot](images/flappy-stop-code.png)
 
 + Now test your game and see how long you can last!
-
-
-
-
-
-
-
-
