@@ -1,7 +1,7 @@
 ---
 title: Flappy Parrot
 hero_image: images/banner.png
-description: Create a game in the style of the popular mobile game Flappy Bird.
+description: Create a game in which you have to guide a parrot through scrolling pipes to score points.
 original_url: https://codeclubprojects.org/en-GB/scratch/flappy-parrot
 theme: cc-prototype
 listed: false
