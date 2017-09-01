@@ -4,7 +4,7 @@
 
 To make the game a challenge, the player needs to guide Flappy through the gaps without touching the pipes or the edges of the screen. Now we'll add some blocks to detect if Flappy hits something. This is called __collision detection__.
 
-+ Add a sound from the library to play when Flappy collides. The **screech** sound is good.
++ Import a sound from the library for when Flappy collides. The **screech** sound is good.
 
 [[[generic-scratch-sound-from-library]]]
 

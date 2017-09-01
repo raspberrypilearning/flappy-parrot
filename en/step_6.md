@@ -8,7 +8,7 @@ Next, we want Flappy to flap upwards when you press the space bar. You'll need t
 
 --- hints ---
 --- hint ---
-When the __space key is pressed__, Flappy should move upwards by __changing its y coordinate__ by a small amount (say 6 times). This should be __repeated 10 times__.
+When the __space key is pressed__, Flappy should move upwards by __changing its y coordinate__ by a small amount (say 6). This should be __repeated 10 times__.
 --- /hint ---
 --- hint ---
 Here are the blocks you'll need:
@@ -18,7 +18,7 @@ Here are the blocks you'll need:
 Here's how your code should look:
 ![screenshot](images/flappy-up-code.png)
 --- /hint ---
---- hints ---
+--- /hints ---
 
 + Now you need to get Flappy's wings flapping!
 

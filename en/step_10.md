@@ -1,6 +1,6 @@
 
 
-## add a high score
+## Challenge: add a high score
 
 --- challenge ---
 

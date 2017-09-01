@@ -8,7 +8,7 @@ First let's create the pipes.
 
 [[[generic-scratch-new-project]]]
 
-+ Add a background with an outdoor landscape. `blue sky` is a good choice.
++ Add a background with an outdoor landscape. 'blue sky' is a good choice.
 
     ![screenshot](images/flappy-stage.png)
 
@@ -20,7 +20,7 @@ First let's create the pipes.
 
 [[[generic-scratch-rename-sprite]]]
 
-+ The `Pipes` sprite will have a pair of pipes with a gap in the middle. You'll be able to move the sprite up and down to get the gap in a different place.
+The `Pipes` sprite will have a pair of pipes with a gap in the middle. You'll be able to move the sprite up and down to get the gap in a different place.
 
     Let's take a look at how this is going to work.
 
