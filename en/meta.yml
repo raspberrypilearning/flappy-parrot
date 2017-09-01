@@ -3,7 +3,7 @@ title: Flappy Parrot
 hero_image: images/banner.png
 description: Create a game in which you have to guide a parrot through scrolling pipes to score points.
 original_url: https://codeclubprojects.org/en-GB/scratch/flappy-parrot
-theme: cc-prototype
+theme: green # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 listed: false
 ingredient: false
 copyedit: false
