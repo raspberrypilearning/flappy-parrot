@@ -4,7 +4,7 @@
 
 --- challenge ---
 
-Can you add a high score to the game so that it keeps track of your best ever score as well as the score for the current game.
+Can you add a high score to the game so that, in addition to the score for the current round, it keeps track of the highest score you've ever reached?
 
 [[[generic-scratch-high-score]]]
 
