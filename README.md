@@ -1,3 +1,3 @@
-# flappy-parrot
+# Flappy Parrot
 
-Don't forget to update the project name in LICENSE.md
+Create a game in which you have to guide a parrot through scrolling pipes to score points.

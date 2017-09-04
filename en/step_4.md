@@ -1,37 +1,39 @@
-## Fix the controls
+## Make the pipes move
 
-We'd like Flappy to respond every time we press the space bar. But when we push the space bar Flappy begins two loops of movements. If we push the space bar again before these loops have finished, Scratch ignores the second press. To solve this, we'll use a variable to count up how many flaps we need to do.
+Next you'll get the pipes moving across the screen to create an obstacle course.
 
++ Create a clone of your `Pipes` sprite every two seconds. Each clone should scroll across the stage from right to left (towards the parrot).
 
+![screenshot](images/flappy-clones-test.png)
 
-+ Disconnect the blocks under the `when space key pressed` and put them to the side (we'll use them in a few moments.)
-+ Make a new variable `For this sprite only`.
-+ Add the following script by draging in the blocks you put aside:
-```blocks
-    when FLAG clicked
-        set [flaps v] to [0]
-        switch costume to [wings up v]
-        forever
-            repeat until <(flaps) = [0]>
-                change [flaps v] by (-1)
-                switch costume to [wings down v]
-                repeat (10)
-                    change y by (6)
-                end
-                switch costume to [wings up v]
-                repeat (10)
-                    change y by (6)
-                end
-```
-+ Finally, add to your `when space key pressed` event:
-```blocks
-    when [space v] key pressed
-        change [flaps v] by (1)
-```
+Tip: you can stop the pipes scrolling by clicking the red stop button.
 
-## Test Your Project
+--- hints --- --- hint ---
+When the `green flag is clicked`, the `Pipes` sprite should `hide`. The sprite can then `create a clone` and `wait` for two seconds. This should be repeated `forever`.
 
-__Click the green flag__, does Flappy now flap once for each time you press the space bar?
+`When started`, each clone should `go to` the right-hand side of the stage, `show` and then `glide` back towards the left of the stage before being `deleted`.
+--- /hint --- --- hint ---
+Here are the code blocks you'll need to create a clone every two seconds:
+![screenshot](images/flappy-clones-blocks1.png)
+Here are the code blocks you'll need to make each clone move across the stage:
+![screenshot](images/flappy-clones-blocks2.png)
+--- /hint --- --- hint ---
+This is what your code should look like:
+![screenshot](images/flappy-clones-code.png)
+--- /hint --- --- /hints ---
 
++ Now you should have lots of pipes, but the gap is always in the same place. Add some variety by putting the gap between each set of pipes at a different height.
 
+![screenshot](images/flappy-height-test.png)
 
+[[[generic-scratch-coordinates]]]
+
+--- hints --- --- hint ---
+Each newly created `clone` should `go to` a `random` `y position`. The clone should then glide across the stage, using the clone's `y position` to keep it moving in a straight line.
+--- /hint --- --- hint ---
+You'll need to use these two extra blocks:
+![screenshot](images/flappy-height-blocks.png)
+--- /hint --- --- hint ---
+This is what your code should look like:
+![screenshot](images/flappy-height-code.png)
+--- /hint --- --- /hints ---

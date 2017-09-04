@@ -1,113 +1,38 @@
 ## Add scoring
 
-The player should score a point every time Flappy makes it though a pipe. Let's add that next.
+The player should score a point every time Flappy makes it through a gap between pipes. Let's add that code for that next!
 
++ Make a new variable `For all sprites` and call it `score` {.blockorange}.
 
++ Each `Pipes` clone is going to `wait until` Flappy has flown past, and then increase the score.
 
-+ Let's add a sound to play when Flappy scores a point. Click on the **Pipe** sprite add a score sound. **bird** is a good choice.
-+ Now click back on the `Scripts` tab.
-+ Make a new variable `For all sprites`.
-+ Add a block to set the score to 0 when the flag is clicked.
-+ Add the following block:
-```blocks
-    when I start as a clone
-        wait until <(x position) < ([x position v] of [Flappy v])>
-        change [score v] by (1)
-        play sound [bird v]
-```
+    First, set the score to `0` when the game begins:
 
-## Test Your Project
+    ![screenshot](images/flappy-score-0.png)
 
-__Click the green flag__, does the player score points for flying Flappy through the pipes?
++ Then add the following code to the `Pipes` sprite:
 
+    ![screenshot](images/flappy-clone-wait.png)
 
++ Complete the code so that a point is scored, and a sound of your choice is played, when Flappy's `x` position is greater than (`>`) the pipe's `x` position.
 
-## Things to try
+Test your code and make sure you score a point every time Flappy gets past an obstacle. Make sure the score goes back to `0` when you start a new game.
 
-+ __How many ways can you make this game easier or harder?__
-+ __Well done you’ve finished the basic game. There are more things you can do to your game though. Have a go at these challenges!__
+--- hints ---
+--- hint ---
+You need to fill in the condition in the `wait until` {.blockcontrol} block to check for Flappy's `x position` being `greater than (`>`) ` the `x position` of `Pipes`.  
 
-## Challenge 1: add a high score
+![screenshot](images/flappy-clone-wait.png)
 
-+ Make a new variable called `hi-score`
-+ when the game is over check if you need to set a new high score:
-```blocks
-    when I receive [GameOver v]
-        if <(score) > (hi-score)> then
-            set [hi-score v] to (score)
-        end
-        stop [other scripts in sprite v]
-```
+You'll need to add blocks after the `wait until` {.blockcontrol} block to `change the score` and `play a sound`. You could use the 'pop' sound, or add a sound from the library — 'bird' works well.
+--- /hint ---
+--- hint ---
+Try using these blocks:
 
-## Test Your Project
-
-__Click the green flag__, does your score update the `hi-score`?
-
-
-
-## Challenge 2: add gravity
-
-When something falls under gravity it doesn't usually fall at a fixed rate. For this challenge we will make Flappy fall as if under gravity.
-
-+ Add a new variable `For this sprite only`.
-+ Change Flappy's falling script:
-```blocks
-    when FLAG clicked
-        set [rise v] to [0]
-        go to x: (-50) y: (0)
-        forever
-            change y by (rise)
-            change [rise v] by (-0.4)
-```
-+ And change Flappy's flapping script:
-```blocks
-    when FLAG clicked
-        set [flaps v] to [0]
-        switch costume to [wings up v]
-        forever
-            repeat until <(flaps) = [0]>
-                change [flaps v] by (-1)
-                switch costume to [wings down v]
-                change [rise v] by (8)
-                wait (0.2) secs
-                switch costume to [wings up v]
-                wait (0.2) secs
-```
-
-## Test Your Project
-
-__Click the green flag__, does Flappy now accelerate when falling and flapping?
-
-
-
-## Challenge 3: fall off screen
-
-When the player loses make Flappy fall off the bottom of the screen before ending the game.
-
-+ Replace the `broadcast GameOver`
-+ Now add the following scripts:
-```blocks
-    when I receive [Fall v]
-        repeat (10)
-            turn ccw (5) degrees
-
-    when I receive [Fall v]
-        repeat until <(y position) < [-180]>
-            change y by (rise)
-            change [rise v] by (-0.4)
-        end
-        hide
-        broadcast [GameOver v]
-```
-+ Don't forget to add a `show` block and reset Flappy's direction when the game restarts.
-
-## Test Your Project
-
-__Click the green flag__, does Flappy now fall off the screen after hitting a pipe? Does Flappy reappear in the correct orientation when restarting the game.
-
-
-
-Well done, you’ve finished! Now you can enjoy your game!
-
-Don’t forget you can share your game with all your friends and family by clicking on **Share** on the menu bar!
-
+![screenshot](images/flappy-score-blocks.png)
+--- /hint ---
+--- hint ---
+Your code should look like this:
+![screenshot](images/flappy-score-code.png)
+--- /hint ---
+--- /hints ---
