@@ -2,13 +2,13 @@
 
 ## Make Flappy fly
 
-Next, we want Flappy to flap upwards when you press the space bar. You'll need to time your taps to get through the gaps in the pipes.
+Next we want Flappy to flap upwards when you press the `space` bar. You'll need to time your taps to get through the gaps in the pipes.
 
-+ Can you add code to make Flappy fly upwards when you tap the spacebar?
++ Can you add code to make Flappy fly upwards when you tap the `space` bar?
 
 --- hints ---
 --- hint ---
-When the __space key is pressed__, Flappy should move upwards by __changing its y coordinate__ by a small amount (say 6). This should be __repeated 10 times__.
+When the `space key is pressed`, Flappy should move upwards by `changing its y coordinate` by a small amount (e.g.`6`). This should be `repeated 10 times`.
 --- /hint ---
 --- hint ---
 Here are the blocks you'll need:
@@ -20,13 +20,13 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-+ Now you need to get Flappy's wings flapping!
+Now you need to get Flappy's wings flapping!
 
-    Click on the __Costumes__ tab and name the costumes **wings up** and **wings down**.
++ Click on the **Costumes** tab, and name the costumes `wings up` and `wings down`.
 
     ![screenshot](images/flappy-wings.png)
 
-+ Can you make Flappy's costume change to __wings down__ when you press space and then __wings up__ half way through the upward movement?
++ Can you make Flappy's costume change to `wings down` when you press `space`, and then to `wings up` halfway through the upward movement?
 
 --- hints ---
 --- hint ---
@@ -39,7 +39,7 @@ Split your code like this:
 
 ![screenshot](images/flappy-wings-hint.png)
 
-And add blocks to `switch costume to` {.blocklooks} __wings down__ at the beginning and __wings up__ in the middle.
+Add blocks to `switch costume to` {.blocklooks} `wings down` at the beginning, and `wings up` in the middle.
 --- /hint ---
 --- hint ---
 Your code should look like this:
@@ -49,4 +49,4 @@ Your code should look like this:
 --- /hint ---
 --- /hints ---
 
-+ Now you can test your code, but nothing bad happens if you hit a pipe.
++ Now you can test your code. As you'll see, nothing bad happens if you hit a pipe. In the next step, you'll change that.
