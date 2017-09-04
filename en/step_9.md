@@ -1,5 +1,3 @@
-
-
 ## Challenge: adjust the difficulty
 
 --- challenge ---

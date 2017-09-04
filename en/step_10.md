@@ -1,5 +1,3 @@
-
-
 ## Challenge: add a high score
 
 --- challenge ---

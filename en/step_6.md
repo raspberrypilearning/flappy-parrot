@@ -1,5 +1,3 @@
-
-
 ## Make Flappy fly
 
 Next we want Flappy to flap upwards when you press the `space` bar. You'll need to time your taps to get through the gaps in the pipes.

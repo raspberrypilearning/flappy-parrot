@@ -1,5 +1,3 @@
-
-
 ## Detect collision with the pipes
 
 To make the game a challenge, the player needs to guide Flappy through the gaps without touching the pipes or the edges of the screen. To set this up, we'll add some blocks to detect when Flappy hits something. This is called __collision detection__.

@@ -1,5 +1,3 @@
-
-
 ## Make Flappy fall
 
 Now you can add a sprite called Flappy. If you don't press any keys, then Flappy should just fall down the screen.
