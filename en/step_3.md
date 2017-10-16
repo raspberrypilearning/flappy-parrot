@@ -1,4 +1,4 @@
-## Add the backdrop and pipes
+## Add the pipes
 
 First, let's create the pipes.
 
