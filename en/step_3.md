@@ -18,13 +18,13 @@ First, let's create the pipes.
 
 [[[generic-scratch-rename-sprite]]]
 
-The `Pipes` sprite will be a pair of pipes with a gap in the middle. You'll be able to move the sprite up and down to position the gap in a different place.
+    The `Pipes` sprite will be a pair of pipes with a gap in the middle. You'll be able to move the sprite up and down to position the gap in a different place.
 
-Let's take a look at how this is going to work. This picture shows an example of how the pipes could be positioned. The parts outside the stage are normally hidden, you only see them when you drag the sprite:
+    Let's take a look at how this is going to work. This picture shows an example of how the pipes could be positioned. The parts outside the stage are normally hidden, you only see them when you drag the sprite:
 
     ![screenshot](images/flappy-pipes-position.png)
 
-You can't draw a pipe as big as the pipes need to be, but you can increase the size of a sprite when it's used.
+    You can't draw a pipe as big as the pipes need to be, but you can increase the size of a sprite when it's used.
 
 + Add code to make the sprite bigger. This will make it easier to see how big you need to make the pipes.
 
