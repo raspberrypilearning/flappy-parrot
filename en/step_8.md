@@ -2,7 +2,7 @@
 
 The player should score a point every time Flappy makes it through a gap between pipes. Let's add that code for that next!
 
-+ Make a new variable `For all sprites` and call it `score` {.blockorange}.
++ Make a new variable `For all sprites` and call it `score` {:class="blockdata"}.
 
 + Each `Pipes` clone is going to `wait until` Flappy has flown past, and then increase the score.
 
@@ -20,11 +20,11 @@ Test your code and make sure you score a point every time Flappy gets past an ob
 
 --- hints ---
 --- hint ---
-You need to fill in the condition in the `wait until` {.blockcontrol} block to check for Flappy's `x position` being `greater than (`>`) ` the `x position` of `Pipes`.  
+You need to fill in the condition in the `wait until` {:class="blockcontrol"} block to check for Flappy's `x position` being `greater than (`>`) ` the `x position` of `Pipes`.  
 
 ![screenshot](images/flappy-clone-wait.png)
 
-You'll need to add blocks after the `wait until` {.blockcontrol} block to `change the score` and `play a sound`. You could use the 'pop' sound, or add a sound from the library — 'bird' works well.
+You'll need to add blocks after the `wait until` {:class="blockcontrol"} block to `change the score` and `play a sound`. You could use the 'pop' sound, or add a sound from the library — 'bird' works well.
 --- /hint ---
 --- hint ---
 Try using these blocks:
