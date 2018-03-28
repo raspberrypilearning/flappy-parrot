@@ -6,23 +6,23 @@ To make the game a challenge, the player needs to guide Flappy through the gaps 
 
 [[[generic-scratch-sound-from-library]]]
 
-+ You're going to use a `wait until` {:class="blockcontrol"} block to check for whether Flappy is touching the pipes.
++ You're going to use a `wait until`{:class="blockcontrol"} block to check for whether Flappy is touching the pipes.
 
-    Use a new `on green flag clicked` {:class="blockcontrol"} block:
+    Use a new `on green flag clicked`{:class="blockcontrol"} block:
 
     ![screenshot](images/flappy-wait-until.png)
 
-    Any code you place after a `wait until` {:class="blockcontrol"} block will only run after the condition is met.
+    Any code you place after a `wait until`{:class="blockcontrol"} block will only run after the condition is met.
 
 + Can you add to the code so Flappy screeches if she touches a pipe **or** the edge of the stage.  
 
 --- hints ---
 --- hint ---
-You need to fill in the condition in the `wait until` {:class="blockcontrol"} block to check for Flappy `touching` the `edge` of the screen `or` `touching` the `Pipes` sprite.  
+You need to fill in the condition in the `wait until`{:class="blockcontrol"} block to check for Flappy `touching` the `edge` of the screen `or` `touching` the `Pipes` sprite.  
 
 ![screenshot](images/flappy-wait-until.png)
 
-AYou'll need to add code to `play` the 'screech' sound after the `wait until` {:class="blockcontrol"} block.
+AYou'll need to add code to `play` the 'screech' sound after the `wait until`{:class="blockcontrol"} block.
 --- /hint ---
 --- hint ---
 Try using these blocks:
@@ -45,9 +45,9 @@ Your code should look like this:
 
     ![screenshot](images/flappy-game-over.png)
 
-    The `stop` {:class="blockcontrol"} block stops other Flappy scripts that are running. Flappy won't fall after a collision.
+    The `stop`{:class="blockcontrol"} block stops other Flappy scripts that are running. Flappy won't fall after a collision.
 
-    The `broadcast` {:class="blockevents"} block tells other sprites that the game is over.
+    The `broadcast`{:class="blockevents"} block tells other sprites that the game is over.
 
 + Add the following code to the `Pipes` sprite so that the pipes stop when a `Game over` message is received.
 

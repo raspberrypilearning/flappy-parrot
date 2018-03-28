@@ -30,14 +30,14 @@ Now you need to get Flappy's wings flapping!
 --- hint ---
 You'll need to split the upward motion in half so that you can change costume at the beginning and in the middle.
 
-You'll then need to use `switch costume to` {:class="blocklooks"} blocks to change how Flappy looks.
+You'll then need to use `switch costume to`{:class="blocklooks"} blocks to change how Flappy looks.
 --- /hint ---
 --- hint ---
 Split your code like this:
 
 ![screenshot](images/flappy-wings-hint.png)
 
-Add blocks to `switch costume to` {:class="blocklooks"} `wings down` at the beginning, and `wings up` in the middle.
+Add blocks to `switch costume to`{:class="blocklooks"} `wings down` at the beginning, and `wings up` in the middle.
 --- /hint ---
 --- hint ---
 Your code should look like this:
