@@ -1,5 +1,3 @@
-
-
 ## Introduction
 
 Create a game in which you have to guide a parrot through scrolling pipes to score points.
@@ -18,3 +16,14 @@ Click the green flag to start the game. Press the space bar to flap, and try to 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 + [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder)
+
+
+## What you will need
+
+### Hardware
+
++ Computer capable of running Scratch 2.0
+
+### Software
+
++ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))

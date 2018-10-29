@@ -20,6 +20,8 @@ steps:
 - title: Introduction
 - title: What you will need
 - title: Add the pipes
+- title: "Challenge: Make better pipes"
+  challenge: true
 - title: Make the pipes move
 - title: Make Flappy fall
 - title: Make Flappy fly
