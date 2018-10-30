@@ -1,56 +1,72 @@
 ## Detect collision with the pipes
 
-To make the game a challenge, the player needs to guide Flappy through the gaps without touching the pipes or the edges of the screen. To set this up, we'll add some blocks to detect when Flappy hits something. This is called __collision detection__.
+To make the game a challenge, the player needs to guide Flappy through the gaps without touching the pipes or the edges of the screen. To set this up, we'll add some blocks to detect when Flappy hits something. 
 
-+ Import a sound from the library that will play when Flappy collides with something. The 'screech' sound is a good choice.
+This is called __collision detection__.
+
+--- task ---
+
+Import a sound from the library that will play when Flappy collides with something. The 'screech' sound is a good choice.
 
 [[[generic-scratch-sound-from-library]]]
 
-+ You're going to use a `wait until`{:class="blockcontrol"} block to check for whether Flappy is touching the pipes.
+--- /task ---
 
-    Use a new `on green flag clicked`{:class="blockcontrol"} block:
+You're going to use a `wait until`{:class="blockcontrol"} block to check for whether Flappy is `touching the pipes`{:class="blocksensing"} `or`{:class="blockoperators"} ` touching the edge`{:class="blocksensing"}.
 
-    ![screenshot](images/flappy-wait-until.png)
+--- task ---
 
-    Any code you place after a `wait until`{:class="blockcontrol"} block will only run after the condition is met.
+Add a new `when green flag clicked`{:class="blockcontrol"} block to the `Flappy` sprite and add the following code:
 
-+ Can you add to the code so Flappy screeches if she touches a pipe **or** the edge of the stage.  
+```block
+when green flag clicked
+wait until <<touching [Pipes v] ?> or <touching [edge v] ?>>
+play sound [screech v]
+```
 
---- hints ---
---- hint ---
-You need to fill in the condition in the `wait until`{:class="blockcontrol"} block to check for Flappy `touching` the `edge` of the screen `or` `touching` the `Pipes` sprite.  
+--- /task ---
 
-![screenshot](images/flappy-wait-until.png)
+--- task ---
 
-AYou'll need to add code to `play` the 'screech' sound after the `wait until`{:class="blockcontrol"} block.
---- /hint ---
---- hint ---
-Try using these blocks:
+Test your program, if Flappy touches a pipes, the 'screech' sound should play.
 
-![screenshot](images/flappy-collision-blocks.png)
+--- /task ---
 
-You might need to use one of these blocks more than once.
---- /hint ---
---- hint ---
-Your code should look like this:
+Now lets update the code so that the game stops when Flappy hits a pipe.
 
-![screenshot](images/flappy-collision-code.png)
+--- task ---
 
---- /hint ---
---- /hints ---
+Add the code to stop the game after a collision is detected:
 
-+ Test your code. You might notice that you only hear the screech the first time you have a collision. That's okay, because the game ends if you have a collision.
+```blocks
+when green flag clicked
+wait until <<touching [Pipes v] ?> or <touching [edge v] ?>>
+play sound [screech v]
++ say [Game Over!]
++ broadcast [Game Over v]
++ stop [other scripts in sprite v]
+```
 
-+ Add the highlighted code to stop the game after a collision is detected:
+The `broadcast`{:class="blockevents"} block tells other sprites that the game is over.
 
-    ![screenshot](images/flappy-game-over.png)
+The `stop`{:class="blockcontrol"} block stops other Flappy scripts that are running so that Flappy won't continue to fall after a collision.
 
-    The `stop`{:class="blockcontrol"} block stops other Flappy scripts that are running. Flappy won't fall after a collision.
+--- /task ---
 
-    The `broadcast`{:class="blockevents"} block tells other sprites that the game is over.
+--- task ---
 
-+ Add the following code to the `Pipes` sprite so that the pipes stop when a `Game over` message is received.
+Finally you need to add the following code to the `Pipes` sprite so that the pipes `stop`{:class="blockcontrol"} `when it receives Game Over`{:class="blockevents"}.
 
-    ![screenshot](images/flappy-stop-code.png)
+```blocks
+when I receive [Game Over v]
+stop [other scripts in sprite v]
+```
 
-+ Now test your game and see how long you can last!
+--- /task ---
+
+--- task ---
+
+Now test your game and see how long you can last!
+
+--- /task ---
+

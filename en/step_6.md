@@ -12,9 +12,11 @@ Next you will make Flappy flap upwards when you press the <kbd>space</kbd> bar. 
 
 Lets add the code to make Flappy fly upwards when you tap the <kbd>space</kbd> bar?
 
-When the `space key is pressed`{:class="blockevents"}, Flappy should move upwards by `changing its y coordinate`{:class="blockmotion"} by a small amount (e.g.`6`). By `repeating 10 times` it will appear that Flappy has flown upwards.
+When the `space key is pressed`{:class="blockevents"}, Flappy should move upwards by `changing its y coordinate`{:class="blockmotion"} by a small amount e.g. `6`. 
 
-Here's how your code should look.
+By `repeating 10 times`{:class="blockcontrol"} it will appear that Flappy has flown upwards.
+
+Add this code to your `Flappy` sprite.
 
 ```blocks
 when [space v] key pressed
@@ -34,6 +36,8 @@ Click on the **Costumes** tab, and name the costumes `wings up` and `wings down`
 ![naming the costumes](images/flappy-wings.png)
 
 --- /task ---
+
+--- task ---
 
 Can you make Flappy's costume change to `wings down` when you press <kbd>space</kbd>, and then to `wings up` halfway through the upward movement?
 
@@ -87,6 +91,8 @@ end
 --- /hint ---
 
 --- /hints ---
+
+--- /task ---
 
 --- task ---
 

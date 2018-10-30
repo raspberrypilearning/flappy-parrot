@@ -2,37 +2,103 @@
 
 The player should score a point every time Flappy makes it through a gap between pipes. Let's add that code for that next!
 
-+ Make a new variable `For all sprites` and call it `score`{:class="blockdata"}.
+--- task ---
 
-+ Each `Pipes` clone is going to `wait until` Flappy has flown past, and then increase the score.
+Make a new variable `For all sprites` and call it `score`{:class="blockdata"}.
 
-    First, set the score to `0` when the game begins:
+[[[generic-scratch-add-variable]]]
 
-    ![screenshot](images/flappy-score-0.png)
+--- /task ---
 
-+ Then add the following code to the `Pipes` sprite:
+Each `Pipes` clone is going to `wait until`{:class="blockcontrol"}. Flappy has flown past, and then increase the score.
 
-    ![screenshot](images/flappy-clone-wait.png)
+--- task ---
 
-+ Complete the code so that a point is scored, and a sound of your choice is played, when Flappy's `x` position is greater than (`>`) the pipe's `x` position.
+First, set the score to `0` when the game begins:
 
-Test your code and make sure you score a point every time Flappy gets past an obstacle. Make sure the score goes back to `0` when you start a new game.
+```blocks
+when green flag clicked
++ set [score v] to [0]
+set size to (200) %
+hide
+forever 
+  create clone of [myself v]
+  wait (2) secs
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Then add the following code to the `Pipes` sprite:
+
+```blocks
+when I start as a clone
+wait until <>
+```
+
+--- /task ---
+
+--- task ---
+
+Complete the code so that a point is scored, and a sound of your choice is played, when Flappy's `x` position is greater than (`>`) the pipe's `x` position.
+
+You could use the 'pop' sound, or add a sound from the library — 'bird' works well.
 
 --- hints ---
+
 --- hint ---
-You need to fill in the condition in the `wait until`{:class="blockcontrol"} block to check for Flappy's `x position` being `greater than (`>`) ` the `x position` of `Pipes`.  
+
+You need to fill in the condition in the `wait until`{:class="blockcontrol"} block to check if `Flappy's x position`{:class="blocksensing"} is `greater than (>)`{:class="blockoperators"} the `x position`{:class="blockmotion"} of `Pipes`.  
 
 ![screenshot](images/flappy-clone-wait.png)
 
-You'll need to add blocks after the `wait until`{:class="blockcontrol"} block to `change the score` and `play a sound`. You could use the 'pop' sound, or add a sound from the library — 'bird' works well.
+You'll need to add blocks after the `wait until`{:class="blockcontrol"} block to `change the score`{:class="blockdata"} and `play a sound`{:class="blocksound`}. 
+
 --- /hint ---
+
 --- hint ---
+
 Try using these blocks:
 
-![screenshot](images/flappy-score-blocks.png)
+```blocks
+when I start as a clone
+
+wait until <>
+
+() > ()
+
+[x position v] of [Flappy v]
+
+x position
+
+change [score v] by (1)
+
+play sound [pop v]
+```
+
 --- /hint ---
+
 --- hint ---
+
 Your code should look like this:
-![screenshot](images/flappy-score-code.png)
+
+```blocks
+when I start as a clone
+wait until <([x position v] of [Flappy v]) > (x position)>
+change [score v] by (1)
+play sound [pop v]
+```
+
 --- /hint ---
+
 --- /hints ---
+
+--- /task ---
+
+--- task ---
+
+Test your code and make sure you score a point every time Flappy gets past an obstacle. Make sure the score goes back to `0` when you start a new game.
+
+--- /task ---
