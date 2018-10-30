@@ -10,11 +10,11 @@ Make a new variable `For all sprites` and call it `score`{:class="blockdata"}.
 
 --- /task ---
 
-Each `Pipes` clone is going to `wait until`{:class="blockcontrol"}. Flappy has flown past, and then increase the score.
+Each `Pipes` clone is going to `wait until`{:class="blockcontrol"}, Flappy has flown past, and then increase the score.
 
 --- task ---
 
-First, set the score to `0` when the game begins:
+First, `set score to 0`{:class="blockdata"} when the game begins:
 
 ```blocks
 when green flag clicked
@@ -42,7 +42,7 @@ wait until <>
 
 --- task ---
 
-Complete the code so that a point is scored, and a sound of your choice is played, when Flappy's `x` position is greater than (`>`) the pipe's `x` position.
+Complete the code so that a point is scored, and a sound of your choice is played, when Flappy's `x` position is greater than the pipe's `x` position.
 
 You could use the 'pop' sound, or add a sound from the library — 'bird' works well.
 
@@ -50,11 +50,14 @@ You could use the 'pop' sound, or add a sound from the library — 'bird' works 
 
 --- hint ---
 
-You need to fill in the condition in the `wait until`{:class="blockcontrol"} block to check if `Flappy's x position`{:class="blocksensing"} is `greater than (>)`{:class="blockoperators"} the `x position`{:class="blockmotion"} of `Pipes`.  
+You need to `wait until`{:class="blockcontrol"} `Flappy's x position`{:class="blocksensing"} is `greater than (>)`{:class="blockoperators"} the `x position`{:class="blockmotion"} of `Pipes`.  
 
-![screenshot](images/flappy-clone-wait.png)
+```blocks
+when I start as a clone
++ wait until <>
+```
 
-You'll need to add blocks after the `wait until`{:class="blockcontrol"} block to `change the score`{:class="blockdata"} and `play a sound`{:class="blocksound`}. 
+Then `change the score by 1`{:class="blockdata"} and `play a sound`{:class="blocksound"}. 
 
 --- /hint ---
 
@@ -64,18 +67,17 @@ Try using these blocks:
 
 ```blocks
 when I start as a clone
-
 wait until <>
 
-() > ()
+play sound [pop v]
+
+change [score v] by (1)
 
 [x position v] of [Flappy v]
 
 x position
 
-change [score v] by (1)
-
-play sound [pop v]
+() > ()
 ```
 
 --- /hint ---
