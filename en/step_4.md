@@ -44,7 +44,7 @@ You can add some variety by using a `random`{:class="blockoperators"} number for
 
 --- task ---
 
-Modify your code to `pick a random number from -80 to 80`{:class="blockoperators"} and `glide` to that `y position`{:class="blockmotion"}:
+Modify your code to `pick a random number from -80 to 80`{:class="blockoperators"} and `glide`{:class="blockmotion"} to that `y position`{:class="blockmotion"}:
 
 ```blocks
 when I start as a clone

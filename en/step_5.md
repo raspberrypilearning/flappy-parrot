@@ -2,39 +2,69 @@
 
 Now you can add a sprite called Flappy. If you don't press any keys, then Flappy should just fall down the screen.
 
-+ Add a sprite with two costumes, for 'wings up' and 'wings down'. The parrot sprite is a good choice. Name your sprite 'Flappy'.
+--- no-print ---
 
-    ![screenshot](images/flappy-parrot.png)
+![flappy falling animation](images/flappy-falling.gif)
 
-+ Flappy needs to be smaller — reducing the sprite's size to about 25% should do it. You can either use the **Shrink** tool or a `set size to ( )` block.  
+--- /no-print ---
 
-+ When the game starts, Flappy should be just to the left of the centre of the screen, at coordinates `-50, 0`. Code Flappy to go to the starting position at the start of the game.
+--- task ---
+
+Add a new sprite to your project which has two costumes, for 'wings up' and 'wings down', and name it `Flappy`.
+
+The parrot sprite is a good choice.
+
+![screenshot](images/flappy-parrot.png)
+
+--- /task ---
+
+--- task ---
+
+Flappy needs to be smaller, lets add the code to `set its size to 25%`{:class="blocklooks"} `when the green flag is clicked`{:class="blockevents"} 
+
+```blocks
+when green flag clicked
+set size to (25) %
+```
+
+**Tip:** you could also use the **Shrink** tool to make your sprite smaller.
+
+--- /task ---
+
+
+When the game starts, Flappy should be just to the left of the centre of the screen, at coordinates `-50, 0`. 
+
+![flappy shown at the start position](images/flappy-starting-position.png)
+
+--- task ---
+
+Add the code to make Flappy `goto the x and y`{:class="blockmotion"} starting position of `x: -50`{:class="blockmotion"} and `y: 0`{:class="blockmotion"}.
+
+```blocks
+when green flag clicked
+set size to (25) %
++ go to x: (-50) y: (0)
+```
 
 [[[generic-scratch-set-coordinates]]]
 
-+ Now you need to make Flappy keep falling down the stage.
+--- /task ---
 
---- hints ---
---- hint ---
-The code you have already should look like this:
+--- task ---
 
-![screenshot](images/flappy-setup-code.png)
+Now you need to make Flappy keep falling down the stage by `forever`{:class="blockcontrol"} `changing the sprites y position by -3`{:class="blockmotion"}.
 
-You need to add code to the end of this script to make Flappy fall `forever`.
+when green flag clicked
+set size to (25) %
+go to x: (-50) y: (0)
++ forever 
+  + change y by (-3)
+end
 
---- /hint ---
---- hint ---
-Try using these blocks:
+--- /task ---
 
-![screenshot](images/flappy-fall-blocks.png)
+--- task ---
 
-Set up a loop to change Flappy's `y` position by `-3` each round.
----/hint ---
---- hint ---
-Your code should look like this:
-![screenshot](images/flappy-fall-code.png)
+Test your code to make sure Flappy starts in the middle of the screen and falls to the bottom. When you drag Flappy to the top of the screen, the sprite should fall again.
 
----/hint ---
---- /hints ---
-
-+ Test your code to make sure Flappy starts in the middle of the screen and falls to the bottom. When you drag Flappy to the top of the screen, the sprite should fall again.
+--- /task ---
