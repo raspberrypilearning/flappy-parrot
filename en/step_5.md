@@ -54,12 +54,14 @@ set size to (25) %
 
 Now you need to make Flappy keep falling down the stage by `forever`{:class="blockcontrol"} `changing the sprites y position by -3`{:class="blockmotion"}.
 
+```blocks
 when green flag clicked
 set size to (25) %
 go to x: (-50) y: (0)
 + forever 
   + change y by (-3)
 end
+```
 
 --- /task ---
 
