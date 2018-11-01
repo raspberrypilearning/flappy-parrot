@@ -8,6 +8,8 @@ Next you'll get the pipes moving across the screen to create an obstacle course.
 
 First you will make the pipes appear by adding the code so that `When the green flag is clicked`{:class="blockevents"} it `creates a clone`{:class="blockcontrol"} every 2 seconds `forever`{:class="blockcontrol"}. 
 
+![pipes sprite](images/pipes-sprite.png)
+
 ```blocks
 when green flag clicked
 set size to (200) %
@@ -23,6 +25,8 @@ end
 --- task ---
 
 Next you need to make the pipes move by adding the code so that `When a clone starts`{:class="blockcontrol"} it appears on the right and `glides`{:class="blockmotion"} across the screen to the left.
+
+![pipes sprite](images/pipes-sprite.png)
 
 ```blocks
 when I start as a clone
@@ -45,6 +49,8 @@ You can add some variety by using a `random`{:class="blockoperators"} number for
 --- task ---
 
 Modify your code to `pick a random number from -80 to 80`{:class="blockoperators"} and `glide`{:class="blockmotion"} to that `y position`{:class="blockmotion"}:
+
+![pipes sprite](images/pipes-sprite.png)
 
 ```blocks
 when I start as a clone

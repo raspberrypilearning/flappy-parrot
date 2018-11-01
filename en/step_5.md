@@ -14,13 +14,15 @@ Add a new sprite to your project which has two costumes, for 'wings up' and 'win
 
 The parrot sprite is a good choice.
 
-![screenshot](images/flappy-parrot.png)
+![parrot sprite](images/flappy-sprite.png)
 
 --- /task ---
 
 --- task ---
 
 Flappy needs to be smaller, lets add the code to `set its size to 25%`{:class="blocklooks"} `when the green flag is clicked`{:class="blockevents"} 
+
+![parrot sprite](images/flappy-sprite.png)
 
 ```blocks
 when green flag clicked
@@ -40,6 +42,8 @@ When the game starts, Flappy should be just to the left of the centre of the scr
 
 Add the code to make Flappy `goto the x and y`{:class="blockmotion"} starting position of `x: -50`{:class="blockmotion"} and `y: 0`{:class="blockmotion"}.
 
+![parrot sprite](images/flappy-sprite.png)
+
 ```blocks
 when green flag clicked
 set size to (25) %
@@ -53,6 +57,8 @@ set size to (25) %
 --- task ---
 
 Now you need to make Flappy keep falling down the stage by `forever`{:class="blockcontrol"} `changing the sprites y position by -3`{:class="blockmotion"}.
+
+![parrot sprite](images/flappy-sprite.png)
 
 ```blocks
 when green flag clicked

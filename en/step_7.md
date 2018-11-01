@@ -12,13 +12,15 @@ Import a sound from the library that will play when Flappy collides with somethi
 
 --- /task ---
 
-You're going to use a `wait until`{:class="blockcontrol"} block to check for whether Flappy is `touching the pipes`{:class="blocksensing"} `or`{:class="blockoperators"} ` touching the edge`{:class="blocksensing"}.
+You're going to use a `wait until`{:class="blockcontrol"} block to check for whether Flappy is `touching the pipes`{:class="blocksensing"} `or`{:class="blockoperators"} `touching the edge`{:class="blocksensing"}.
 
 --- task ---
 
 Add a new `when green flag clicked`{:class="blockcontrol"} block to the `Flappy` sprite and add the following code:
 
-```block
+![parrot sprite](images/flappy-sprite.png)
+
+```blocks
 when green flag clicked
 wait until <<touching [Pipes v] ?> or <touching [edge v] ?>>
 play sound [screech v]
@@ -38,6 +40,8 @@ Now lets update the code so that the game stops when Flappy hits a pipe.
 
 Add the code to stop the game after a collision is detected:
 
+![parrot sprite](images/flappy-sprite.png)
+
 ```blocks
 when green flag clicked
 wait until <<touching [Pipes v] ?> or <touching [edge v] ?>>
@@ -56,6 +60,8 @@ The `stop`{:class="blockcontrol"} block stops other Flappy scripts that are runn
 --- task ---
 
 Finally you need to add the following code to the `Pipes` sprite so that the pipes `stop`{:class="blockcontrol"} `when it receives Game Over`{:class="blockevents"}.
+
+![pipes sprite](images/pipes-sprite.png)
 
 ```blocks
 when I receive [Game Over v]

@@ -18,6 +18,8 @@ By `repeating 10 times`{:class="blockcontrol"} it will appear that Flappy has fl
 
 Add this code to your `Flappy` sprite.
 
+![parrot sprite](images/flappy-sprite.png)
+
 ```blocks
 when [space v] key pressed
 repeat (10) 
@@ -54,6 +56,8 @@ You'll then need to use `switch costume to`{:class="blocklooks"} blocks to chang
 
 You will need to use these blocks:
 
+![parrot sprite](images/flappy-sprite.png)
+
 ```blocks
 repeat (5) 
   change y by (6)
@@ -75,6 +79,8 @@ when [space v] key pressed
 --- hint ---
 
 Your code should look like this:
+
+![parrot sprite](images/flappy-sprite.png)
 
 ```blocks
 when [space v] key pressed

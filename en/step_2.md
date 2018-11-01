@@ -40,6 +40,8 @@ You can't draw a pipe as big as the pipes need to be, but you can increase the s
 
 --- task ---
 
+![pipes sprite](images/pipes-sprite.png)
+
 Add code to make the sprite bigger.
 
 ```blocks

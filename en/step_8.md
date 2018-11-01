@@ -16,6 +16,8 @@ Each `Pipes` clone is going to `wait until`{:class="blockcontrol"}, Flappy has f
 
 First, `set score to 0`{:class="blockdata"} when the game begins:
 
+![pipes sprite](images/pipes-sprite.png)
+
 ```blocks
 when green flag clicked
 + set [score v] to [0]
@@ -32,6 +34,8 @@ end
 --- task ---
 
 Then add the following code to the `Pipes` sprite:
+
+![pipes sprite](images/pipes-sprite.png)
 
 ```blocks
 when I start as a clone
@@ -52,6 +56,8 @@ You could use the 'pop' sound, or add a sound from the library — 'bird' works 
 
 You need to `wait until`{:class="blockcontrol"} `Flappy's x position`{:class="blocksensing"} is `greater than (>)`{:class="blockoperators"} the `x position`{:class="blockmotion"} of `Pipes`.  
 
+![pipes sprite](images/pipes-sprite.png)
+
 ```blocks
 when I start as a clone
 + wait until <>
@@ -64,6 +70,8 @@ Then `change the score by 1`{:class="blockdata"} and `play a sound`{:class="bloc
 --- hint ---
 
 Try using these blocks:
+
+![pipes sprite](images/pipes-sprite.png)
 
 ```blocks
 when I start as a clone
@@ -85,6 +93,8 @@ x position
 --- hint ---
 
 Your code should look like this:
+
+![pipes sprite](images/pipes-sprite.png)
 
 ```blocks
 when I start as a clone
