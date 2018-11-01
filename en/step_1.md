@@ -33,7 +33,7 @@ title: What you will need
 
 ### Software
 
-+ Scratch 2.0 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
++ Scratch 2.0 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 --- /collapse ---
 
