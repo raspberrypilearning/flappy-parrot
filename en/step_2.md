@@ -32,7 +32,7 @@ The `Pipes` sprite will have a pair of pipes with a gap in the middle. You'll be
 
 Let's take a look at how this is going to work.
 
-This picture shows an example of how the pipes could be positioned, the parts outside the stage are normally hidden, you only see it when you drag the sprite:
+This picture shows an example of how the pipes could be positioned, the parts outside the stage are normally hidden, you only see then when you drag the sprite:
 
 ![screenshot](images/flappy-pipes-position.png)
 

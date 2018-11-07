@@ -20,6 +20,8 @@ forever
 end
 ```
 
+**Tip:** clones are just copies of a sprite and you can create as many as you like and its a really useful when creating games. 
+
 --- /task ---
 
 --- task ---

@@ -1,6 +1,6 @@
 ## Make Flappy fall
 
-Now you can add a sprite called Flappy. If you don't press any keys, then Flappy should just fall down the screen.
+You will now add a sprite called Flappy and code it so it falls down the screen. In the next step you will add the code to make Flappy fly when you press a key.
 
 --- no-print ---
 

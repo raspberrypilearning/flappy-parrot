@@ -10,7 +10,7 @@ Next you will make Flappy flap upwards when you press the <kbd>space</kbd> bar. 
 
 --- task ---
 
-Lets add the code to make Flappy fly upwards when you tap the <kbd>space</kbd> bar?
+Let’s add the code to make Flappy fly upwards when you tap the <kbd>space</kbd> bar.
 
 When the `space key is pressed`{:class="blockevents"}, Flappy should move upwards by `changing its y coordinate`{:class="blockmotion"} by a small amount e.g. `6`. 
 
