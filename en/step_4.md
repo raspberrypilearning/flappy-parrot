@@ -1,12 +1,12 @@
 ## Make the pipes move
 
-Next you'll get the pipes moving across the screen to create an obstacle course.
+Next you're going to make the pipes move across the screen to create an obstacle course.
 
 ![pipes moving across the screen](images/flappy-clones-test.png)
 
 --- task ---
 
-First you will make the pipes appear by adding the code so that `When the green flag is clicked`{:class="blockevents"} it `creates a clone`{:class="blockcontrol"} every 2 seconds `forever`{:class="blockcontrol"}. 
+First make the pipes appear by adding code to the Pipes sprite so that, `when the green flag is clicked`{:class="blockevents"}, the sprite `forever`{:class="blockcontrol"} `creates a clone of itself`{:class="blockcontrol"} every two seconds. 
 
 ![pipes sprite](images/pipes-sprite.png)
 
@@ -20,13 +20,13 @@ forever
 end
 ```
 
-**Tip:** clones are just copies of a sprite and you can create as many as you like and its a really useful when creating games. 
+**Tip:** clones are just copies of a sprite, and they are really useful for creating games. 
 
 --- /task ---
 
 --- task ---
 
-Next you need to make the pipes move by adding the code so that `When a clone starts`{:class="blockcontrol"} it appears on the right and `glides`{:class="blockmotion"} across the screen to the left.
+Next make the pipes move by adding code so that, `when a clone starts`{:class="blockcontrol"}, the clone appears on the right side of the Stage and `glides`{:class="blockmotion"} across to the left.
 
 ![pipes sprite](images/pipes-sprite.png)
 
@@ -38,19 +38,19 @@ glide (4) secs to x: (-240) y: (0)
 delete this clone
 ```
 
-Tip: you can stop the pipes scrolling by clicking the red stop button.
+**Tip:** you can stop the pipes scrolling by clicking the red **stop** button next to the green flag.
 
 --- /task ---
 
-Now you should have lots of pipes, but the gap is always in the same place. 
+Now you should have lots of pipes, but their gaps are always in the same place. 
 
-You can add some variety by using a `random`{:class="blockoperators"} number for the `y position`{:class="blockmotion"}.
+You can add some variety by using a `random`{:class="blockoperators"} number for the Pipes sprite's `y position`{:class="blockmotion"}.
 
 ![pipes at different heights](images/flappy-height-test.png)
 
 --- task ---
 
-Modify your code to `pick a random number from -80 to 80`{:class="blockoperators"} and `glide`{:class="blockmotion"} to that `y position`{:class="blockmotion"}:
+Modify your sprite's code so that each sprite clone `picks a random number from -80 to 80`{:class="blockoperators"} and `glides`{:class="blockmotion"} to that `y position`{:class="blockmotion"}:
 
 ![pipes sprite](images/pipes-sprite.png)
 
