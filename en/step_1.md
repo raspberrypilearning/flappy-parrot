@@ -4,7 +4,7 @@ Create a game in which you have to guide a parrot past scrolling pipes to score 
 
 ### What you will make
 
-Click the green flag to start the game. Press the <kbd>space</kbd> bar to make the parrot flap, and try to get it to fly through the gaps in the pipes! You win one point for every pipe that you manage to get the parrot past.
+Click the green flag to start the game. Press the <kbd>space</kbd> bar to make the parrot flap its wings, and try to get it to fly through the gaps in the pipes! You score one point for every pipe that you manage to get the parrot past.
 
 --- no-print ---
 
@@ -16,6 +16,7 @@ Click the green flag to start the game. Press the <kbd>space</kbd> bar to make t
 --- /no-print ---
 
 --- print-only ---
+You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and score one point for every pipe that you manage to get the parrot past.
 
 ![flappy parrot game being played](images/flappy-parrot-showcase.png)
 
