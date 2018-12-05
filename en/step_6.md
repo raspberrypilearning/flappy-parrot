@@ -102,7 +102,7 @@ end
 
 --- task ---
 
-Test your code. As you see, nothing bad happens if you let Flappy hit a pipe. In the next step, you'll change that.
+Test your code. As you see, at the moment nothing happens if you let Flappy hit a pipe.
 
 --- /task ---
 
