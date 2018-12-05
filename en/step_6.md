@@ -1,6 +1,6 @@
 ## Make Flappy fly
 
-Next you will make Flappy flap upwards when you press the <kbd>space</kbd> bar. You'll need to time your taps to get through the gaps in the pipes.
+Now you will make Flappy flap upwards when you press the <kbd>space</kbd> bar. When you play the game, you have to time your taps to get Flappy through the gaps in the pipes.
 
 --- no-print ---
 
@@ -8,15 +8,15 @@ Next you will make Flappy flap upwards when you press the <kbd>space</kbd> bar. 
 
 --- /no-print ---
 
+Make Flappy fly upwards when you tap the <kbd>space</kbd> bar.
+
 --- task ---
 
-Let’s add the code to make Flappy fly upwards when you tap the <kbd>space</kbd> bar.
+When the `space key is pressed`{:class="blockevents"}, Flappy should move upwards by `changing its y coordinate`{:class="blockmotion"} by a small amount, for example `6`. 
 
-When the `space key is pressed`{:class="blockevents"}, Flappy should move upwards by `changing its y coordinate`{:class="blockmotion"} by a small amount e.g. `6`. 
+Flappy flies upwards by `repeating`{:class="blockcontrol"} this movement `10 times`{:class="blockcontrol"}.
 
-By `repeating 10 times`{:class="blockcontrol"} it will appear that Flappy has flown upwards.
-
-Add this code to your `Flappy` sprite.
+Add this code to your `Flappy` sprite:
 
 ![parrot sprite](images/flappy-sprite.png)
 
@@ -33,7 +33,7 @@ Now you need to get Flappy's wings flapping!
 
 --- task ---
 
-Click on the **Costumes** tab, and name the costumes `wings up` and `wings down`.
+Click on the **Costumes** tab, and name Flappy's costumes 'wings up' and 'wings down'.
 
 ![naming the costumes](images/flappy-wings.png)
 
@@ -41,20 +41,20 @@ Click on the **Costumes** tab, and name the costumes `wings up` and `wings down`
 
 --- task ---
 
-Can you make Flappy's costume change to `wings down` when you press <kbd>space</kbd>, and then to `wings up` halfway through the upward movement?
+Can you make Flappy's costume change to `wings down` when you press <kbd>space</kbd>, and then change it back to `wings up` halfway through the upward movement?
 
 --- hints ---
 
 --- hint ---
 
-You'll need to split the upward motion in half so that you can change costume at the beginning and in the middle by using 2 `repeat`{:class="blockcontrol"} blocks.
+You need to split the upward motion in half so that you can use two `repeat`{:class="blockcontrol"} blocks to change Flappy's costume at the beginning and in the middle of the movement.
 
-You'll then need to use `switch costume to`{:class="blocklooks"} blocks to change how Flappy looks.
+Add `switch costume to`{:class="blocklooks"} blocks to change how Flappy looks.
 
 --- /hint ---
 --- hint ---
 
-You will need to use these blocks:
+You need to use these blocks:
 
 ![parrot sprite](images/flappy-sprite.png)
 
@@ -102,7 +102,7 @@ end
 
 --- task ---
 
-Now you can test your code. As you'll see, nothing bad happens if you hit a pipe. In the next step, you'll change that.
+Test your code. As you see, nothing bad happens if you let Flappy hit a pipe. In the next step, you'll change that.
 
 --- /task ---
 
