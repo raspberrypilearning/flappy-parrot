@@ -1,6 +1,6 @@
 ## Make Flappy fall
 
-You will now add a sprite called Flappy and code it so it falls down the screen. In the next step you will add the code to make Flappy fly when you press a key.
+Now add a sprite called Flappy and create code it so Flappy falls down the Stage. In the next step, you will add the code to make Flappy fly when you press a key.
 
 --- no-print ---
 
@@ -10,7 +10,7 @@ You will now add a sprite called Flappy and code it so it falls down the screen.
 
 --- task ---
 
-Add a new sprite to your project which has two costumes, for 'wings up' and 'wings down', and name it `Flappy`.
+Add a new sprite that has two costumes, for 'wings up' and 'wings down', and name it `Flappy`.
 
 The parrot sprite is a good choice.
 
@@ -18,9 +18,11 @@ The parrot sprite is a good choice.
 
 --- /task ---
 
+Flappy needs to be smaller.
+
 --- task ---
 
-Flappy needs to be smaller, lets add the code to `set its size to 25%`{:class="blocklooks"} `when the green flag is clicked`{:class="blockevents"} 
+Add code to `set Flappy's size to 25%`{:class="blocklooks"} `when the green flag is clicked`{:class="blockevents"}.
 
 ![parrot sprite](images/flappy-sprite.png)
 
@@ -34,13 +36,13 @@ set size to (25) %
 --- /task ---
 
 
-When the game starts, Flappy should be just to the left of the centre of the screen, at coordinates `-50, 0`. 
+When the game starts, Flappy needs to be just left of the centre of the Stage, at coordinates `-50, 0`. 
 
 ![flappy shown at the start position](images/flappy-starting-position.png)
 
 --- task ---
 
-Add the code to make Flappy `goto the x and y`{:class="blockmotion"} starting position of `x: -50`{:class="blockmotion"} and `y: 0`{:class="blockmotion"}.
+Add code to make Flappy `go to the x and y`{:class="blockmotion"} starting position of `x: -50`{:class="blockmotion"} and `y: 0`{:class="blockmotion"}.
 
 ![parrot sprite](images/flappy-sprite.png)
 
@@ -56,7 +58,7 @@ set size to (25) %
 
 --- task ---
 
-Now you need to make Flappy keep falling down the stage by `forever`{:class="blockcontrol"} `changing the sprites y position by -3`{:class="blockmotion"}.
+Now make Flappy keep falling down the Stage by `forever`{:class="blockcontrol"} `changing the sprite's y position by -3`{:class="blockmotion"}.
 
 ![parrot sprite](images/flappy-sprite.png)
 
@@ -73,6 +75,6 @@ end
 
 --- task ---
 
-Test your code to make sure Flappy starts in the middle of the screen and falls to the bottom. When you drag Flappy to the top of the screen, the sprite should fall again.
+Test your code to make sure Flappy starts in the middle of the screen and falls to the bottom. When you drag Flappy to the top of the Stage, the sprite should fall again.
 
 --- /task ---
