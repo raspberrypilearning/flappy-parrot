@@ -1,6 +1,6 @@
 ## Add the pipes
 
-First let's create the pipes.
+First, create the pipes.
 
 --- task ---
 
@@ -22,40 +22,37 @@ Add a background with an outdoor landscape. 'blue sky' is a good choice.
 
 --- task ---
 
-Click on the `Paint new sprite` button and name your sprite **Pipes**.
+Click on the **Paint new sprite** button and name your sprite 'Pipes'.
 
 [[[generic-scratch-rename-sprite]]]
 
 --- /task ---
 
-The `Pipes` sprite will have a pair of pipes with a gap in the middle. You'll be able to move the sprite up and down to get the gap in a different place.
+The 'Pipes' sprite should be a pair of pipes with a gap in the middle. By moving the sprite up or down, you can put the gap in a different place.
 
-Let's take a look at how this is going to work.
-
-This picture shows an example of how the pipes could be positioned, the parts outside the stage are normally hidden, you only see then when you drag the sprite:
+This picture shows an example of how the pipes could be positioned. The parts of the sprite outside the Stage are normally hidden, you only see then when you drag the sprite:
 
 ![screenshot](images/flappy-pipes-position.png)
 
-You can't draw a pipe as big as the pipes need to be, but you can increase the size of a sprite when it's used.
+You can't draw a sprite as big as the pipes need to be, but you can increase the size at which the sprite shows on the Stage.
 
 --- task ---
 
 ![pipes sprite](images/pipes-sprite.png)
 
 Add code to make the sprite bigger.
-
 ```blocks
 when green flag clicked
 set size to (200) %
 ```
 
-This will make it easier to see how big you need to make the pipes.
+This makes it's easier to see how big the pipes should be.
 
 --- /task ---
 
 --- task ---
 
-Switch the Paint editor to Vector mode, by clicking **Convert to vector** in the bottom right.
+Switch the Paint editor to Vector mode by clicking on **Convert to vector** in the bottom right-hand corner.
 
 ![convert to vector button highlighted](images/vector-mode-button.png)
 
@@ -63,7 +60,7 @@ Switch the Paint editor to Vector mode, by clicking **Convert to vector** in the
 
 --- task ---
 
-Draw a black outline rectangle for the top pipe as shown:
+Draw a black outline rectangle for the top pipe as shown here:
 
 ![black rectangle for the pipe](images/flappy-pipes-rectangle.png)
 
@@ -71,7 +68,7 @@ Draw a black outline rectangle for the top pipe as shown:
 
 --- task ---
 
-Fill the rectangle in a colour you like for the pipes.
+Fill the rectangle with a colour you like.
 
 ![fill the rectangle](images/flappy-pipes-fill-rectangle.png)
 
@@ -79,9 +76,9 @@ Fill the rectangle in a colour you like for the pipes.
 
 --- task ---
 
-Click on the duplicate (stamper) tool and then on your pipe to create a copy.
+Click on the **duplicate** (stamper) tool and then on your pipe to create a copy of the pipe.
 
-Drag the copy of the sprite to the bottom of the screen, in line with the top sprite.
+Drag the copy of the pipe to the bottom of the screen so that the copy is in line with the other pipe and there's a gap between the two pipes.
 
 ![screenshot](images/flappy-pipes-duplicate2.png)
 
