@@ -1,8 +1,8 @@
-## Challenge: Make better pipes
+## Challenge: make better pipes
 
-Can you make your pipes look even better?
+Can you make your pipes look  better?
 
-+ Shade your pipe with a left-to-right gradient.
++ Shade your pipes with a left-to-right gradient.
 
 ![screenshot](images/flappy-pipes-filled.png)
 
