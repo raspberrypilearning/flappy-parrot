@@ -1,16 +1,16 @@
-## Add scoring
+## Add a score
 
-The player should score a point every time Flappy makes it through a gap between pipes. Let's add that code for that next!
+The player should score a point every time Flappy makes it through a gap between pipes.
 
 --- task ---
 
-Make a new variable `For all sprites` and call it `score`{:class="blockdata"}.
+Make a new variable **for all sprites** and call it `score`{:class="blockdata"}.
 
 [[[generic-scratch-add-variable]]]
 
 --- /task ---
 
-Each `Pipes` clone is going to `wait until`{:class="blockcontrol"}, Flappy has flown past, and then increase the score.
+Each 'Pipes' sprite clone should `wait until`{:class="blockcontrol"} Flappy has flown past and then increase the `score`{:class="blockdata"}.
 
 --- task ---
 
@@ -46,9 +46,9 @@ wait until <>
 
 --- task ---
 
-Complete the code so that a point is scored, and a sound of your choice is played, when Flappy's `x` position is greater than the pipe's `x` position.
+Add more code so that, when Flappy's `x` position is greater than the pipe clone's `x` position, the `score`{:class="blockdata"} increases by `1` and a sound of your choice plays.
 
-You could use the 'pop' sound, or add a sound from the library — 'bird' works well.
+You could use the 'pop' sound if you want, or add a sound from the library, for example 'bird'.
 
 --- hints ---
 
@@ -63,13 +63,13 @@ when I start as a clone
 + wait until <>
 ```
 
-Then `change the score by 1`{:class="blockdata"} and `play a sound`{:class="blocksound"}. 
+Then `change score by 1`{:class="blockdata"} and `play a sound`{:class="blocksound"}. 
 
 --- /hint ---
 
 --- hint ---
 
-Try using these blocks:
+Use these blocks in the correct order:
 
 ![pipes sprite](images/pipes-sprite.png)
 
@@ -111,6 +111,6 @@ play sound [pop v]
 
 --- task ---
 
-Test your code and make sure you score a point every time Flappy gets past an obstacle. Make sure the score goes back to `0` when you start a new game.
+Test your code and make sure you score a point every time Flappy gets through a gap between pipes. Check whether the `score`{:class="blockdata"} is set to `0` when you start a new game.
 
 --- /task ---
