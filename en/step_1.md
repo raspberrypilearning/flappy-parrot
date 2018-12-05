@@ -1,10 +1,10 @@
 ## Introduction
 
-Create a game in which you have to guide a parrot through scrolling pipes to score points.
+Create a game in which you have to guide a parrot past scrolling pipes to score points.
 
 ### What you will make
 
-Click the green flag to start the game. Press the space bar to flap, and try to fly through the gaps in the pipes! You'll score one point for every pipe that you manage to get through.
+Click the green flag to start the game. Press the <kbd>space</kbd> bar to make the parrot flap, and try to get it to fly through the gaps in the pipes! You win one point for every pipe that you manage to get the parrot past.
 
 --- no-print ---
 
@@ -29,7 +29,7 @@ title: What you will need
 
 ### Hardware
 
-+ Computer capable of running Scratch 2.0
++ A computer capable of running Scratch 2.0
 
 ### Software
 
@@ -62,6 +62,6 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 --- /no-print ---
 
-[If you need the solution to this project, you can find it here](https://rpf.io/p/en/flappy-parrot-get).
+You can [find the solution to this project here](https://rpf.io/p/en/flappy-parrot-get).
 
 --- /collapse ---
