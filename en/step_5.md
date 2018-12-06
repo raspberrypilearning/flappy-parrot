@@ -22,11 +22,11 @@ Flappy needs to be smaller.
 
 --- task ---
 
-Add code to `set Flappy's size to 25%`{:class="blocklooks"} `when the green flag is clicked`{:class="blockevents"}.
+Add code to `set Flappy's size to 25%`{:class="block3looks"} `when the green flag is clicked`{:class="block3events"}.
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
 set size to (25) %
 ```
@@ -42,27 +42,27 @@ When the game starts, Flappy needs to be just left of the centre of the Stage, a
 
 --- task ---
 
-Add code to make Flappy `go to the x and y`{:class="blockmotion"} starting position of `x: -50`{:class="blockmotion"} and `y: 0`{:class="blockmotion"}.
+Add code to make Flappy `go to the x and y`{:class="block3motion"} starting position of `x: -50`{:class="block3motion"} and `y: 0`{:class="block3motion"}.
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
 set size to (25) %
 + go to x: (-50) y: (0)
 ```
 
-[[[generic-scratch-set-coordinates]]]
+[[[generic-scratch3-set-coordinates]]]
 
 --- /task ---
 
 --- task ---
 
-Now make Flappy keep falling down the Stage by `forever`{:class="blockcontrol"} `changing the sprite's y position by -3`{:class="blockmotion"}.
+Now make Flappy keep falling down the Stage by `forever`{:class="block3control"} `changing the sprite's y position by -3`{:class="block3motion"}.
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
 set size to (25) %
 go to x: (-50) y: (0)

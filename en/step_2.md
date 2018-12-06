@@ -6,7 +6,7 @@ First, create the pipes.
 
 Open a new empty Scratch project.
 
-[[[generic-scratch-new-project]]]
+[[[generic-scratch3-new-project]]]
 
 --- /task ---
 
@@ -16,7 +16,7 @@ Add a background with an outdoor landscape. 'blue sky' is a good choice.
 
 ![screenshot](images/flappy-stage.png)
 
-[[[generic-scratch-backdrop-from-library]]]
+[[[generic-scratch3-backdrop-from-library]]]
 
 --- /task ---
 
@@ -24,7 +24,7 @@ Add a background with an outdoor landscape. 'blue sky' is a good choice.
 
 Click on the **Paint new sprite** button and name your sprite 'Pipes'.
 
-[[[generic-scratch-rename-sprite]]]
+[[[generic-scratch3-rename-sprite]]]
 
 --- /task ---
 
@@ -41,7 +41,7 @@ You can't draw a sprite as big as the pipes need to be, but you can increase the
 ![pipes sprite](images/pipes-sprite.png)
 
 Add code to make the sprite bigger.
-```blocks
+```blocks3
 when green flag clicked
 set size to (200) %
 ```

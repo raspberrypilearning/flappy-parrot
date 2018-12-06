@@ -12,15 +12,15 @@ Make Flappy fly upwards when you tap the <kbd>space</kbd> bar.
 
 --- task ---
 
-When the `space key is pressed`{:class="blockevents"}, Flappy should move upwards by `changing its y coordinate`{:class="blockmotion"} by a small amount, for example `6`. 
+When the `space key is pressed`{:class="block3events"}, Flappy should move upwards by `changing its y coordinate`{:class="block3motion"} by a small amount, for example `6`. 
 
-Flappy flies upwards by `repeating`{:class="blockcontrol"} this movement `10 times`{:class="blockcontrol"}.
+Flappy flies upwards by `repeating`{:class="block3control"} this movement `10 times`{:class="block3control"}.
 
 Add this code to your `Flappy` sprite:
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks
+```blocks3
 when [space v] key pressed
 repeat (10) 
   change y by (6)
@@ -47,9 +47,9 @@ Can you make Flappy's costume change to `wings down` when you press <kbd>space</
 
 --- hint ---
 
-You need to split the upward motion in half so that you can use two `repeat`{:class="blockcontrol"} blocks to change Flappy's costume at the beginning and in the middle of the movement.
+You need to split the upward motion in half so that you can use two `repeat`{:class="block3control"} blocks to change Flappy's costume at the beginning and in the middle of the movement.
 
-Add `switch costume to`{:class="blocklooks"} blocks to change how Flappy looks.
+Add `switch costume to`{:class="block3looks"} blocks to change how Flappy looks.
 
 --- /hint ---
 --- hint ---
@@ -58,7 +58,7 @@ You need to use these blocks:
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks
+```blocks3
 repeat (5) 
   change y by (6)
 end
@@ -82,7 +82,7 @@ Your code should look like this:
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks
+```blocks3
 when [space v] key pressed
 switch costume to [wings down v]
 repeat (5) 
