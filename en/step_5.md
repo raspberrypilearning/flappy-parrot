@@ -31,8 +31,6 @@ when green flag clicked
 set size to (25) %
 ```
 
-**Tip:** you could also use the **Shrink** tool to make your sprite smaller.
-
 --- /task ---
 
 

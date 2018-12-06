@@ -12,7 +12,7 @@ Open a new empty Scratch project.
 
 --- task ---
 
-Add a background with an outdoor landscape. 'blue sky' is a good choice.
+Add a backdrop with an outdoor landscape. 'Blue Sky' is a good choice.
 
 ![screenshot](images/flappy-stage.png)
 
@@ -22,7 +22,7 @@ Add a background with an outdoor landscape. 'blue sky' is a good choice.
 
 --- task ---
 
-Click on the **Paint new sprite** button and name your sprite 'Pipes'.
+Create a new sprite and name your sprite 'Pipes'.
 
 [[[generic-scratch3-rename-sprite]]]
 
@@ -52,17 +52,9 @@ This makes it's easier to see how big the pipes should be.
 
 --- task ---
 
-Switch the Paint editor to Vector mode by clicking on **Convert to vector** in the bottom right-hand corner.
+Draw a rectangle for the top pipe as shown here:
 
-![convert to vector button highlighted](images/vector-mode-button.png)
-
---- /task ---
-
---- task ---
-
-Draw a black outline rectangle for the top pipe as shown here:
-
-![black rectangle for the pipe](images/flappy-pipes-rectangle.png)
+![rectangle for the pipe](images/flappy-pipes-rectangle.png)
 
 --- /task ---
 
@@ -76,7 +68,13 @@ Fill the rectangle with a colour you like.
 
 --- task ---
 
-Click on the **duplicate** (stamper) tool and then on your pipe to create a copy of the pipe.
+Create a duplicate of your pipe, by selecting it and using **copy** and **paste**.
+
+![copy and paste pipe](images/flappy-pipes-duplicate1-annotated.png)
+
+--- /task ---
+
+--- task ---
 
 Drag the copy of the pipe to the bottom of the screen so that the copy is in line with the other pipe and there's a gap between the two pipes.
 
