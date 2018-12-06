@@ -24,7 +24,7 @@ Add a backdrop with an outdoor landscape. 'Blue Sky' is a good choice.
 
 Create a new sprite and name your sprite 'Pipes'.
 
-[[[generic-scratch3-rename-sprite]]]
+[[[generic-scratch3-draw-sprite]]]
 
 --- /task ---
 
