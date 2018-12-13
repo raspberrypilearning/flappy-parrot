@@ -76,7 +76,7 @@ Create a duplicate of the pipe by selecting it and then clicking on **Copy** and
 
 --- task ---
 
-Drag the copy of the pipe to the bottom of the screen so that the copy is in line with the other pipe and there's a gap between the two pipes.
+Drag the copy of the pipe to the bottom of the screen so that the copy is in line with the other pipe. There needs to be a gap between the two pipes.
 
 ![screenshot](images/flappy-pipes-duplicate2.png)
 
