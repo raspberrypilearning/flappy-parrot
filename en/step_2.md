@@ -22,7 +22,7 @@ Add a backdrop with an outdoor landscape. 'Blue Sky' is a good choice.
 
 --- task ---
 
-Create a new sprite and name your sprite 'Pipes'.
+Create a new sprite and name it 'Pipes'.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -60,7 +60,7 @@ Draw a rectangle for the top pipe as shown here:
 
 --- task ---
 
-Fill the rectangle with a colour you like.
+Fill the pipe with a colour you like.
 
 ![fill the rectangle](images/flappy-pipes-fill-rectangle.png)
 
@@ -68,7 +68,7 @@ Fill the rectangle with a colour you like.
 
 --- task ---
 
-Create a duplicate of your pipe, by selecting it and using **copy** and **paste**.
+Create a duplicate of the pipe by selecting it and then clicking on **Copy** and **Paste**.
 
 ![copy and paste pipe](images/flappy-pipes-duplicate1-annotated.png)
 
