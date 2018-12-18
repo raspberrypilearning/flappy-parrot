@@ -22,8 +22,8 @@ Add a new `when green flag clicked`{:class="block3control"} block to the 'Flappy
 
 ```blocks3
 when green flag clicked
-wait until <<touching [Pipes v] ?> or <touching [edge v] ?>>
-play sound [screech v]
+wait until <<touching (Pipes v) ?> or <touching (edge v) ?>>
+play sound (screech v)
 ```
 
 --- /task ---
@@ -44,10 +44,10 @@ Add the following code to stop the game after a collision is detected:
 
 ```blocks3
 when green flag clicked
-wait until <<touching [Pipes v] ?> or <touching [edge v] ?>>
-play sound [screech v]
+wait until <<touching (Pipes v) ?> or <touching (edge v) ?>>
+play sound (screech v)
 + say [Game Over!]
-+ broadcast [Game Over v]
++ broadcast (Game Over v)
 + stop [other scripts in sprite v]
 ```
 

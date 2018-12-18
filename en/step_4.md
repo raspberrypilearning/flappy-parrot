@@ -15,7 +15,7 @@ when green flag clicked
 set size to (200) %
 hide
 forever 
-  create clone of [myself v]
+  create clone of (myself v)
   wait (2) secs
 end
 ```

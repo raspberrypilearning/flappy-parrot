@@ -24,7 +24,7 @@ when green flag clicked
 set size to (200) %
 hide
 forever 
-  create clone of [myself v]
+  create clone of (myself v)
   wait (2) secs
 end
 ```
@@ -77,11 +77,11 @@ Use these blocks in the correct order:
 when I start as a clone
 wait until <>
 
-play sound [pop v]
+play sound (pop v)
 
 change [score v] by (1)
 
-[x position v] of [Flappy v]
+[x position v] of (Flappy v)
 
 x position
 
@@ -98,9 +98,9 @@ Your code should look like this:
 
 ```blocks3
 when I start as a clone
-wait until <([x position v] of [Flappy v]) > (x position)>
+wait until <([x position v] of (Flappy v)) > (x position)>
 change [score v] by (1)
-play sound [pop v]
+play sound (pop v)
 ```
 
 --- /hint ---

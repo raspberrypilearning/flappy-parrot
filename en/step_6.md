@@ -67,9 +67,9 @@ repeat (5)
   change y by (6)
 end
 
-switch costume to [wings up v]
+switch costume to (wings up v)
 
-switch costume to [wings down v]
+switch costume to (wings down v)
 
 when [space v] key pressed
 ```
@@ -84,11 +84,11 @@ Your code should look like this:
 
 ```blocks3
 when [space v] key pressed
-switch costume to [wings down v]
+switch costume to (wings down v)
 repeat (5) 
   change y by (6)
 end
-switch costume to [wings up v]
+switch costume to (wings up v)
 repeat (5) 
   change y by (6)
 end
