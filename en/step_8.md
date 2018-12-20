@@ -25,7 +25,7 @@ set size to (200) %
 hide
 forever 
   create clone of (myself v)
-  wait (2) secs
+  wait (2) seconds
 end
 ```
 
