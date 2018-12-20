@@ -20,11 +20,7 @@ Add a new `when green flag clicked`{:class="block3control"} block to the 'Flappy
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks3
-when green flag clicked
-wait until <<touching (Pipes v) ?> or <touching (edge v) ?>>
-play sound (screech v)
-```
+![blocks_1545312856_6552856](images/blocks_1545312856_6552856.png)
 
 --- /task ---
 
@@ -42,14 +38,7 @@ Add the following code to stop the game after a collision is detected:
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks3
-when green flag clicked
-wait until <<touching (Pipes v) ?> or <touching (edge v) ?>>
-play sound (screech v)
-+ say [Game Over!]
-+ broadcast (Game Over v)
-+ stop [other scripts in sprite v]
-```
+![blocks_1545312857_7440588](images/blocks_1545312857_7440588.png)
 
 The `broadcast`{:class="block3events"} block tells other sprites that the game is over.
 
@@ -63,10 +52,7 @@ Finally, add the following code to the `Pipes` sprite so that pipes `stop`{:clas
 
 ![pipes sprite](images/pipes-sprite.png)
 
-```blocks3
-when I receive [Game Over v]
-stop [other scripts in sprite v]
-```
+![blocks_1545312858_8772583](images/blocks_1545312858_8772583.png)
 
 --- /task ---
 

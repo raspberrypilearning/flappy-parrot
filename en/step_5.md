@@ -26,10 +26,7 @@ Add code to `set Flappy's size to 25%`{:class="block3looks"} `when the green fla
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks3
-when green flag clicked
-set size to (25) %
-```
+![blocks_1545312850_0441422](images/blocks_1545312850_0441422.png)
 
 --- /task ---
 
@@ -44,11 +41,7 @@ Add code to make Flappy `go to the x and y`{:class="block3motion"} starting posi
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks3
-when green flag clicked
-set size to (25) %
-+ go to x: (-50) y: (0)
-```
+![blocks_1545312851_1383114](images/blocks_1545312851_1383114.png)
 
 [[[generic-scratch3-set-coordinates]]]
 
@@ -60,14 +53,7 @@ Now make Flappy keep falling down the Stage by `forever`{:class="block3control"}
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks3
-when green flag clicked
-set size to (25) %
-go to x: (-50) y: (0)
-+ forever 
-    change y by (-3)
-end
-```
+![blocks_1545312852_2513459](images/blocks_1545312852_2513459.png)
 
 --- /task ---
 
