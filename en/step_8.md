@@ -1,38 +1,83 @@
-## Add scoring
+## Add a score
 
-The player should score a point every time Flappy makes it through a gap between pipes. Let's add that code for that next!
+The player should score a point every time Flappy makes it through a gap between pipes.
 
-+ Make a new variable `For all sprites` and call it `score`{:class="blockdata"}.
+--- task ---
 
-+ Each `Pipes` clone is going to `wait until` Flappy has flown past, and then increase the score.
+Make a new variable **for all sprites** and call it `score`{:class="block3variables"}.
 
-    First, set the score to `0` when the game begins:
+[[[generic-scratch3-add-variable]]]
 
-    ![screenshot](images/flappy-score-0.png)
+--- /task ---
 
-+ Then add the following code to the `Pipes` sprite:
+Each 'Pipes' sprite clone should `wait until`{:class="block3control"} Flappy has flown past and then increase the `score`{:class="block3variables"}.
 
-    ![screenshot](images/flappy-clone-wait.png)
+--- task ---
 
-+ Complete the code so that a point is scored, and a sound of your choice is played, when Flappy's `x` position is greater than (`>`) the pipe's `x` position.
+First, `set score to 0`{:class="block3variables"} when the game begins:
 
-Test your code and make sure you score a point every time Flappy gets past an obstacle. Make sure the score goes back to `0` when you start a new game.
+![pipes sprite](images/pipes-sprite.png)
+
+![blocks_1545312860_004536](images/blocks_1545312860_004536.png)
+
+--- /task ---
+
+--- task ---
+
+Then add the following code to the `Pipes` sprite:
+
+![pipes sprite](images/pipes-sprite.png)
+
+![blocks_1545312861_1459947](images/blocks_1545312861_1459947.png)
+
+--- /task ---
+
+--- task ---
+
+Add more code so that, when Flappy's `x` position is greater than the pipe clone's `x` position, the `score`{:class="block3variables"} increases by `1` and a sound of your choice plays.
+
+You could use the 'pop' sound if you want, or add a sound from the library, for example 'bird'.
 
 --- hints ---
+
 --- hint ---
-You need to fill in the condition in the `wait until`{:class="blockcontrol"} block to check for Flappy's `x position` being `greater than (`>`) ` the `x position` of `Pipes`.  
 
-![screenshot](images/flappy-clone-wait.png)
+You need to `wait until`{:class="block3control"} `Flappy's x position`{:class="block3sensing"} is `greater than (>)`{:class="block3operators"} the `x position`{:class="block3motion"} of `Pipes`.  
 
-You'll need to add blocks after the `wait until`{:class="blockcontrol"} block to `change the score` and `play a sound`. You could use the 'pop' sound, or add a sound from the library — 'bird' works well.
+![pipes sprite](images/pipes-sprite.png)
+
+![blocks_1545312862_2573178](images/blocks_1545312862_2573178.png)
+
+Then `change score by 1`{:class="block3variables"} and `play a sound`{:class="block3sound"}. 
+
 --- /hint ---
---- hint ---
-Try using these blocks:
 
-![screenshot](images/flappy-score-blocks.png)
---- /hint ---
 --- hint ---
+
+Use these blocks in the correct order:
+
+![pipes sprite](images/pipes-sprite.png)
+
+![blocks_1545312863_3757756](images/blocks_1545312863_3757756.png)
+
+--- /hint ---
+
+--- hint ---
+
 Your code should look like this:
-![screenshot](images/flappy-score-code.png)
+
+![pipes sprite](images/pipes-sprite.png)
+
+![blocks_1545312864_4652388](images/blocks_1545312864_4652388.png)
+
 --- /hint ---
+
 --- /hints ---
+
+--- /task ---
+
+--- task ---
+
+Test your code and make sure you score a point every time Flappy gets through a gap between pipes. Check whether the `score`{:class="block3variables"} is set to `0` when you start a new game.
+
+--- /task ---

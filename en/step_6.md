@@ -1,50 +1,79 @@
 ## Make Flappy fly
 
-Next we want Flappy to flap upwards when you press the `space` bar. You'll need to time your taps to get through the gaps in the pipes.
+Now you will make Flappy flap upwards when you press the <kbd>space</kbd> bar. When you play the game, you have to time your taps to get Flappy through the gaps in the pipes.
 
-+ Can you add code to make Flappy fly upwards when you tap the `space` bar?
+--- no-print ---
 
---- hints ---
---- hint ---
-When the `space key is pressed`, Flappy should move upwards by `changing its y coordinate` by a small amount (e.g.`6`). This should be `repeated 10 times`.
---- /hint ---
---- hint ---
-Here are the blocks you'll need:
-![screenshot](images/flappy-up-blocks.png)
---- /hint ---
---- hint ---
-Here's how your code should look:
-![screenshot](images/flappy-up-code.png)
---- /hint ---
---- /hints ---
+![flappy flying upwards when space bar is pressed](images/flappy-flying.gif)
+
+--- /no-print ---
+
+Make Flappy fly upwards when you tap the <kbd>space</kbd> bar.
+
+--- task ---
+
+When the `space key is pressed`{:class="block3events"}, Flappy should move upwards by `changing its y coordinate`{:class="block3motion"} by a small amount, for example `6`. 
+
+Flappy flies upwards by `repeating`{:class="block3control"} this movement `10 times`{:class="block3control"}.
+
+Add this code to your `Flappy` sprite:
+
+![parrot sprite](images/flappy-sprite.png)
+
+![blocks_1545312853_3362622](images/blocks_1545312853_3362622.png)
+
+--- /task ---
 
 Now you need to get Flappy's wings flapping!
 
-+ Click on the **Costumes** tab, and name the costumes `wings up` and `wings down`.
+--- task ---
 
-    ![screenshot](images/flappy-wings.png)
+Click on the **Costumes** tab, and name Flappy's costumes 'wings up' and 'wings down'.
 
-+ Can you make Flappy's costume change to `wings down` when you press `space`, and then to `wings up` halfway through the upward movement?
+![naming the costumes](images/flappy-wings.png)
+
+--- /task ---
+
+--- task ---
+
+Can you make Flappy's costume change to `wings down` when you press <kbd>space</kbd>, and then change it back to `wings up` halfway through the upward movement?
 
 --- hints ---
---- hint ---
-You'll need to split the upward motion in half so that you can change costume at the beginning and in the middle.
 
-You'll then need to use `switch costume to`{:class="blocklooks"} blocks to change how Flappy looks.
+--- hint ---
+
+You need to split the upward motion in half so that you can use two `repeat`{:class="block3control"} blocks to change Flappy's costume at the beginning and in the middle of the movement.
+
+Add `switch costume to`{:class="block3looks"} blocks to change how Flappy looks.
+
 --- /hint ---
 --- hint ---
-Split your code like this:
 
-![screenshot](images/flappy-wings-hint.png)
+You need to use these blocks:
 
-Add blocks to `switch costume to`{:class="blocklooks"} `wings down` at the beginning, and `wings up` in the middle.
+![parrot sprite](images/flappy-sprite.png)
+
+![blocks_1545312854_4029665](images/blocks_1545312854_4029665.png)
+
 --- /hint ---
+
 --- hint ---
+
 Your code should look like this:
 
-![screenshot](images/flappy-wings-code.png)
+![parrot sprite](images/flappy-sprite.png)
+
+![blocks_1545312855_5219338](images/blocks_1545312855_5219338.png)
 
 --- /hint ---
+
 --- /hints ---
 
-+ Now you can test your code. As you'll see, nothing bad happens if you hit a pipe. In the next step, you'll change that.
+--- /task ---
+
+--- task ---
+
+Test your code. As you see, at the moment nothing happens if you let Flappy hit a pipe.
+
+--- /task ---
+

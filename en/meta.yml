@@ -1,29 +1,22 @@
-title: Flappy Parrot
+title: Flappy parrot
 hero_image: images/banner.png
-description: Create a game in which you have to guide a parrot around scrolling pipes to score points
-original_url: https://codeclubprojects.org/en-GB/scratch/flappy-parrot
-theme: green # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+description: Create a game in which you guide a parrot past moving obstacles
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 2, design-1, programming-2, phys-comp-0, manufacture-0, community-0
-duration: 2
-interests: games, animals
-technology: scratch
-technologies: scratch
-hardware: ''
-software: scratch
-site_areas: projects
-version: 4
-last_tested: 2017-01-01
+version: 4.1
+last_tested: 2018-10-90
 steps: 
 - title: Introduction
-- title: What you will need
 - title: Add the pipes
+- title: "Challenge: make better pipes"
+  challenge: true
 - title: Make the pipes move
 - title: Make Flappy fall
 - title: Make Flappy fly
-- title: Detect collision with the pipes
-- title: Add scoring
+- title: Detect collisions
+- title: Add a score
 - title: 'Challenge: adjust the difficulty'
+  challenge: true
 - title: 'Challenge: add a high score'
+  challenge: true
+- title: What next?

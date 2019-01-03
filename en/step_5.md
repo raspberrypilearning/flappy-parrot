@@ -1,40 +1,64 @@
 ## Make Flappy fall
 
-Now you can add a sprite called Flappy. If you don't press any keys, then Flappy should just fall down the screen.
+Now add a sprite called Flappy and create code it so Flappy falls down the Stage. In the next step, you will add the code to make Flappy fly when you press a key.
 
-+ Add a sprite with two costumes, for 'wings up' and 'wings down'. The parrot sprite is a good choice. Name your sprite 'Flappy'.
+--- no-print ---
 
-    ![screenshot](images/flappy-parrot.png)
+![flappy falling animation](images/flappy-falling.gif)
 
-+ Flappy needs to be smaller — reducing the sprite's size to about 25% should do it. You can either use the **Shrink** tool or a `set size to ( )` block.  
+--- /no-print ---
 
-+ When the game starts, Flappy should be just to the left of the centre of the screen, at coordinates `-50, 0`. Code Flappy to go to the starting position at the start of the game.
+--- task ---
 
-[[[generic-scratch-set-coordinates]]]
+Add a new sprite that has two costumes, for 'wings up' and 'wings down', and name it `Flappy`.
 
-+ Now you need to make Flappy keep falling down the stage.
+The parrot sprite is a good choice.
 
---- hints ---
---- hint ---
-The code you have already should look like this:
+![parrot sprite](images/flappy-sprite.png)
 
-![screenshot](images/flappy-setup-code.png)
+--- /task ---
 
-You need to add code to the end of this script to make Flappy fall `forever`.
+Flappy needs to be smaller.
 
---- /hint ---
---- hint ---
-Try using these blocks:
+--- task ---
 
-![screenshot](images/flappy-fall-blocks.png)
+Add code to `set Flappy's size to 25%`{:class="block3looks"} `when the green flag is clicked`{:class="block3events"}.
 
-Set up a loop to change Flappy's `y` position by `-3` each round.
----/hint ---
---- hint ---
-Your code should look like this:
-![screenshot](images/flappy-fall-code.png)
+![parrot sprite](images/flappy-sprite.png)
 
----/hint ---
---- /hints ---
+![blocks_1545312850_0441422](images/blocks_1545312850_0441422.png)
 
-+ Test your code to make sure Flappy starts in the middle of the screen and falls to the bottom. When you drag Flappy to the top of the screen, the sprite should fall again.
+--- /task ---
+
+
+When the game starts, Flappy needs to be just left of the centre of the Stage, at coordinates `-50, 0`. 
+
+![flappy shown at the start position](images/flappy-starting-position.png)
+
+--- task ---
+
+Add code to make Flappy `go to the x and y`{:class="block3motion"} starting position of `x: -50`{:class="block3motion"} and `y: 0`{:class="block3motion"}.
+
+![parrot sprite](images/flappy-sprite.png)
+
+![blocks_1545312851_1383114](images/blocks_1545312851_1383114.png)
+
+[[[generic-scratch3-set-coordinates]]]
+
+--- /task ---
+
+--- task ---
+
+Now make Flappy keep falling down the Stage by `forever`{:class="block3control"} `changing the sprite's y position by -3`{:class="block3motion"}.
+
+![parrot sprite](images/flappy-sprite.png)
+
+![blocks_1545312852_2513459](images/blocks_1545312852_2513459.png)
+
+--- /task ---
+
+--- task ---
+
+Test your code to make sure Flappy starts in the middle of the screen and falls to the bottom. When you drag Flappy to the top of the Stage, the sprite should fall again.
+
+--- /task ---

@@ -1,56 +1,64 @@
-## Detect collision with the pipes
+## Detect collisions
 
-To make the game a challenge, the player needs to guide Flappy through the gaps without touching the pipes or the edges of the screen. To set this up, we'll add some blocks to detect when Flappy hits something. This is called __collision detection__.
+To make the game a challenge, the player needs to guide Flappy through the gaps without letting the parrot touch the pipes or the edges of the Stage. You need to add some blocks to detect when Flappy hits something. 
 
-+ Import a sound from the library that will play when Flappy collides with something. The 'screech' sound is a good choice.
+This is called __collision detection__.
 
-[[[generic-scratch-sound-from-library]]]
+--- task ---
 
-+ You're going to use a `wait until`{:class="blockcontrol"} block to check for whether Flappy is touching the pipes.
+Import a sound from the library that you want to play when Flappy collides with something. The 'screech' sound is a good choice.
 
-    Use a new `on green flag clicked`{:class="blockcontrol"} block:
+[[[generic-scratch3-sound-from-library]]]
 
-    ![screenshot](images/flappy-wait-until.png)
+--- /task ---
 
-    Any code you place after a `wait until`{:class="blockcontrol"} block will only run after the condition is met.
+A `wait until`{:class="block3control"} block is necessart to check whether Flappy is `touching the pipes`{:class="block3sensing"} `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}.
 
-+ Can you add to the code so Flappy screeches if she touches a pipe **or** the edge of the stage.  
+--- task ---
 
---- hints ---
---- hint ---
-You need to fill in the condition in the `wait until`{:class="blockcontrol"} block to check for Flappy `touching` the `edge` of the screen `or` `touching` the `Pipes` sprite.  
+Add a new `when green flag clicked`{:class="block3control"} block to the 'Flappy' sprite, and also add the following code:
 
-![screenshot](images/flappy-wait-until.png)
+![parrot sprite](images/flappy-sprite.png)
 
-AYou'll need to add code to `play` the 'screech' sound after the `wait until`{:class="blockcontrol"} block.
---- /hint ---
---- hint ---
-Try using these blocks:
+![blocks_1545312856_6552856](images/blocks_1545312856_6552856.png)
 
-![screenshot](images/flappy-collision-blocks.png)
+--- /task ---
 
-You might need to use one of these blocks more than once.
---- /hint ---
---- hint ---
-Your code should look like this:
+--- task ---
 
-![screenshot](images/flappy-collision-code.png)
+Test your code. If Flappy touches a pipe, the 'screech' sound should play.
 
---- /hint ---
---- /hints ---
+--- /task ---
 
-+ Test your code. You might notice that you only hear the screech the first time you have a collision. That's okay, because the game ends if you have a collision.
+Next, update the code so that the game stops when Flappy hits a pipe.
 
-+ Add the highlighted code to stop the game after a collision is detected:
+--- task ---
 
-    ![screenshot](images/flappy-game-over.png)
+Add the following code to stop the game after a collision is detected:
 
-    The `stop`{:class="blockcontrol"} block stops other Flappy scripts that are running. Flappy won't fall after a collision.
+![parrot sprite](images/flappy-sprite.png)
 
-    The `broadcast`{:class="blockevents"} block tells other sprites that the game is over.
+![blocks_1545312857_7440588](images/blocks_1545312857_7440588.png)
 
-+ Add the following code to the `Pipes` sprite so that the pipes stop when a `Game over` message is received.
+The `broadcast`{:class="block3events"} block tells other sprites that the game is over.
 
-    ![screenshot](images/flappy-stop-code.png)
+The `stop`{:class="block3control"} block stops other Flappy scripts that are running so that Flappy stops falling after a collision.
 
-+ Now test your game and see how long you can last!
+--- /task ---
+
+--- task ---
+
+Finally, add the following code to the `Pipes` sprite so that pipes `stop`{:class="block3control"} appearing `when the sprite receives Game Over`{:class="block3events"}.
+
+![pipes sprite](images/pipes-sprite.png)
+
+![blocks_1545312858_8772583](images/blocks_1545312858_8772583.png)
+
+--- /task ---
+
+--- task ---
+
+Test your game and see how long you can play before it's 'Game over'!
+
+--- /task ---
+
