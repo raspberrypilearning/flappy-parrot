@@ -69,6 +69,6 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 --- /no-print ---
 
-You can [find the solution to this project here](https://rpf.io/p/en/flappy-parrot-get).
+You can find the [completed project here](https://rpf.io/p/en/flappy-parrot-get).
 
 --- /collapse ---
