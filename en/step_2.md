@@ -41,6 +41,7 @@ You can't draw a sprite as big as the pipes need to be, but you can increase the
 ![pipes sprite](images/pipes-sprite.png)
 
 Add code to make the sprite bigger.
+
 ```blocks3
 when green flag clicked
 set size to (200) %
