@@ -1,30 +1,30 @@
-## Make Flappy fall
+## मिट्ठू तोते को गिराएँ
 
-Now add a sprite called Flappy and create code it so Flappy falls down the Stage. In the next step, you will add the code to make Flappy fly when you press a key.
+अब Flappy (मिट्ठू तोता) नामक स्प्राइट जोड़ें और कोड बनाएँ ताकि Flappy स्टेज से नीचे गिर जाए। अगले चरण में, आप कोड जोड़ेंगे ताकि जब आप कोई कुंजी दबाएँ तो Flappy (तोता) उड़ने लग जाए।
 
 \--- no-print \---
 
-![flappy falling animation](images/flappy-falling.gif)
+![flappy (तोता) गिरने का एनिमेशन](images/flappy-falling.gif)
 
 \--- /no-print \---
 
 \--- task \---
 
-Add a new sprite that has two costumes, for 'wings up' and 'wings down', and name it `Flappy`.
+एक नया स्प्राइट जोड़ें जिसमें दो परिधान हों, 'wings up' (पंख ऊपर) और 'wings down' (पंख नीचे) के लिए, और इसका नाम `Flappy` रखें।
 
-The parrot sprite is a good choice.
+तोता स्प्राइट एक अच्छा विकल्प है।
 
-![parrot sprite](images/flappy-sprite.png)
+![तोता स्प्राइट](images/flappy-sprite.png)
 
 \--- /task \---
 
-Flappy needs to be smaller.
+Flappy (तोता) छोटा होना चाहिए।
 
 \--- task \---
 
-Add code to `set Flappy's size to 25%`{:class="block3looks"} `when the green flag is clicked`{:class="block3events"}.
+`set Flappy's size to 25%`{:class="block3looks"} में कोड जोड़ें `when the green flag is clicked`{:class="block3events"}।
 
-![parrot sprite](images/flappy-sprite.png)
+![तोता स्प्राइट](images/flappy-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -33,15 +33,15 @@ set size to (25) %
 
 \--- /task \---
 
-When the game starts, Flappy needs to be just left of the centre of the Stage, at coordinates `-50, 0`.
+जब गेम शुरू होता है, तो Flappy (तोता) स्टेज के मध्य में थोड़ा बाईं ओर, निर्देशांक `-50, 0` पर होना चाहिए।
 
-![flappy shown at the start position](images/flappy-starting-position.png)
+![flappy (तोता) आरंभ की स्थिति में दिखाया गया](images/flappy-starting-position.png)
 
 \--- task \---
 
-Add code to make Flappy `go to the x and y`{:class="block3motion"} starting position of `x: -50`{:class="block3motion"} and `y: 0`{:class="block3motion"}.
+Flappy (तोता) `go to the x and y`{:class="block3motion"} को `x: -50`{:class="block3motion"} और `y: 0`{:class="block3motion"} की प्रारंभिक स्थिति में जाने के लिए कोड जोड़ें।
 
-![parrot sprite](images/flappy-sprite.png)
+![तोता स्प्राइट](images/flappy-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -55,9 +55,9 @@ set size to (25) %
 
 \--- task \---
 
-Now make Flappy keep falling down the Stage by `forever`{:class="block3control"} `changing the sprite's y position by -3`{:class="block3motion"}.
+अब Flappy (तोता) को `forever`{:class="block3control"} `changing the sprite's y position by -3`{:class="block3motion"} से स्टेज से गिरता रहने दें।
 
-![parrot sprite](images/flappy-sprite.png)
+![तोता स्प्राइट](images/flappy-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -72,6 +72,6 @@ end
 
 \--- task \---
 
-Test your code to make sure Flappy starts in the middle of the screen and falls to the bottom. When you drag Flappy to the top of the Stage, the sprite should fall again.
+यह सुनिश्चित करने के लिए अपने कोड का परीक्षण करें कि Flappy (तोता) स्क्रीन के मध्य में शुरू होता है और नीचे तक गिरता है। जब आप Flappy (तोता) को खींच कर स्टेज के शीर्ष पर ले जाते हैं, तो स्प्राइट को फिर से गिरना चाहिए।
 
 \--- /task \---
