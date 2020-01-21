@@ -1,14 +1,14 @@
-## Make the pipes move
+## पाइपों को चलाएँ
 
-Next you're going to make the pipes move across the screen to create an obstacle course.
+इसके बाद आप एक बाधा कोर्स बनाने के लिए पाइपों को स्क्रीन पर चलाने जा रहे हैं।
 
-![pipes moving across the screen](images/flappy-clones-test.png)
+![स्क्रीन पर चलने वाले पाइप](images/flappy-clones-test.png)
 
 \--- task \---
 
-First make the pipes appear by adding code to the Pipes sprite so that, `when the green flag is clicked`{:class="block3events"}, the sprite `forever`{:class="block3control"} `creates a clone of itself`{:class="block3control"} every two seconds.
+पहले आप पाइप स्प्राइट में कोड जोड़कर पाइपों को दृश्यमान बनाएँ ताकि, `when the green flag is clicked`{:class="block3events"}, स्प्राइट `forever`{:class="block3control"} का उपयोग करके हर दो सेकंड पर `creates a clone of itself`{:class="block3control"} बनाए।
 
-![pipes sprite](images/pipes-sprite.png)
+![पाइप्स स्प्राइट](images/pipes-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -20,15 +20,15 @@ forever
 end
 ```
 
-**Tip:** clones are just copies of a sprite, and they are really useful for creating games.
+**सुझाव:** क्लोन किसी स्प्राइट की प्रतियाँ मात्र हैं, और वे गेम बनाने के लिए वास्तव में उपयोगी हैं।
 
 \--- /task \---
 
 \--- task \---
 
-Next make the pipes move by adding code so that, `when a clone starts`{:class="block3control"}, the clone appears on the right side of the Stage and `glides`{:class="block3motion"} across to the left.
+इसे बाद कोड जोड़कर पाइपों को चलाएँ ताकि, `when a clone starts`{:class="block3control"}, क्लोन स्टेज की दाईं ओर दिखाई दे और `glides`{:class="block3motion"} बाईं ओर ग्लाइड करे।
 
-![pipes sprite](images/pipes-sprite.png)
+![पाइप्स स्प्राइट](images/pipes-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -38,21 +38,21 @@ glide (4) secs to x: (-240) y: (0)
 delete this clone
 ```
 
-**Tip:** you can stop the pipes scrolling by clicking the red **stop** button next to the green flag.
+**सुझाव:** आप हरे झंडे के आगे बने लाल **stop (स्टॉप)** बटन पर क्लिक करके पाइप को स्क्रॉल करने से रोक सकते हैं।
 
 \--- /task \---
 
-Now you should have lots of pipes, but their gaps are always in the same place.
+अब आपके पास बहुत सारे पाइप होने चाहिए, लेकिन उनके बीच खाली जगह हमेशा एक ही स्थान पर होगी।
 
-You can add some variety by using a `random`{:class="block3operators"} number for the Pipes sprite's `y position`{:class="block3motion"}.
+आप पाइप स्प्राइट की `y position`{:class="block3motion"} के लिए `random`{:class="block3operators"} संख्या का उपयोग करके इसमें कुछ विविधता जोड़ सकते हैं।
 
-![pipes at different heights](images/flappy-height-test.png)
+![विभिन्न ऊंचाइयों पर पाइप](images/flappy-height-test.png)
 
 \--- task \---
 
-Modify your sprite's code so that each sprite clone `picks a random number from -80 to 80`{:class="block3operators"} and `glides`{:class="block3motion"} to that `y position`{:class="block3motion"}:
+अपने स्प्राइट कोड को संशोधित करें ताकि प्रत्येक स्प्राइट क्लोन `picks a random number from -80 to 80`{:class="block3operators"} की संख्या और `y position`{:class="block3motion"} स्थिति में `glides`{:class="block3motion"} चलता है:
 
-![pipes sprite](images/pipes-sprite.png)
+![पाइप्स स्प्राइट](images/pipes-sprite.png)
 
 ```blocks3
 when I start as a clone
