@@ -1,0 +1,34 @@
+---
+title: Flappy parrot
+hero_image: images/banner.png
+description: Create a game in which you guide a parrot past moving obstacles
+listed: true
+copyedit: true
+version: 4.1
+last_tested: 2018-10-90
+steps:
+  - 
+    title: Увод
+  - 
+    title: Add the pipes
+  - 
+    title: "Challenge: make better pipes"
+    challenge: true
+  - 
+    title: Make the pipes move
+  - 
+    title: Make Flappy fall
+  - 
+    title: Make Flappy fly
+  - 
+    title: Detect collisions
+  - 
+    title: Додај резултат
+  - 
+    title: 'Challenge: adjust the difficulty'
+    challenge: true
+  - 
+    title: 'Challenge: add a high score'
+    challenge: true
+  - 
+    title: Шта је следеће?
