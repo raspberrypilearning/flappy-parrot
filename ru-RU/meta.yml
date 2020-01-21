@@ -1,0 +1,34 @@
+---
+title: Попугай Flappy
+hero_image: images/banner.png
+description: Создай игру, в которой ты управляешь попугаем, пролетающем мимо движущихся препятствий
+listed: true
+copyedit: true
+version: 4.1
+last_tested: 2018-10-90
+steps:
+  - 
+    title: Введение
+  - 
+    title: Добавление труб
+  - 
+    title: "Задача: сделать трубы лучше"
+    challenge: true
+  - 
+    title: Сделать двигающиеся трубы
+  - 
+    title: Сделать попугая Flappy падающим
+  - 
+    title: Сделать попугая Flappy летающим
+  - 
+    title: Обнаружение столкновений
+  - 
+    title: Добавить счёт
+  - 
+    title: 'Challenge: отрегулировать сложность'
+    challenge: true
+  - 
+    title: 'Challenge: добавить лучший результат'
+    challenge: true
+  - 
+    title: Что дальше?
