@@ -12,7 +12,7 @@
 
 \--- no-print \---
 
-Нажмите на зеленый флаг, чтобы начать игру. Press the <kbd>space</kbd> bar to make the parrot flap its wings, and try to get it to fly through the gaps in the pipes! You score one point for every pipe that you manage to get the parrot past.
+Нажми на зеленый флаг, чтобы начать игру. Нажми клавишу <kbd>пробел</kbd>, чтобы попугай взмахивал крыльями, и попытайся, чтобы он пролетел через щели в трубах! Ты получишь одно очко за каждую трубу, через которую тебе удастся провести попугая.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258349724/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,7 +23,7 @@
 
 \--- print-only \---
 
-You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and score one point for every pipe that you manage to get the parrot past.
+Ты нажмёшь клавишу <kbd>пробел</kbd>, чтобы попугай взмахивал крыльями, и наберёшь одно очко за каждую трубу, через которую тебе удастся пролететь.
 
 ![flappy parrot game being played](images/flappy-parrot-showcase.png)
 
