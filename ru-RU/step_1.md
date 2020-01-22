@@ -1,6 +1,6 @@
 \--- no-print \---
 
-Это версия проекта для **Скретч 3**. Есть также [версия для Скретч 2](https://projects.raspberrypi.org/en/projects/flappy-parrot-scratch2).
+Это версия проекта для **Scratch 3**. Есть также [версия для Scratch 2](https://projects.raspberrypi.org/en/projects/flappy-parrot-scratch2).
 
 \--- /без печати \---
 
@@ -12,7 +12,7 @@
 
 \--- no-print \---
 
-Click the green flag to start the game. Press the <kbd>space</kbd> bar to make the parrot flap its wings, and try to get it to fly through the gaps in the pipes! You score one point for every pipe that you manage to get the parrot past.
+Нажмите на зеленый флаг, чтобы начать игру. Press the <kbd>space</kbd> bar to make the parrot flap its wings, and try to get it to fly through the gaps in the pipes! You score one point for every pipe that you manage to get the parrot past.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258349724/?autostart=false" frameborder="0" scrolling="no"></iframe>
