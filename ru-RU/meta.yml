@@ -12,7 +12,7 @@ steps:
   - 
     title: Добавление труб
   - 
-    title: "Задача: сделать трубы лучше"
+    title: "Challenge: сделать трубы лучше"
     challenge: true
   - 
     title: Сделать двигающиеся трубы
