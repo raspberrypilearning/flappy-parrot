@@ -23,7 +23,7 @@
 
 \--- print-only \---
 
-Ты нажмёшь клавишу <kbd>пробел</kbd>, чтобы попугай взмахивал крыльями, и наберёшь одно очко за каждую трубу, через которую тебе удастся пролететь.
+Ты будешь нажимать на клавишу <kbd>пробел</kbd>, чтобы попугай взмахивал крыльями, и наберёшь одно очко за каждую трубу, через которую тебе удастся провести попугая.
 
 ![flappy parrot game being played](images/flappy-parrot-showcase.png)
 
@@ -31,7 +31,7 @@
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Что тебе понадобится
 
 ### Оборудование
 
@@ -45,7 +45,7 @@
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Чему ты научишься
 
 + Как создать спрайты в векторном режиме
 + Как использовать звуки 
@@ -56,14 +56,14 @@
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Дополнительные заметки для преподавателей
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/flappy-parrot/print){:target="_blank"}.
+Если вам нужно распечатать этот проект, пожалуйста, используйте [ версию для печати](https://projects.raspberrypi.org/en/projects/flappy-parrot/print) {:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](https://rpf.io/p/en/flappy-parrot-get).
+Вы можете найти [завершенный проект здесь](https://rpf.io/p/en/flappy-parrot-get).
 
 \--- /collapse \---
