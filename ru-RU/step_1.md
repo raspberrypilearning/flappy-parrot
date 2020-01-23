@@ -25,7 +25,7 @@
 
 Ты будешь нажимать на клавишу <kbd>пробел</kbd>, чтобы попугай взмахивал крыльями, и наберёшь одно очко за каждую трубу, через которую тебе удастся провести попугая.
 
-![flappy parrot game being played](images/flappy-parrot-showcase.png)
+![игра попугай Flappy, в которую можно поиграть](images/flappy-parrot-showcase.png)
 
 \--- /print-only \---
 
