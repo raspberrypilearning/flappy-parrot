@@ -1,24 +1,24 @@
-## टकरावों का पता लगाएँ
+## Detect collisions
 
-गेम को एक चुनौती बनाने के लिए, खिलाड़ी को तोते का मार्गदर्शन करने की आवश्यकता होती है ताकि वह पाइप या स्टेज के किनारों को छुए बिना खाली जगहों में से निकल सके। तोता जब किसी चीज़ से टकराता है तो उसका पता लगाने के लिए आपको कुछ ब्लॉक जोड़ने की ज़रूरत होती है।
+To make the game a challenge, the player needs to guide Flappy through the gaps without letting the parrot touch the pipes or the edges of the Stage. You need to add some blocks to detect when Flappy hits something.
 
-इसे **collision detection** (टकराव का पता लगाना) कहते हैं।
+This is called **collision detection**.
 
 \--- task \---
 
-लाइब्रेरी से कोई ध्वनि आयात करें जिसे आप तोते के किसी चीज़ से टकरा जाने पर बजाना चाहते हैं। 'चीख' की ध्वनि एक अच्छा विकल्प है।
+Import a sound from the library that you want to play when Flappy collides with something. The 'screech' sound is a good choice.
 
 [[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
-यह जाँच करने के लिए `wait until`{:class="block3control"} ब्लॉक आवश्यक है कि क्या तोता `touching the pipes`{:class="block3sensing"} `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"} को छू रहा है।
+A `wait until`{:class="block3control"} block is necessart to check whether Flappy is `touching the pipes`{:class="block3sensing"} `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}.
 
 \--- task \---
 
-'तोता' स्प्राइट में एक नया `when green flag clicked`{:class="block3control"} ब्लॉक जोड़ें, और निम्नलिखित कोड भी जोड़ें:
+Add a new `when green flag clicked`{:class="block3control"} block to the 'Flappy' sprite, and also add the following code:
 
-![तोता स्प्राइट](images/flappy-sprite.png)
+![parrot sprite](images/flappy-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -30,17 +30,17 @@ play sound (screech v)
 
 \--- task \---
 
-अपने कोड का परीक्षण करें। यदि तोता किसी पाइप को छूता है, तो 'चीख' की ध्वनि बजनी चाहिए।
+Test your code. If Flappy touches a pipe, the 'screech' sound should play.
 
 \--- /task \---
 
-इसके बाद, कोड को अपडेट करें ताकि जब तोता किसी पाइप से टकराए तो गेम रुक जाए।
+Next, update the code so that the game stops when Flappy hits a pipe.
 
 \--- task \---
 
-टकराने का पता चलने के बाद गेम को रोकने के लिए निम्नलिखित कोड जोड़ें:
+Add the following code to stop the game after a collision is detected:
 
-![तोता स्प्राइट](images/flappy-sprite.png)
+![parrot sprite](images/flappy-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -51,17 +51,17 @@ play sound (screech v)
 + stop [other scripts in sprite v]
 ```
 
-`broadcast`{:class="block3events"} ब्लॉक दूसरे स्प्राइट्स को बताता है कि गेम समाप्त हो गया है।
+The `broadcast`{:class="block3events"} block tells other sprites that the game is over.
 
-`stop`{:class="block3control"} ब्लॉक चल रही दूसरी तोता स्क्रिप्ट को रोकता है ताकि टकराने के बाद तोता गिरना बंद हो जाए।
+The `stop`{:class="block3control"} block stops other Flappy scripts that are running so that Flappy stops falling after a collision.
 
 \--- /task \---
 
 \--- task \---
 
-अंत में, `Pipes` स्प्राइट में निम्नलिखित कोड जोड़ें ताकि `when the sprite receives Game Over`{:class="block3events"} गेम समाप्त होने की सूचना मिलने पर पाइप `stop`{:class="block3control"} दिखने बंद हो जाएँ।
+Finally, add the following code to the `Pipes` sprite so that pipes `stop`{:class="block3control"} appearing `when the sprite receives Game Over`{:class="block3events"}.
 
-![पाइप्स स्प्राइट](images/pipes-sprite.png)
+![pipes sprite](images/pipes-sprite.png)
 
 ```blocks3
 when I receive [Game Over v]
@@ -72,6 +72,6 @@ stop [other scripts in sprite v]
 
 \--- task \---
 
-अपने गेम का परीक्षण करें और देखें कि आप 'गेम समाप्त' होने से पहले कितनी देर तक खेल सकते हैं!
+Test your game and see how long you can play before it's 'Game over'!
 
 \--- /task \---
