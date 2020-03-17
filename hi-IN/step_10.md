@@ -1,8 +1,8 @@
-## चुनौती: एक उच्च स्कोर जोड़ें
+## Challenge: add a high score
 
 \--- challenge \---
 
-क्या आप खेल में एक उच्च स्कोर जोड़ सकते हैं ताकि वर्तमान राउंड के लिए स्कोर का ट्रैक रखने के अलावा, यह आपके द्वारा अब तक के उच्चतम स्कोर का ट्रैक रखता है?
+Can you add a high score to the game so that, in addition to keeping track of score for the current round, it keeps track of the highest score you've ever reached?
 
 [[[generic-scratch3-high-score]]]
 
