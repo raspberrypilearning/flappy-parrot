@@ -1,5 +1,5 @@
-## Challenge: adjust the difficulty
+## Uitdaging: pas de moeilijkheidsgraad aan
 
-Is the game too hard or too easy for you? How many ways can you find to change the difficulty?
+Is het spel te moeilijk of te gemakkelijk voor jou? Hoeveel manieren kun je vinden om de moeilijkheidsgraad te veranderen?
 
-Adjust the game until you are happy with its difficulty!
+Pas het spel aan totdat je tevreden bent met de moeilijkheid!
