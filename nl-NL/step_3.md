@@ -1,11 +1,11 @@
-## Challenge: make better pipes
+## Uitdaging: betere pijpen maken
 
-Can you make your pipes look better?
+Kun jij je pijpen er beter uit laten zien?
 
-+ Shade your pipes with a left-to-right gradient.
++ Verfraai je pijpen met een geleidelijke kleurovergang van links naar rechts.
 
-![screenshot](images/flappy-pipes-filled.png)
+![schermafbeelding](images/flappy-pipes-filled.png)
 
-+ Add extra rectangles to the ends of the pipes:
++ Voeg extra rechthoeken toe aan de uiteinden van de pijpen:
 
-![screenshot](images/flappy-pipes-ends.png)
+![schermafbeelding](images/flappy-pipes-ends.png)
