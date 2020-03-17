@@ -43,7 +43,7 @@ Click on the **Costumes** tab, and name Flappy's costumes 'wings up' and 'wings 
 
 Can you make Flappy's costume change to `wings down` when you press <kbd>space</kbd>, and then change it back to `wings up` halfway through the upward movement?
 
-\--- ヒント \---
+\--- hints \---
 
 \--- hint \---
 
@@ -73,11 +73,11 @@ switch costume to (wings down v)
 when [space v] key pressed
 ```
 
-\--- /ヒント \---
+\--- /hint \---
 
 \--- hint \---
 
-コードは以下のようになります：
+Your code should look like this:
 
 ![parrot sprite](images/flappy-sprite.png)
 
@@ -93,9 +93,9 @@ repeat (5)
 end
 ```
 
-\--- /ヒント \---
+\--- /hint \---
 
-\--- /ヒント \---
+\--- /hints \---
 
 \--- /task \---
 
