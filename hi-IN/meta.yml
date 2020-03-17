@@ -1,34 +1,34 @@
 ---
-title: मिट्ठू तोता
+title: Flappy parrot
 hero_image: images/banner.png
-description: एक ऐसा गेम बनाएँ जिसमें आप एक तोते का चलती बाधाओं से निकलने के लिए मार्गदर्शन करें
+description: Create a game in which you guide a parrot past moving obstacles
 listed: true
 copyedit: true
 version: 4.1
 last_tested: 2018-10-90
 steps:
   - 
-    title: भूमिका
+    title: Introduction
   - 
-    title: पाइप जोड़ें
+    title: Add the pipes
   - 
-    title: "चुनौती: बेहतर पाइप बनाएँ"
+    title: "Challenge: make better pipes"
     challenge: true
   - 
-    title: पाइपों को चलाएँ
+    title: Make the pipes move
   - 
-    title: मिट्ठू तोता गिरने दें
+    title: Make Flappy fall
   - 
-    title: तोते को उड़ाएँ
+    title: Make Flappy fly
   - 
-    title: टकरावों का पता लगाएँ
+    title: Detect collisions
   - 
-    title: स्कोर जोड़ें
+    title: Add a score
   - 
-    title: 'चुनौती: कठिनाई को समायोजित करें'
+    title: 'Challenge: adjust the difficulty'
     challenge: true
   - 
-    title: 'चुनौती: एक उच्च स्कोर जोड़ें'
+    title: 'Challenge: add a high score'
     challenge: true
   - 
-    title: 'चुनौती: निर्देश स्क्रीन'
+    title: What next?
