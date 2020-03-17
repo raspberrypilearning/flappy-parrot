@@ -8,4 +8,4 @@ Can you make your pipes look better?
 
 + Add extra rectangles to the ends of the pipes:
 
-![스크린샷](images/flappy-pipes-ends.png)
+![screenshot](images/flappy-pipes-ends.png)
