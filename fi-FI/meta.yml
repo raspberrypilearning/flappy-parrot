@@ -8,7 +8,7 @@ version: 4.1
 last_tested: 2018-10-90
 steps:
   - 
-    title: Johdanto
+    title: Introduction
   - 
     title: Add the pipes
   - 
