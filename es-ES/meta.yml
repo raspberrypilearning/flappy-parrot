@@ -8,7 +8,7 @@ version: 4.1
 last_tested: 2018-10-90
 steps:
   - 
-    title: Introducción
+    title: Introduction
   - 
     title: Add the pipes
   - 
@@ -23,7 +23,7 @@ steps:
   - 
     title: Detect collisions
   - 
-    title: 'Desafío: más objetos'
+    title: Add a score
   - 
     title: 'Challenge: adjust the difficulty'
     challenge: true
@@ -31,4 +31,4 @@ steps:
     title: 'Challenge: add a high score'
     challenge: true
   - 
-    title: 'Desafío: Pantalla de instrucciones'
+    title: What next?
