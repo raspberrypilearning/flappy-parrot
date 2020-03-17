@@ -2,13 +2,13 @@
 
 This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flappy-parrot-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## Introducció
+## Introduction
 
 Create a game in which you have to guide a parrot past scrolling pipes to score points.
 
-### Què faràs
+### What you will make
 
 \--- no-print \---
 
@@ -19,7 +19,7 @@ Click the green flag to start the game. Press the <kbd>space</kbd> bar to make t
   <img src="images/flappy-parrot-showcase.png">
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
 \--- print-only \---
 
@@ -33,15 +33,15 @@ You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and s
 
 ## title: What you will need
 
-### Maquinari
+### Hardware
 
-+ Un ordinador capaç d'executar Scratch 3
++ A computer capable of running Scratch 3
 
-### Programari
+### Software
 
-+ Scratch 3 ( [en línia](https://rpf.io/scratchon) o [fora de línia](https://rpf.io/scratchoff))
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-\--- / collapse \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
