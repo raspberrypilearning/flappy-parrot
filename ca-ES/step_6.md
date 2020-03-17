@@ -6,7 +6,7 @@ Now you will make Flappy flap upwards when you press the <kbd>space</kbd> bar. W
 
 ![flappy flying upwards when space bar is pressed](images/flappy-flying.gif)
 
-\--- / no-print \---
+\--- /no-print \---
 
 Make Flappy fly upwards when you tap the <kbd>space</kbd> bar.
 
@@ -43,7 +43,7 @@ Click on the **Costumes** tab, and name Flappy's costumes 'wings up' and 'wings 
 
 Can you make Flappy's costume change to `wings down` when you press <kbd>space</kbd>, and then change it back to `wings up` halfway through the upward movement?
 
-\--- hint \---
+\--- hints \---
 
 \--- hint \---
 
@@ -95,12 +95,12 @@ end
 
 \--- /hint \---
 
-\--- /hint \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Prova el codi nou. As you see, at the moment nothing happens if you let Flappy hit a pipe.
+Test your code. As you see, at the moment nothing happens if you let Flappy hit a pipe.
 
 \--- /task \---
