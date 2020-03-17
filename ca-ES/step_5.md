@@ -6,7 +6,7 @@ Now add a sprite called Flappy and create code it so Flappy falls down the Stage
 
 ![flappy falling animation](images/flappy-falling.gif)
 
-\--- / no-print \---
+\--- /no-print \---
 
 \--- task \---
 
