@@ -1,14 +1,14 @@
 \--- no-print \---
 
-यह इस प्रोजेक्ट का **Scratch 3** संस्करण है। [इस प्रोजेक्ट का Scratch 2 संस्करण](https://projects.raspberrypi.org/en/projects/flappy-parrot-scratch2) भी है।
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flappy-parrot-scratch2).
 
 \--- /no-print \---
 
-## परिचय
+## Introduction
 
-एक गेम बनाएँ जिसमें अंक प्राप्त करने के लिए आपको स्क्रॉलिंग (घुमावदार) पाइपों से निकलने में तोते का मार्गदर्शन करना होगा।
+Create a game in which you have to guide a parrot past scrolling pipes to score points.
 
-### आप क्या बनाएँगे
+### What you will make
 
 \--- no-print \---
 
@@ -33,13 +33,13 @@ You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and s
 
 ## title: What you will need
 
-### हार्डवेयर
+### Hardware
 
-+ Scratch 3 चलाने में सक्षम कंप्यूटर
++ A computer capable of running Scratch 3
 
-### सॉफ्टवेयर
+### Software
 
-+ Scratch 3 ([ऑनलाइन](https://rpf.io/scratchon) या [ऑफ़लाइन](https://rpf.io/scratchoff))
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 \--- /collapse \---
 
@@ -47,10 +47,10 @@ You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and s
 
 ## title: What you will learn
 
-+ वेक्टर मोड का उपयोग करके स्प्राइट कैसे बनाएँ
-+ ध्वनियों का उपयोग कैसे करें 
-+ टकरावों का पता कैसे लगाएँ
-+ कीबोर्ड का उपयोग करके स्प्राइट को कैसे नियंत्रित करें 
++ How to create sprites using Vector mode
++ How to use sounds 
++ How to detect collisions
++ How to control a sprite using the keyboard 
 
 \--- /collapse \---
 
