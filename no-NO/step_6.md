@@ -45,7 +45,7 @@ Can you make Flappy's costume change to `wings down` when you press <kbd>space</
 
 \--- hints \---
 
-DO NOT TRANSLATE
+\--- hint \---
 
 You need to split the upward motion in half so that you can use two `repeat`{:class="block3control"} blocks to change Flappy's costume at the beginning and in the middle of the movement.
 
@@ -75,7 +75,7 @@ when [space v] key pressed
 
 \--- /hint \---
 
-DO NOT TRANSLATE
+\--- hint \---
 
 Your code should look like this:
 
