@@ -1,4 +1,4 @@
-## 도전 과제: 더 많은 목표물
+## Add a score
 
 The player should score a point every time Flappy makes it through a gap between pipes.
 
@@ -50,7 +50,7 @@ Add more code so that, when Flappy's `x` position is greater than the pipe clone
 
 You could use the 'pop' sound if you want, or add a sound from the library, for example 'bird'.
 
-\--- 힌트 \---
+\--- hints \---
 
 \--- hint \---
 
@@ -65,7 +65,7 @@ when I start as a clone
 
 Then `change score by 1`{:class="block3variables"} and `play a sound`{:class="block3sound"}.
 
-\--- /귀뜸말 \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -88,7 +88,7 @@ x position
 () > ()
 ```
 
-\--- /귀뜸말 \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -103,9 +103,9 @@ change [score v] by (1)
 play sound (pop v)
 ```
 
-\--- /귀뜸말 \---
+\--- /hint \---
 
-\--- / 귀뜸말 \---
+\--- /hints \---
 
 \--- /task \---
 
