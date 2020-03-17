@@ -2,11 +2,11 @@
 
 Now add a sprite called Flappy and create code it so Flappy falls down the Stage. In the next step, you will add the code to make Flappy fly when you press a key.
 
-\--- không in \---
+\--- no-print \---
 
 ![flappy falling animation](images/flappy-falling.gif)
 
-\--- / không in \---
+\--- /no-print \---
 
 \--- task \---
 
@@ -51,7 +51,7 @@ set size to (25) %
 
 [[[generic-scratch3-set-coordinates]]]
 
-\--- /bài tập \---
+\--- /task \---
 
 \--- task \---
 
