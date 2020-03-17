@@ -1,4 +1,4 @@
-## Herausforderung: mehr Objekte
+## Add a score
 
 The player should score a point every time Flappy makes it through a gap between pipes.
 
@@ -105,7 +105,7 @@ play sound (pop v)
 
 \--- /hint \---
 
-\---/hints\---
+\--- /hints \---
 
 \--- /task \---
 
