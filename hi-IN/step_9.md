@@ -1,5 +1,5 @@
-## चुनौती: कठिनाई को समायोजित करें
+## Challenge: adjust the difficulty
 
-क्या गेम आपके लिए बहुत कठिन या बहुत आसान है? कठिनाई को बदलने के लिए आप कितने तरीके खोज सकते हैं?
+Is the game too hard or too easy for you? How many ways can you find to change the difficulty?
 
-गेम को तब तक समायोजित करें जब तक आप इसकी कठिनाई से खुश न हों!
+Adjust the game until you are happy with its difficulty!
