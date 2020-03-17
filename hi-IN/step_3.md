@@ -1,11 +1,11 @@
-## चुनौती: बेहतर पाइप बनाएँ
+## Challenge: make better pipes
 
-क्या आप अपने पाइप को बेहतर बना सकते हैं?
+Can you make your pipes look better?
 
-+ अपने पाइपों को बाएँ से दाएँ ग्रेडिएंट में शेड करें।
++ Shade your pipes with a left-to-right gradient.
 
 ![screenshot](images/flappy-pipes-filled.png)
 
-+ पाइपों के सिरों में अतिरिक्त आयताकार जोड़ें:
++ Add extra rectangles to the ends of the pipes:
 
-![स्क्रीनशॉट](images/flappy-pipes-ends.png)
+![screenshot](images/flappy-pipes-ends.png)
