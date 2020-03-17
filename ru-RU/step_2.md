@@ -1,10 +1,10 @@
-## Добавление труб
+## Add the pipes
 
-Для начала создай трубы.
+First, create the pipes.
 
 \--- task \---
 
-Открой новый пустой проект Scratch.
+Open a new empty Scratch project.
 
 [[[generic-scratch3-new-project]]]
 
@@ -12,9 +12,9 @@
 
 \--- task \---
 
-Добавь фон с пейзажем на открытом воздухе. «Голубое небо (Blue Sky)» - хороший выбор.
+Add a backdrop with an outdoor landscape. 'Blue Sky' is a good choice.
 
-![скриншот](images/flappy-stage.png)
+![screenshot](images/flappy-stage.png)
 
 [[[generic-scratch3-backdrop-from-library]]]
 
@@ -22,63 +22,63 @@
 
 \--- task \---
 
-Создай новый спрайт и назови его "Трубы".
+Create a new sprite and name it 'Pipes'.
 
 [[[generic-scratch3-draw-sprite]]]
 
 \--- /task \---
 
-Спрайт "Трубы" должен представлять собой пару труб с щелью посередине. Перемещая спрайт вверх или вниз, ты можешь поместить щель в другое место.
+The 'Pipes' sprite should be a pair of pipes with a gap in the middle. By moving the sprite up or down, you can put the gap in a different place.
 
-На этом рисунке показан пример того, как трубы могут быть расположены. Части спрайта за пределами Сцены обычно скрыты, ты видишь их только тогда, когда перетаскиваешь спрайт:
+This picture shows an example of how the pipes could be positioned. The parts of the sprite outside the Stage are normally hidden, you only see then when you drag the sprite:
 
-![скриншот](images/flappy-pipes-position.png)
+![screenshot](images/flappy-pipes-position.png)
 
-Ты не можешь нарисовать спрайт таким же большим, какими должны быть трубы, но ты можешь увеличить размер спрайта на Сцене.
+You can't draw a sprite as big as the pipes need to be, but you can increase the size at which the sprite shows on the Stage.
 
 \--- task \---
 
-![спрайт труб](images/pipes-sprite.png)
+![pipes sprite](images/pipes-sprite.png)
 
-Добавь код, чтобы увеличить спрайт.
+Add code to make the sprite bigger.
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-установить размер (200) %
+when green flag clicked
+set size to (200) %
 ```
 
-Это облегчит понимание того, какими большими должны быть трубы.
+This makes it's easier to see how big the pipes should be.
 
 \--- /task \---
 
 \--- task \---
 
-Нарисуй прямоугольник для верхней трубы, как показано здесь:
+Draw a rectangle for the top pipe as shown here:
 
-![прямоугольник для трубы](images/flappy-pipes-rectangle.png)
-
-\--- /task \---
-
-\--- task \---
-
-Закрась трубу цветом, который тебе нравится.
-
-![закрасить прямоугольник](images/flappy-pipes-fill-rectangle.png)
+![rectangle for the pipe](images/flappy-pipes-rectangle.png)
 
 \--- /task \---
 
 \--- task \---
 
-Создай дубликат трубы, выделив её и нажав **Копировать** и **Вставить**.
+Fill the pipe with a colour you like.
 
-![скопировать и вставить трубу](images/flappy-pipes-rectangle.png)
+![fill the rectangle](images/flappy-pipes-fill-rectangle.png)
 
 \--- /task \---
 
 \--- task \---
 
-Перетащи копию трубы в нижнюю часть экрана, чтобы копия находилась на одной линии с другой трубой. Между двумя трубами должна быть щель.
+Create a duplicate of the pipe by selecting it and then clicking on **Copy** and **Paste**.
 
-![скриншот](images/flappy-pipes-rectangle.png)
+![copy and paste pipe](images/flappy-pipes-duplicate1-annotated.png)
+
+\--- /task \---
+
+\--- task \---
+
+Drag the copy of the pipe to the bottom of the screen so that the copy is in line with the other pipe. There needs to be a gap between the two pipes.
+
+![screenshot](images/flappy-pipes-duplicate2.png)
 
 \--- /task \---
