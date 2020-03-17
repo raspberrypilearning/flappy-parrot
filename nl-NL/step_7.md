@@ -1,77 +1,77 @@
-## Detect collisions
+## Neem botsingen waar
 
-To make the game a challenge, the player needs to guide Flappy through the gaps without letting the parrot touch the pipes or the edges of the Stage. You need to add some blocks to detect when Flappy hits something.
+Om van het spel een uitdaging te maken, moet je Flappy door de gaten leiden zonder dat de papegaai de pijpen of de randen van het speelveld raakt. Je moet enkele blokken toevoegen om waar te nemen wanneer Flappy iets raakt.
 
-This is called **collision detection**.
+Dit wordt **botsing waarneming** genoemd.
 
 \--- task \---
 
-Import a sound from the library that you want to play when Flappy collides with something. The 'screech' sound is a good choice.
+Importeer een geluid uit de bibliotheek dat je wilt horen wanneer Flappy ergens tegenaan botst. Het 'screech' geluid is een goede keuze.
 
 [[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
-A `wait until`{:class="block3control"} block is necessart to check whether Flappy is `touching the pipes`{:class="block3sensing"} `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}.
+Een `wacht tot`{:class="block3control"} blok is noodzakelijk om te controleren of Flappy `de pijpen raakt`{:class="block3sensing"} `of`{:class="block3operators"} `de rand raakt`{:class="block3sensing"}.
 
 \--- task \---
 
-Add a new `when green flag clicked`{:class="block3control"} block to the 'Flappy' sprite, and also add the following code:
+Voeg een nieuw `wanneer op de groene vlag wordt geklikt`{:class="block3control"} blok toe aan de sprite 'Flappy' en voeg ook de volgende code toe:
 
-![parrot sprite](images/flappy-sprite.png)
+![papegaai sprite](images/flappy-sprite.png)
 
 ```blocks3
-when green flag clicked
-wait until <<touching (Pipes v) ?> or <touching (edge v) ?>>
-play sound (screech v)
+wanneer op de groene vlag wordt geklikt
+wacht tot <&ltraak ik (Pipes v) ?&gt of <raak ik (rand v) ?>>
+start geluid (screech v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. If Flappy touches a pipe, the 'screech' sound should play.
+Test je code. Als Flappy een pijp raakt, moet je het 'screech' geluid horen.
 
 \--- /task \---
 
-Next, update the code so that the game stops when Flappy hits a pipe.
+Werk vervolgens de code bij zodat het spel stopt wanneer Flappy een pijp raakt.
 
-\--- taak \---
+\--- task \---
 
-Add the following code to stop the game after a collision is detected:
+Voeg de volgende code toe om het spel te stoppen nadat een botsing is waargenomen:
 
-![parrot sprite](images/flappy-sprite.png)
+![papegaai sprite](images/flappy-sprite.png)
 
 ```blocks3
-when green flag clicked
-wait until <<touching (Pipes v) ?> or <touching (edge v) ?>>
-play sound (screech v)
-+ say [Game Over!]
-+ broadcast (Game Over v)
-+ stop [other scripts in sprite v]
+wanneer op de groene vlag wordt geklikt
+wacht tot <&ltraak ik (Pipes v) ?&gt of <raak ik (rand v) ?>>
+start geluid (screech v)
++ zeg [Game Over!]
++ zend signaal (game over v)
++ stop [andere scripts in sprite v]
 ```
 
-The `broadcast`{:class="block3events"} block tells other sprites that the game is over.
+Het blok `zend signaal`{:class="block3events"} vertelt andere sprites dat het spel afgelopen is.
 
-The `stop`{:class="block3control"} block stops other Flappy scripts that are running so that Flappy stops falling after a collision.
+Het blok `stop`{:class="block3control"} stopt andere Flappy scripts die worden uitgevoerd, zodat Flappy niet meer valt na een botsing.
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add the following code to the `Pipes` sprite so that pipes `stop`{:class="block3control"} appearing `when the sprite receives Game Over`{:class="block3events"}.
+Voeg ten slotte de volgende code toe aan de `Pijpen` sprite zodat pijpen `stoppen`{:class="block3control"} met verschijnen `wanneer de sprite Game Over`{:class="block3events"} ontvangt.
 
-![pipes sprite](images/pipes-sprite.png)
+![pijpen sprite](images/pipes-sprite.png)
 
 ```blocks3
-when I receive [Game Over v]
-stop [other scripts in sprite v]
+wanneer ik signaal [game over v] ontvang
+stop [andere scripts in sprite v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game and see how long you can play before it's 'Game over'!
+Test je game en zie hoe lang je kunt spelen voordat het 'Game over' is!
 
 \--- /task \---
