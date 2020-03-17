@@ -2,11 +2,11 @@
 
 Now you will make Flappy flap upwards when you press the <kbd>space</kbd> bar. When you play the game, you have to time your taps to get Flappy through the gaps in the pipes.
 
-\--- không in \---
+\--- no-print \---
 
 ![flappy flying upwards when space bar is pressed](images/flappy-flying.gif)
 
-\--- / không in \---
+\--- /no-print \---
 
 Make Flappy fly upwards when you tap the <kbd>space</kbd> bar.
 
