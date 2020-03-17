@@ -1,6 +1,6 @@
-## Сделаем попугая Flappy падающим
+## Make Flappy fall
 
-Добавь сейчас спрайт под названием Flappy и создайте код так, чтобы Flappy падал на Сцене. На следующем шаге ты добавишь код, чтобы сделать Flappy летящим при нажатии клавиши.
+Now add a sprite called Flappy and create code it so Flappy falls down the Stage. In the next step, you will add the code to make Flappy fly when you press a key.
 
 \--- no-print \---
 
@@ -10,9 +10,9 @@
 
 \--- task \---
 
-Добавь новый спрайт, который имеет два костюма, 'крылья вверх' и 'крылья вниз', и назови его `попугай Flappy`.
+Add a new sprite that has two costumes, for 'wings up' and 'wings down', and name it `Flappy`.
 
-Спрайт попугай - это хороший вариант.
+The parrot sprite is a good choice.
 
 ![parrot sprite](images/flappy-sprite.png)
 
