@@ -1,65 +1,65 @@
-## Make the pipes move
+## Laat de pijpen bewegen
 
-Next you're going to make the pipes move across the screen to create an obstacle course.
+Vervolgens ga je de pijpen over het scherm laten bewegen om een hindernisbaan te maken.
 
-![pipes moving across the screen](images/flappy-clones-test.png)
+![pijpen die over het scherm bewegen](images/flappy-clones-test.png)
 
 \--- task \---
 
-First make the pipes appear by adding code to the Pipes sprite so that, `when the green flag is clicked`{:class="block3events"}, the sprite `forever`{:class="block3control"} `creates a clone of itself`{:class="block3control"} every two seconds.
+Laat de pijpen eerst verschijnen door code toe te voegen aan de sprite van Pipes zodat, `wanneer op de groene vlag wordt geklikt`{:class="block3events"}, de sprite `continu`{:class="block3control"} om de twee seconden `een kloon van zichzelf`{:class="block3control"} maakt.
 
-![pipes sprite](images/pipes-sprite.png)
+![pijpen sprite](images/pipes-sprite.png)
 
 ```blocks3
-when green flag clicked
-set size to (200) %
-hide
-forever 
-  create clone of (myself v)
-  wait (2) seconds
-end
+wanneer op de groene vlag wordt geklikt
+maak grootte (200) %
+verdwijn
+herhaal
+  maak een kloon van (mijzelf v)
+  wacht (2) sec.
+einde
 ```
 
-**Tip:** clones are just copies of a sprite, and they are really useful for creating games.
+**Tip:** klonen zijn slechts kopieën van een sprite en ze zijn erg handig voor het maken van games.
 
 \--- /task \---
 
 \--- task \---
 
-Next make the pipes move by adding code so that, `when a clone starts`{:class="block3control"}, the clone appears on the right side of the Stage and `glides`{:class="block3motion"} across to the left.
+Breng vervolgens de pijpen in beweging door code toe te voegen zodat, `wanneer een kloon`{:class="block3control"} start, de kloon aan de rechterkant van het werkgebied verschijnt en naar links `schuift`{:class="block3motion"}.
 
-![pipes sprite](images/pipes-sprite.png)
+![pijpen sprite](images/pipes-sprite.png)
 
 ```blocks3
-when I start as a clone
-show
-go to x: (240) y: (0)
-glide (4) secs to x: (-240) y: (0)
-delete this clone
+wanneer ik als kloon start
+verschijn
+ga naar x: (240) y: (0)
+schuif in (4) sec. naar x: (-240) y: (0)
+verwijder deze kloon
 ```
 
-**Tip:** you can stop the pipes scrolling by clicking the red **stop** button next to the green flag.
+**Tip:** je kunt de pijpen stoppen door op de rode knop **stop** naast de groene vlag te klikken.
 
--- /task \---
+\--- /task \---
 
-Now you should have lots of pipes, but their gaps are always in the same place.
+Nu zou je veel pijpen moeten hebben, maar hun gaten zitten altijd op dezelfde plaats.
 
-You can add some variety by using a `random`{:class="block3operators"} number for the Pipes sprite's `y position`{:class="block3motion"}.
+Je kunt wat variatie toevoegen door een `willekeurig`{:class="block3operators"} getal te gebruiken voor de `y positie`{:class="block3motion"} van de Pipes sprite.
 
-![pipes at different heights](images/flappy-height-test.png)
+![pijpen op verschillende hoogtes](images/flappy-height-test.png)
 
-\--- taak \---
+\--- task \---
 
-Modify your sprite's code so that each sprite clone `picks a random number from -80 to 80`{:class="block3operators"} and `glides`{:class="block3motion"} to that `y position`{:class="block3motion"}:
+Wijzig de code van je sprite zodat elke sprite kloon `een willekeurig nummer kiest van -80 tot 80`{:class="block3operators"} en `verschuift`{:class="block3motion"} naar die `y-positie`{:class="block3motion"}:
 
-![pipes sprite](images/pipes-sprite.png)
+![pijpen sprite](images/pipes-sprite.png)
 
 ```blocks3
-when I start as a clone
-show
-+ go to x: (240) y: (pick random (-80) to (80))
-+ glide (4) secs to x: (-240) y: (y position)
-delete this clone
+wanneer ik als kloon start
+verschijn
++ ga naar x: (240) y: (willekeurig getal tussen (-80) en (80))
++ schuif in (4) sec. naar x: (-240) y: (y-positie)
+verwijder deze kloon
 ```
 
 \--- /task \---
