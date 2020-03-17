@@ -1,8 +1,8 @@
-## Προσθήκη βαθμολογίας
+## Add a score
 
 The player should score a point every time Flappy makes it through a gap between pipes.
 
-\--- task --
+\--- task \---
 
 Make a new variable **for all sprites** and call it `score`{:class="block3variables"}.
 
@@ -12,7 +12,7 @@ Make a new variable **for all sprites** and call it `score`{:class="block3variab
 
 Each 'Pipes' sprite clone should `wait until`{:class="block3control"} Flappy has flown past and then increase the `score`{:class="block3variables"}.
 
-\--- task --
+\--- task \---
 
 First, `set score to 0`{:class="block3variables"} when the game begins:
 
@@ -31,7 +31,7 @@ end
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Then add the following code to the `Pipes` sprite:
 
@@ -44,7 +44,7 @@ wait until <>
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Add more code so that, when Flappy's `x` position is greater than the pipe clone's `x` position, the `score`{:class="block3variables"} increases by `1` and a sound of your choice plays.
 
@@ -92,7 +92,7 @@ x position
 
 \--- hint \---
 
-Ο κώδικας θα πρέπει να μοιάζει κάπως έτσι:
+Your code should look like this:
 
 ![pipes sprite](images/pipes-sprite.png)
 
@@ -105,11 +105,11 @@ play sound (pop v)
 
 \--- /hint \---
 
-\--- /υποδείξεις \---
+\--- /hints \---
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Test your code and make sure you score a point every time Flappy gets through a gap between pipes. Check whether the `score`{:class="block3variables"} is set to `0` when you start a new game.
 
