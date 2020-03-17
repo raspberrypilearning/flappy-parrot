@@ -77,7 +77,7 @@ when [space v] key pressed
 
 \--- hint \---
 
-Tvoja koda bi morala izgledati tako:
+Your code should look like this:
 
 ![parrot sprite](images/flappy-sprite.png)
 
@@ -101,6 +101,6 @@ end
 
 \--- task \---
 
-Preveri svojo kodo. As you see, at the moment nothing happens if you let Flappy hit a pipe.
+Test your code. As you see, at the moment nothing happens if you let Flappy hit a pipe.
 
 \--- /task \---
