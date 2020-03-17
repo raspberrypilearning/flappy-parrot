@@ -1,14 +1,14 @@
 ---
 title: Flappy parrot
-hero_image: images / banner.png
+hero_image: images/banner.png
 description: Create a game in which you guide a parrot past moving obstacles
 listed: true
 copyedit: true
 version: 4.1
-last_tested: 90.10.2018
+last_tested: 2018-10-90
 steps:
   - 
-    title: Introduksjon
+    title: Introduction
   - 
     title: Add the pipes
   - 
