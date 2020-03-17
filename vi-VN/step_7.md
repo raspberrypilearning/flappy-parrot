@@ -10,7 +10,7 @@ Import a sound from the library that you want to play when Flappy collides with 
 
 [[[generic-scratch3-sound-from-library]]]
 
-\--- /bài tập \---
+\--- /task \---
 
 A `wait until`{:class="block3control"} block is necessart to check whether Flappy is `touching the pipes`{:class="block3sensing"} `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}.
 
@@ -55,7 +55,7 @@ The `broadcast`{:class="block3events"} block tells other sprites that the game i
 
 The `stop`{:class="block3control"} block stops other Flappy scripts that are running so that Flappy stops falling after a collision.
 
-\--- /bài tập \---
+\--- /task \---
 
 \--- task \---
 
