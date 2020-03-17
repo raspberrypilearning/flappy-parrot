@@ -2,15 +2,15 @@
 
 First, create the pipes.
 
-\--- task --
+\--- task \---
 
-Άνοιξε ένα νέο έργο στο Scratch.
+Open a new empty Scratch project.
 
 [[[generic-scratch3-new-project]]]
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Add a backdrop with an outdoor landscape. 'Blue Sky' is a good choice.
 
@@ -20,7 +20,7 @@ Add a backdrop with an outdoor landscape. 'Blue Sky' is a good choice.
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Create a new sprite and name it 'Pipes'.
 
@@ -36,7 +36,7 @@ This picture shows an example of how the pipes could be positioned. The parts of
 
 You can't draw a sprite as big as the pipes need to be, but you can increase the size at which the sprite shows on the Stage.
 
-\--- task --
+\--- task \---
 
 ![pipes sprite](images/pipes-sprite.png)
 
@@ -51,7 +51,7 @@ This makes it's easier to see how big the pipes should be.
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Draw a rectangle for the top pipe as shown here:
 
@@ -59,7 +59,7 @@ Draw a rectangle for the top pipe as shown here:
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Fill the pipe with a colour you like.
 
@@ -67,7 +67,7 @@ Fill the pipe with a colour you like.
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Create a duplicate of the pipe by selecting it and then clicking on **Copy** and **Paste**.
 
@@ -75,7 +75,7 @@ Create a duplicate of the pipe by selecting it and then clicking on **Copy** and
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Drag the copy of the pipe to the bottom of the screen so that the copy is in line with the other pipe. There needs to be a gap between the two pipes.
 
