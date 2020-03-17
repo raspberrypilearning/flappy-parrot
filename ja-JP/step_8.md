@@ -1,4 +1,4 @@
-## チャレンジ：オブジェクトをふやす
+## Add a score
 
 The player should score a point every time Flappy makes it through a gap between pipes.
 
@@ -50,7 +50,7 @@ Add more code so that, when Flappy's `x` position is greater than the pipe clone
 
 You could use the 'pop' sound if you want, or add a sound from the library, for example 'bird'.
 
-\--- ヒント \---
+\--- hints \---
 
 \--- hint \---
 
@@ -65,7 +65,7 @@ when I start as a clone
 
 Then `change score by 1`{:class="block3variables"} and `play a sound`{:class="block3sound"}.
 
-\--- /ヒント \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -88,11 +88,11 @@ x position
 () > ()
 ```
 
-\--- /ヒント \---
+\--- /hint \---
 
 \--- hint \---
 
-コードは以下のようになります：
+Your code should look like this:
 
 ![pipes sprite](images/pipes-sprite.png)
 
@@ -103,9 +103,9 @@ change [score v] by (1)
 play sound (pop v)
 ```
 
-\--- /ヒント \---
+\--- /hint \---
 
-\--- /ヒント \---
+\--- /hints \---
 
 \--- /task \---
 
