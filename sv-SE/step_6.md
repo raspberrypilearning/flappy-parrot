@@ -10,7 +10,7 @@ Now you will make Flappy flap upwards when you press the <kbd>space</kbd> bar. W
 
 Make Flappy fly upwards when you tap the <kbd>space</kbd> bar.
 
-\--- uppgift \---
+\--- task \---
 
 When the `space key is pressed`{:class="block3events"}, Flappy should move upwards by `changing its y coordinate`{:class="block3motion"} by a small amount, for example `6`.
 
@@ -31,7 +31,7 @@ end
 
 Now you need to get Flappy's wings flapping!
 
-\--- uppgift \---
+\--- task \---
 
 Click on the **Costumes** tab, and name Flappy's costumes 'wings up' and 'wings down'.
 
@@ -39,7 +39,7 @@ Click on the **Costumes** tab, and name Flappy's costumes 'wings up' and 'wings 
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Can you make Flappy's costume change to `wings down` when you press <kbd>space</kbd>, and then change it back to `wings up` halfway through the upward movement?
 
@@ -99,7 +99,7 @@ end
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Test your code. As you see, at the moment nothing happens if you let Flappy hit a pipe.
 
