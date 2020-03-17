@@ -1,4 +1,4 @@
-## Добавить счет
+## Add a score
 
 The player should score a point every time Flappy makes it through a gap between pipes.
 
@@ -92,7 +92,7 @@ x position
 
 \--- hint \---
 
-Твой код должен выглядеть, как этот:
+Your code should look like this:
 
 ![pipes sprite](images/pipes-sprite.png)
 
