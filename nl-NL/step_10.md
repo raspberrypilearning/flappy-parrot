@@ -1,8 +1,8 @@
-## Challenge: add a high score
+## Uitdaging: voeg een topscore toe
 
 \--- challenge \---
 
-Can you add a high score to the game so that, in addition to keeping track of score for the current round, it keeps track of the highest score you've ever reached?
+Kun je een topscore toevoegen aan het spel zodat het, naast het bijhouden van de score voor de huidige ronde, de hoogste score bijhoudt die je ooit hebt bereikt?
 
 [[[generic-scratch3-high-score]]]
 
