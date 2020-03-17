@@ -2,7 +2,7 @@
 
 The player should score a point every time Flappy makes it through a gap between pipes.
 
-\--- proba\---
+\--- task \---
 
 Make a new variable **for all sprites** and call it `score`{:class="block3variables"}.
 
@@ -50,9 +50,9 @@ Add more code so that, when Flappy's `x` position is greater than the pipe clone
 
 You could use the 'pop' sound if you want, or add a sound from the library, for example 'bird'.
 
-\--- sugestii \---
+\--- hints \---
 
-\--- indiciu \---
+\--- hint \---
 
 You need to `wait until`{:class="block3control"} `Flappy's x position`{:class="block3sensing"} is `greater than (>)`{:class="block3operators"} the `x position`{:class="block3motion"} of `Pipes`.
 
@@ -65,9 +65,9 @@ when I start as a clone
 
 Then `change score by 1`{:class="block3variables"} and `play a sound`{:class="block3sound"}.
 
-\--- / indiciu \---
+\--- /hint \---
 
-\--- indiciu \---
+\--- hint \---
 
 Use these blocks in the correct order:
 
@@ -88,9 +88,9 @@ x position
 () > ()
 ```
 
-\--- / indiciu \---
+\--- /hint \---
 
-\--- indiciu \---
+\--- hint \---
 
 Your code should look like this:
 
@@ -103,9 +103,9 @@ change [score v] by (1)
 play sound (pop v)
 ```
 
-\--- / indiciu \---
+\--- /hint \---
 
-\--- / sugestii \---
+\--- /hints \---
 
 \--- /task \---
 
