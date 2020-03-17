@@ -1,4 +1,4 @@
-## Desafio: Mais objetos
+## Add a score
 
 The player should score a point every time Flappy makes it through a gap between pipes.
 
@@ -50,7 +50,7 @@ Add more code so that, when Flappy's `x` position is greater than the pipe clone
 
 You could use the 'pop' sound if you want, or add a sound from the library, for example 'bird'.
 
-\--- dica \---
+\--- hints \---
 
 \--- hint \---
 
@@ -92,7 +92,7 @@ x position
 
 \--- hint \---
 
-Seu código deve ficar assim:
+Your code should look like this:
 
 ![pipes sprite](images/pipes-sprite.png)
 
