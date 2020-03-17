@@ -8,7 +8,7 @@ version: 4.1
 last_tested: 2018-10-90
 steps:
   - 
-    title: מבוא
+    title: Introduction
   - 
     title: Add the pipes
   - 
@@ -31,4 +31,4 @@ steps:
     title: 'Challenge: add a high score'
     challenge: true
   - 
-    title: מה הלאה?
+    title: What next?
