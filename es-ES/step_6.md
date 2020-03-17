@@ -43,7 +43,7 @@ Click on the **Costumes** tab, and name Flappy's costumes 'wings up' and 'wings 
 
 Can you make Flappy's costume change to `wings down` when you press <kbd>space</kbd>, and then change it back to `wings up` halfway through the upward movement?
 
-\--- consejos \---
+\--- hints \---
 
 \--- hint \---
 
