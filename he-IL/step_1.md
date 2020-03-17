@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## מבוא
+## Introduction
 
 Create a game in which you have to guide a parrot past scrolling pipes to score points.
 
-### מה תעשה
+### What you will make
 
 \--- no-print \---
 
@@ -33,13 +33,13 @@ You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and s
 
 ## title: What you will need
 
-### חומרה
+### Hardware
 
-+ מחשב המסוגל להריץ Scratch 3
++ A computer capable of running Scratch 3
 
-### תוכנה
+### Software
 
-+ Scratch 3 (או [ מקוון ](https://rpf.io/scratchon) או [ במצב לא מקוון ](https://rpf.io/scratchoff))
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 \--- /collapse \---
 
