@@ -32,7 +32,7 @@ play sound (screech v)
 
 Test your code. If Flappy touches a pipe, the 'screech' sound should play.
 
-\--- /görev \---
+\--- /task \---
 
 Next, update the code so that the game stops when Flappy hits a pipe.
 
@@ -55,7 +55,7 @@ The `broadcast`{:class="block3events"} block tells other sprites that the game i
 
 The `stop`{:class="block3control"} block stops other Flappy scripts that are running so that Flappy stops falling after a collision.
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -68,10 +68,10 @@ when I receive [Game Over v]
 stop [other scripts in sprite v]
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
 Test your game and see how long you can play before it's 'Game over'!
 
-\--- /görev \---
+\--- /task \---
