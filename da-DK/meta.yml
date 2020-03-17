@@ -8,7 +8,7 @@ version: 4.1
 last_tested: 2018-10-90
 steps:
   - 
-    title: Tillykke Med Fødselsdagen
+    title: Introduction
   - 
     title: Add the pipes
   - 
