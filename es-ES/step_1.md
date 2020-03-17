@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Esta es una versión de **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/flappy-parrot-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flappy-parrot-scratch2).
 
 \--- /no-print \---
 
-## Introducción
+## Introduction
 
 Create a game in which you have to guide a parrot past scrolling pipes to score points.
 
-### Lo que harás
+### What you will make
 
 \--- no-print \---
 
@@ -35,11 +35,11 @@ You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and s
 
 ### Hardware
 
-+ Una computadora capaz de hacer correr Scratch 3
++ A computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 3 (tanto [online](https://rpf.io/scratchon) como [offline](https://rpf.io/scratchoff))
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 \--- /collapse \---
 
