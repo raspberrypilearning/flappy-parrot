@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## 介紹
+## Introduction
 
 Create a game in which you have to guide a parrot past scrolling pipes to score points.
 
-### 你會做出:
+### What you will make
 
 \--- no-print \---
 
@@ -33,15 +33,15 @@ You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and s
 
 ## title: What you will need
 
-### 硬體
+### Hardware
 
-+ 可運行Scratch 3的電腦
++ A computer capable of running Scratch 3
 
-### 軟體
+### Software
 
 + Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-- - 自動隱藏選單 - -
+\--- /collapse \---
 
 ## \--- collapse \---
 
