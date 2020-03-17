@@ -8,7 +8,7 @@ Make a new variable **for all sprites** and call it `score`{:class="block3variab
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /görev \---
+\--- /task \---
 
 Each 'Pipes' sprite clone should `wait until`{:class="block3control"} Flappy has flown past and then increase the `score`{:class="block3variables"}.
 
@@ -29,7 +29,7 @@ forever
 end
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -42,7 +42,7 @@ when I start as a clone
 wait until <>
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -52,7 +52,7 @@ You could use the 'pop' sound if you want, or add a sound from the library, for 
 
 \--- hints \---
 
-\---hint\---
+\--- hint \---
 
 You need to `wait until`{:class="block3control"} `Flappy's x position`{:class="block3sensing"} is `greater than (>)`{:class="block3operators"} the `x position`{:class="block3motion"} of `Pipes`.
 
@@ -67,7 +67,7 @@ Then `change score by 1`{:class="block3variables"} and `play a sound`{:class="bl
 
 \--- /hint \---
 
-\---hint\---
+\--- hint \---
 
 Use these blocks in the correct order:
 
@@ -90,7 +90,7 @@ x position
 
 \--- /hint \---
 
-\---hint\---
+\--- hint \---
 
 Your code should look like this:
 
@@ -107,10 +107,10 @@ play sound (pop v)
 
 \--- /hints \---
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
 Test your code and make sure you score a point every time Flappy gets through a gap between pipes. Check whether the `score`{:class="block3variables"} is set to `0` when you start a new game.
 
-\--- /görev \---
+\--- /task \---
