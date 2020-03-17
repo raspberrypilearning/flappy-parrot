@@ -52,7 +52,7 @@ You could use the 'pop' sound if you want, or add a sound from the library, for 
 
 \--- hints \---
 
-DO NOT TRANSLATE
+\--- hint \---
 
 You need to `wait until`{:class="block3control"} `Flappy's x position`{:class="block3sensing"} is `greater than (>)`{:class="block3operators"} the `x position`{:class="block3motion"} of `Pipes`.
 
@@ -67,7 +67,7 @@ Then `change score by 1`{:class="block3variables"} and `play a sound`{:class="bl
 
 \--- /hint \---
 
-DO NOT TRANSLATE
+\--- hint \---
 
 Use these blocks in the correct order:
 
@@ -90,7 +90,7 @@ x position
 
 \--- /hint \---
 
-DO NOT TRANSLATE
+\--- hint \---
 
 Your code should look like this:
 
