@@ -1,10 +1,10 @@
-## पाइप जोड़ें
+## Add the pipes
 
-पहले, पाइप बनाएँ।
+First, create the pipes.
 
 \--- task \---
 
-एक नया खाली Scratch प्रोजेक्ट खोलें।
+Open a new empty Scratch project.
 
 [[[generic-scratch3-new-project]]]
 
@@ -12,9 +12,9 @@
 
 \--- task \---
 
-एक बाहरी परिदृश्य के साथ कोई पृष्ठभूमि जोड़ें। 'ब्लू स्काई' (नीला आसमान) एक अच्छा विकल्प है।
+Add a backdrop with an outdoor landscape. 'Blue Sky' is a good choice.
 
-![स्क्रीनशॉट](images/flappy-stage.png)
+![screenshot](images/flappy-stage.png)
 
 [[[generic-scratch3-backdrop-from-library]]]
 
@@ -22,63 +22,63 @@
 
 \--- task \---
 
-एक नया स्प्राइट बनाएँ और इसका नाम 'पाइप्स' रखें।
+Create a new sprite and name it 'Pipes'.
 
 [[[generic-scratch3-draw-sprite]]]
 
 \--- /task \---
 
-'पाइप्स' स्प्राइट पाइपों की एक जोड़ी होनी चाहिए जिसके मध्य में खाली जगह हो। स्प्राइट को ऊपर या नीचे ले जाकर, आप खाली जगह को किसी भिन्न स्थान पर रख सकते हैं।
+The 'Pipes' sprite should be a pair of pipes with a gap in the middle. By moving the sprite up or down, you can put the gap in a different place.
 
-इस चित्र में एक उदाहरण दिखाया गया है कि पाइप किस तरह रखे जा सकते हैं। स्टेज के बाहर स्प्राइट के हिस्से सामान्य रूप से छिपे होते हैं, आप इन्हें तभी देखते हैं जब आप स्प्राइट को खींचते हैं:
+This picture shows an example of how the pipes could be positioned. The parts of the sprite outside the Stage are normally hidden, you only see then when you drag the sprite:
 
-![स्क्रीनशॉट](images/flappy-pipes-position.png)
+![screenshot](images/flappy-pipes-position.png)
 
-आप किसी स्प्राइट को उतना बड़ा नहीं खींच सकते जितना कि पाइपों को होना चाहिए, लेकिन आप उस आकार को उतना बढ़ा सकते हैं जितना स्प्राइट स्टेज पर दिखाता है।
+You can't draw a sprite as big as the pipes need to be, but you can increase the size at which the sprite shows on the Stage.
 
 \--- task \---
 
-![पाइप्स स्प्राइट](images/pipes-sprite.png)
+![pipes sprite](images/pipes-sprite.png)
 
-स्प्राइट को बड़ा करने के लिए कोड जोड़ें।
+Add code to make the sprite bigger.
 
 ```blocks3
 when green flag clicked
 set size to (200) %
 ```
 
-इससे यह देखना आसान हो जाता है कि पाइप कितने बड़े होने चाहिए।
+This makes it's easier to see how big the pipes should be.
 
 \--- /task \---
 
 \--- task \---
 
-शीर्ष पाइप के लिए एक आयताकार बनाएँ जैसा कि यहाँ दिखाया गया है:
+Draw a rectangle for the top pipe as shown here:
 
-![पाइप के लिए आयताकार](images/flappy-pipes-rectangle.png)
-
-\--- /task \---
-
-\--- task \---
-
-पाइप में अपनी पसंद का रंग भरें।
-
-![आयताकार को भरें](images/flappy-pipes-fill-rectangle.png)
+![rectangle for the pipe](images/flappy-pipes-rectangle.png)
 
 \--- /task \---
 
 \--- task \---
 
-पाइप का डुप्लीकेट बनाने के लिए उसे चुनें और फिर **Copy** और **Paste** पर क्लिक करें।
+Fill the pipe with a colour you like.
 
-![पाइप को कॉपी और पेस्ट करें](images/flappy-pipes-duplicate1-annotated.png)
+![fill the rectangle](images/flappy-pipes-fill-rectangle.png)
 
 \--- /task \---
 
 \--- task \---
 
-पाइप की कॉपी को स्क्रीन के नीचे तक खींचें ताकि कॉपी दूसरे पाइप के अनुरूप हो। दो पाइपों के बीच खाली जगह होनी चाहिए।
+Create a duplicate of the pipe by selecting it and then clicking on **Copy** and **Paste**.
 
-![स्क्रीनशॉट](images/flappy-pipes-duplicate2.png)
+![copy and paste pipe](images/flappy-pipes-duplicate1-annotated.png)
+
+\--- /task \---
+
+\--- task \---
+
+Drag the copy of the pipe to the bottom of the screen so that the copy is in line with the other pipe. There needs to be a gap between the two pipes.
+
+![screenshot](images/flappy-pipes-duplicate2.png)
 
 \--- /task \---
