@@ -30,7 +30,7 @@ play sound (screech v)
 
 \--- task \---
 
-Prova el codi nou. If Flappy touches a pipe, the 'screech' sound should play.
+Test your code. If Flappy touches a pipe, the 'screech' sound should play.
 
 \--- /task \---
 
