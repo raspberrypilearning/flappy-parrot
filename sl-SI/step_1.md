@@ -1,14 +1,14 @@
 \--- no-print \---
 
-To je ** Scratch 3 ** različica projekta. Obstaja tudi [Scratch 2](https://projects.raspberrypi.org/en/projects/flappy-parrot-scratch2) različica projekta.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flappy-parrot-scratch2).
 
 \--- /no-print \---
 
-## Uvod
+## Introduction
 
 Create a game in which you have to guide a parrot past scrolling pipes to score points.
 
-### Kaj boš ustvaril-a?
+### What you will make
 
 \--- no-print \---
 
@@ -33,13 +33,13 @@ You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and s
 
 ## title: What you will need
 
-### Strojna oprema
+### Hardware
 
-+ Računalnik, ki lahko poganja Scratch 3
++ A computer capable of running Scratch 3
 
-### Programska oprema
+### Software
 
-+ Scratch 3 (bodisi [na spletu](https://rpf.io/scratchon) {: target = "_blank"} ali [brez povezave](https://rpf.io/scratchoff){: target = "_blank)
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 \--- /collapse \---
 
