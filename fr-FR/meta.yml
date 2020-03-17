@@ -23,7 +23,7 @@ steps:
   - 
     title: Detect collisions
   - 
-    title: 'Défi : plus d''objets'
+    title: Add a score
   - 
     title: 'Challenge: adjust the difficulty'
     challenge: true
@@ -31,4 +31,4 @@ steps:
     title: 'Challenge: add a high score'
     challenge: true
   - 
-    title: 'Défi: Écran d''instruction'
+    title: What next?
