@@ -1,4 +1,4 @@
-## 添加计分
+## Add a score
 
 The player should score a point every time Flappy makes it through a gap between pipes.
 
@@ -50,7 +50,7 @@ Add more code so that, when Flappy's `x` position is greater than the pipe clone
 
 You could use the 'pop' sound if you want, or add a sound from the library, for example 'bird'.
 
-\--- hint \---
+\--- hints \---
 
 \--- hint \---
 
@@ -92,7 +92,7 @@ x position
 
 \--- hint \---
 
-你的代码应该像这样：
+Your code should look like this:
 
 ![pipes sprite](images/pipes-sprite.png)
 
@@ -105,7 +105,7 @@ play sound (pop v)
 
 \--- /hint \---
 
-\--- /hint \---
+\--- /hints \---
 
 \--- /task \---
 
