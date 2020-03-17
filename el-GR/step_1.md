@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Αυτή είναι η έκδοση **Scratch 3** του έργου. Υπάρχει επίσης η [έκδοση Scratch 2 του έργου](https://projects.raspberrypi.org/en/projects/flappy-parrot-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flappy-parrot-scratch2).
 
 \--- /no-print \---
 
-## Εισαγωγή
+## Introduction
 
 Create a game in which you have to guide a parrot past scrolling pipes to score points.
 
-### Τι θα φτιάξεις
+### What you will make
 
 \--- no-print \---
 
@@ -33,13 +33,13 @@ You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and s
 
 ## title: What you will need
 
-### Υλικό
+### Hardware
 
-+ Ένας υπολογιστής ικανός να τρέχει το Scratch 3
++ A computer capable of running Scratch 3
 
-### Λογισμικό
+### Software
 
-+ Scratch 3 (είτε [online](https://rpf.io/scratchon) είτε [offline](https://rpf.io/scratchoff))
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 \--- /collapse \---
 
