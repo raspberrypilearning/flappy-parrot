@@ -8,7 +8,7 @@ version: 4.1
 last_tested: 2018-10-90
 steps:
   - 
-    title: Увод
+    title: Introduction
   - 
     title: Add the pipes
   - 
@@ -23,7 +23,7 @@ steps:
   - 
     title: Detect collisions
   - 
-    title: Додај резултат
+    title: Add a score
   - 
     title: 'Challenge: adjust the difficulty'
     challenge: true
@@ -31,4 +31,4 @@ steps:
     title: 'Challenge: add a high score'
     challenge: true
   - 
-    title: Шта је следеће?
+    title: What next?
