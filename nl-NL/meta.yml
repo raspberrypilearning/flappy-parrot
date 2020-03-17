@@ -1,7 +1,7 @@
 ---
-title: Flappy parrot
-hero_image: afbeeldingen / banner.png
-description: Create a game in which you guide a parrot past moving obstacles
+title: Fladderende papegaai
+hero_image: images/banner.png
+description: Maak een spel waarin je een papegaai langs bewegende obstakels leidt
 listed: true
 copyedit: true
 version: 4.1
@@ -10,25 +10,25 @@ steps:
   - 
     title: Inleiding
   - 
-    title: Add the pipes
+    title: Voeg de pijpen toe
   - 
-    title: "Challenge: make better pipes"
+    title: "Uitdaging: betere pijpen maken"
     challenge: true
   - 
-    title: Make the pipes move
+    title: Laat de pijpen bewegen
   - 
-    title: Make Flappy fall
+    title: Laat Flappy vallen
   - 
-    title: Make Flappy fly
+    title: Laat Flappy vliegen
   - 
-    title: Detect collisions
+    title: Neem botsingen waar
   - 
-    title: 'Uitdaging: meer objecten'
+    title: Een score toevoegen
   - 
-    title: 'Challenge: adjust the difficulty'
+    title: 'Uitdaging: pas de moeilijkheidsgraad aan'
     challenge: true
   - 
-    title: 'Challenge: add a high score'
+    title: 'Uitdaging: voeg een topscore toe'
     challenge: true
   - 
-    title: 'Uitdaging: Instructie scherm'
+    title: Wat kun je verder nog doen?
