@@ -8,7 +8,7 @@ Now add a sprite called Flappy and create code it so Flappy falls down the Stage
 
 \--- /no-print \---
 
-\--- task --
+\--- task \---
 
 Add a new sprite that has two costumes, for 'wings up' and 'wings down', and name it `Flappy`.
 
@@ -20,7 +20,7 @@ The parrot sprite is a good choice.
 
 Flappy needs to be smaller.
 
-\--- task --
+\--- task \---
 
 Add code to `set Flappy's size to 25%`{:class="block3looks"} `when the green flag is clicked`{:class="block3events"}.
 
@@ -37,7 +37,7 @@ When the game starts, Flappy needs to be just left of the centre of the Stage, a
 
 ![flappy shown at the start position](images/flappy-starting-position.png)
 
-\--- task --
+\--- task \---
 
 Add code to make Flappy `go to the x and y`{:class="block3motion"} starting position of `x: -50`{:class="block3motion"} and `y: 0`{:class="block3motion"}.
 
@@ -53,7 +53,7 @@ set size to (25) %
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Now make Flappy keep falling down the Stage by `forever`{:class="block3control"} `changing the sprite's y position by -3`{:class="block3motion"}.
 
@@ -70,7 +70,7 @@ end
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Test your code to make sure Flappy starts in the middle of the screen and falls to the bottom. When you drag Flappy to the top of the Stage, the sprite should fall again.
 
