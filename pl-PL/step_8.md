@@ -50,7 +50,7 @@ Add more code so that, when Flappy's `x` position is greater than the pipe clone
 
 You could use the 'pop' sound if you want, or add a sound from the library, for example 'bird'.
 
-\--- wskazówka \---
+\--- hints \---
 
 \--- hint \---
 
@@ -92,7 +92,7 @@ x position
 
 \--- hint \---
 
-Twój plik powinien teraz wyglądać tak:
+Your code should look like this:
 
 ![pipes sprite](images/pipes-sprite.png)
 
