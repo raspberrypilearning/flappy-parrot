@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## 들어가며
+## Introduction
 
 Create a game in which you have to guide a parrot past scrolling pipes to score points.
 
-### 만들 작품
+### What you will make
 
 \--- no-print \---
 
@@ -33,13 +33,13 @@ You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and s
 
 ## title: What you will need
 
-### 하드웨어
+### Hardware
 
-+ 스크래치 3을 실행할 수 있는 컴퓨터
++ A computer capable of running Scratch 3
 
-### 소프트웨어
+### Software
 
-+ 스크래치 3 ([온라인](https://rpf.io/scratchon) 또는 [오프라인](https://rpf.io/scratchoff))
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 \--- /collapse \---
 
