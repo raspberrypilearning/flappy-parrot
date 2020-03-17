@@ -1,14 +1,14 @@
-\--- không in \---
+\--- no-print \---
 
 This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flappy-parrot-scratch2).
 
-\--- / không in \---
+\--- /no-print \---
 
-## Giới thiệu
+## Introduction
 
 Create a game in which you have to guide a parrot past scrolling pipes to score points.
 
-### Những gì bạn sẽ làm
+### What you will make
 
 \--- no-print \---
 
@@ -19,7 +19,7 @@ Click the green flag to start the game. Press the <kbd>space</kbd> bar to make t
   <img src="images/flappy-parrot-showcase.png">
 </div>
 
-\--- / không in \---
+\--- /no-print \---
 
 \--- print-only \---
 
@@ -33,13 +33,13 @@ You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and s
 
 ## title: What you will need
 
-### Phần cứng
+### Hardware
 
-+ Một máy tính có khả năng chạy Scratch 3
++ A computer capable of running Scratch 3
 
-### Phần mềm
+### Software
 
-+ Scratch 3 (phiên bản [trực tuyến](https://rpf.io/scratchon) hoặc [ngoại tuyến](https://rpf.io/scratchoff))
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 \--- /collapse \---
 
