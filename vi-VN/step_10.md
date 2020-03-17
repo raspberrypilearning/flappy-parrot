@@ -6,4 +6,4 @@ Can you add a high score to the game so that, in addition to keeping track of sc
 
 [[[generic-scratch3-high-score]]]
 
-\--- /thử thách \---
+\--- /challenge \---
