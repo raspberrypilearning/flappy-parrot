@@ -1,76 +1,76 @@
-## Make Flappy fly
+## Laat Flappy vliegen
 
-Now you will make Flappy flap upwards when you press the <kbd>space</kbd> bar. When you play the game, you have to time your taps to get Flappy through the gaps in the pipes.
+Nu laat je Flappy's vleugels naar boven klappen zodra je op <kbd>spatiebalk</kbd> drukt. Wanneer je het spel speelt, moet je je toetsklikken timen om Flappy door de gaten in de pijpen te krijgen.
 
 \--- no-print \---
 
-![flappy flying upwards when space bar is pressed](images/flappy-flying.gif)
+![flappy vliegt omhoog wanneer de spatiebalk wordt ingedrukt](images/flappy-flying.gif)
 
 \--- /no-print \---
 
-Make Flappy fly upwards when you tap the <kbd>space</kbd> bar.
+Laat Flappy omhoog vliegen als je op de <kbd>spatiebalk</kbd> klikt.
 
 \--- task \---
 
-When the `space key is pressed`{:class="block3events"}, Flappy should move upwards by `changing its y coordinate`{:class="block3motion"} by a small amount, for example `6`.
+Wanneer de `spatiebalk wordt ingedrukt`{:class="block3events"}, zou Flappy omhoog moeten gaan door `zijn y-coördinaat`{:class="block3motion"} een klein beetje te veranderen, bijvoorbeeld `6`.
 
-Flappy flies upwards by `repeating`{:class="block3control"} this movement `10 times`{:class="block3control"}.
+Flappy vliegt omhoog door deze beweging `10 keer`{:class="block3control"} `te herhalen`{:class="block3control"}.
 
-Add this code to your `Flappy` sprite:
+Voeg deze code toe aan je `Flappy` sprite:
 
-![parrot sprite](images/flappy-sprite.png)
+![papegaai sprite](images/flappy-sprite.png)
 
 ```blocks3
-when [space v] key pressed
-repeat (10) 
-  change y by (6)
-end
+wanneer [spatiebalk v] is ingedrukt
+herhaal (10) 
+  verander y met (6)
+einde
 ```
 
 \--- /task \---
 
-Now you need to get Flappy's wings flapping!
+Nu moet je Flappy's vleugels laten fladderen!
 
-\--- task \----
+\--- task \---
 
-Click on the **Costumes** tab, and name Flappy's costumes 'wings up' and 'wings down'.
+Klik op het tabblad **Uiterlijken** en noem Flappy's kostuums 'wings up' en 'wings down'.
 
-![naming the costumes](images/flappy-wings.png)
+![namen van de uiterlijken](images/flappy-wings.png)
 
 \--- /task \---
 
 \--- task \---
 
-Can you make Flappy's costume change to `wings down` when you press <kbd>space</kbd>, and then change it back to `wings up` halfway through the upward movement?
+Kun je het uiterlijk van Flappy veranderen in `wings down` als je op <kbd>spatiebalk</kbd> drukt, en dan terug naar `wings up` halverwege de opwaartse beweging?
 
 \--- hints \---
 
 \--- hint \---
 
-You need to split the upward motion in half so that you can use two `repeat`{:class="block3control"} blocks to change Flappy's costume at the beginning and in the middle of the movement.
+Je moet de opwaartse beweging in tweeën delen, zodat je twee `herhaal`{:class="block3control"} blokken kunt gebruiken om Flappy's uiterlijk aan het begin en in het midden van de beweging te veranderen.
 
-Add `switch costume to`{:class="block3looks"} blocks to change how Flappy looks.
+Voeg `verander uiterlijk naar`{:class="block3looks"} blokken toe om het uiterlijk van Flappy te wijzigen.
 
 \--- /hint \--- \--- hint \---
 
-You need to use these blocks:
+Je moet deze blokken gebruiken:
 
-![parrot sprite](images/flappy-sprite.png)
+![papegaai sprite](images/flappy-sprite.png)
 
 ```blocks3
-repeat (5) 
-  change y by (6)
-end
+herhaal (5) 
+  verander y met (6)
+einde
 
-repeat (5) 
-  change y by (6)
-end
+herhaal (5) 
+  verander y met (6)
+einde
 
-switch costume to (wings up v)
+verander uiterlijk naar (wings up v)
 
-switch costume to (wings down v)
+verander uiterlijk naar (wings down v)
 
-when [space v] key pressed
+wanneer [spatiebalk v] is ingedrukt
 ```
 
 \--- /hint \---
@@ -79,18 +79,18 @@ when [space v] key pressed
 
 Je code zou er als volgt uit moeten zien:
 
-![parrot sprite](images/flappy-sprite.png)
+![papegaai sprite](images/flappy-sprite.png)
 
 ```blocks3
-when [space v] key pressed
-switch costume to (wings down v)
-repeat (5) 
-  change y by (6)
-end
-switch costume to (wings up v)
-repeat (5) 
-  change y by (6)
-end
+wanneer [spatiebalk v] is ingedrukt
+verander uiterlijk naar (wings down v)
+herhaal (5) 
+  verander y met (6)
+einde
+verander uiterlijk naar (wings up v)
+herhaal (5) 
+  verander y met (6)
+einde
 ```
 
 \--- /hint \---
@@ -101,6 +101,6 @@ end
 
 \--- task \---
 
-Test your code. As you see, at the moment nothing happens if you let Flappy hit a pipe.
+Test je code. Zoals je ziet, gebeurt er momenteel niets als je Flappy een pijp laat raken.
 
 \--- /task \---
