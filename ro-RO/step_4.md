@@ -22,7 +22,7 @@ end
 
 **Tip:** clones are just copies of a sprite, and they are really useful for creating games.
 
-\--- /proba\---
+\--- /task \---
 
 \--- task \---
 
