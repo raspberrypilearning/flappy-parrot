@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Introdução
+## Introduction
 
 Create a game in which you have to guide a parrot past scrolling pipes to score points.
 
-### O que vais fazer
+### What you will make
 
 \--- no-print \---
 
@@ -39,7 +39,7 @@ You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and s
 
 ### Software
 
-+ Scratch 3 (ou [ online ](https://rpf.io/scratchon) ou [ off-line ](https://rpf.io/scratchoff))
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 \--- /collapse \---
 
