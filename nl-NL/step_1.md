@@ -6,13 +6,13 @@ Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie 
 
 ## Inleiding
 
-Create a game in which you have to guide a parrot past scrolling pipes to score points.
+Maak een spel waarin je een papegaai langs schuivende pijpen moet leiden om punten te scoren.
 
 ### Wat ga je maken
 
 \--- no-print \---
 
-Click the green flag to start the game. Press the <kbd>space</kbd> bar to make the parrot flap its wings, and try to get it to fly through the gaps in the pipes! You score one point for every pipe that you manage to get the parrot past.
+Klik op de groene vlag om het spel te starten. Druk op <kbd>spatiebalk</kbd> om de papegaai zijn vleugels te laten fladderen en probeer hem door de ruimtes tussen de pijpen te laten vliegen! Je scoort een punt als je de papegaai voorbij een pijp krijgt.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258349724/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,15 +23,15 @@ Click the green flag to start the game. Press the <kbd>space</kbd> bar to make t
 
 \--- print-only \---
 
-You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and score one point for every pipe that you manage to get the parrot past.
+Je drukt op de <kbd>spatiebalk</kbd> om de papegaai zijn vleugels te laten fladderen, en scoor één punt als je de papegaai voorbij de pijpen krijgt.
 
-![flappy parrot game being played](images/flappy-parrot-showcase.png)
+![fladderende papegaaienspel dat wordt gespeeld](images/flappy-parrot-showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Wat heb je nodig
 
 ### Hardware
 
@@ -45,25 +45,25 @@ You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and s
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Wat ga je leren
 
-+ How to create sprites using Vector mode
-+ How to use sounds 
-+ How to detect collisions
-+ How to control a sprite using the keyboard 
++ Sprites maken met de Vector-modus
++ Hoe geluiden te gebruiken 
++ Hoe botsingen waar te nemen
++ Hoe een sprite te besturen met behulp van het toetsenbord 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Aanvullende informatie voor docenten
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/flappy-parrot/print){:target="_blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/en/projects/flappy-parrot/print){:target="_ blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](https://rpf.io/p/en/flappy-parrot-get).
+Hier kun je het [voltooide project](https://rpf.io/p/en/flappy-parrot-get) downloaden.
 
 \--- /collapse \---
