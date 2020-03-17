@@ -4,7 +4,7 @@ First, create the pipes.
 
 \--- task \---
 
-Otevři nový Scratch projekt.
+Open a new empty Scratch project.
 
 [[[generic-scratch3-new-project]]]
 
