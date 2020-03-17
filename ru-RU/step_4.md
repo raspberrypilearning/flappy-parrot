@@ -1,65 +1,65 @@
-## Сделаем двигающиеся трубы
+## Make the pipes move
 
-Далее ты сделаешь так, чтобы трубы стали двигаться по экрану для создания полосы препятствий.
+Next you're going to make the pipes move across the screen to create an obstacle course.
 
-![трубы, двигающиеся по экрану](images/flappy-clones-test.png)
+![pipes moving across the screen](images/flappy-clones-test.png)
 
 \--- task \---
 
-Сначала сделай появление труб, добавив код к спрайту Трубы таким образом, что `когда зелёный флаг нажат`{:class="block3events"}, спрайт `повторять всегда`{:class="block3control"} `создает клон самого себя`{:class="block3control"} каждые две секунды.
+First make the pipes appear by adding code to the Pipes sprite so that, `when the green flag is clicked`{:class="block3events"}, the sprite `forever`{:class="block3control"} `creates a clone of itself`{:class="block3control"} every two seconds.
 
-![спрайт трубы](images/pipes-sprite.png)
+![pipes sprite](images/pipes-sprite.png)
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-установить размер (200) %
-спрятаться
-повторять всегда 
-  создать клон (myself v)
-  ждать (2) секунд
+when green flag clicked
+set size to (200) %
+hide
+forever 
+  create clone of (myself v)
+  wait (2) seconds
 end
 ```
 
-**Совет:** клоны являются лишь только копиями спрайта, и они действительно полезны для создания игр.
+**Tip:** clones are just copies of a sprite, and they are really useful for creating games.
 
 \--- /task \---
 
 \--- task \---
 
-Затем сделай трубы двигающимися, добавив код так, что `когда клон начинает` {: class = "block3control"}, клон появляется в правой части Сцены и `скользит` {: class = "block3motion"} влево.
+Next make the pipes move by adding code so that, `when a clone starts`{:class="block3control"}, the clone appears on the right side of the Stage and `glides`{:class="block3motion"} across to the left.
 
-![спрайт трубы](images/pipes-sprite.png)
+![pipes sprite](images/pipes-sprite.png)
 
 ```blocks3
-когда я начинаю как клон
-показаться
-перейти в x: (240) y: (0)
-плыть (4) секунд в точку x: (-240) y: (0)
-удалить клон
+when I start as a clone
+show
+go to x: (240) y: (0)
+glide (4) secs to x: (-240) y: (0)
+delete this clone
 ```
 
-**Совет:** Ты можешь остановить движение труб, нажав на красную кнопку **остановить** рядом с зеленым флагом.
+**Tip:** you can stop the pipes scrolling by clicking the red **stop** button next to the green flag.
 
 \--- /task \---
 
-Теперь у тебя должно быть много труб, но их щели всегда в одном и том же месте.
+Now you should have lots of pipes, but their gaps are always in the same place.
 
-Ты можешь добавить немного разнообразия, используя `случайное`{: class = "block3operators"} значение для `позиции y`{: Класс = "block3motion"} спрайта Трубы.
+You can add some variety by using a `random`{:class="block3operators"} number for the Pipes sprite's `y position`{:class="block3motion"}.
 
-![трубы на разных высотах](images/flappy-height-test.png)
+![pipes at different heights](images/flappy-height-test.png)
 
 \--- task \---
 
-Измени код спрайта, чтобы каждый его клон `выбирал случайное число от -80 до 80`{:class="block3operators"} и `скользил`{:class="block3motion"} к его`положению по y`{:class="block3motion"}:
+Modify your sprite's code so that each sprite clone `picks a random number from -80 to 80`{:class="block3operators"} and `glides`{:class="block3motion"} to that `y position`{:class="block3motion"}:
 
-![спрайт трубы](images/pipes-sprite.png)
+![pipes sprite](images/pipes-sprite.png)
 
 ```blocks3
-когда я начинаю как клон
-показаться
-перейти в x: (240) y: (выдать случайное от (-80) до (80))
-плыть (4) секунд в точку x: (-240) y: (положение y)
-удалить клон
+when I start as a clone
+show
++ go to x: (240) y: (pick random (-80) to (80))
++ glide (4) secs to x: (-240) y: (y position)
+delete this clone
 ```
 
 \--- /task \---
