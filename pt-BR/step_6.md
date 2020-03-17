@@ -43,7 +43,7 @@ Click on the **Costumes** tab, and name Flappy's costumes 'wings up' and 'wings 
 
 Can you make Flappy's costume change to `wings down` when you press <kbd>space</kbd>, and then change it back to `wings up` halfway through the upward movement?
 
-\--- dica \---
+\--- hints \---
 
 \--- hint \---
 
@@ -77,7 +77,7 @@ when [space v] key pressed
 
 \--- hint \---
 
-Seu código deve ficar assim:
+Your code should look like this:
 
 ![parrot sprite](images/flappy-sprite.png)
 
