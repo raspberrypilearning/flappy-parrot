@@ -1,4 +1,4 @@
-## I ara què ve?
+## What next?
 
 Try the [Binary hero](https://projects.raspberrypi.org/en/projects/binary-hero?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will make a game in which you play the notes of a song as they scroll down the Stage.
 
