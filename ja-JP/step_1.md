@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## はじめに
+## Introduction
 
 Create a game in which you have to guide a parrot past scrolling pipes to score points.
 
-### 作るもの
+### What you will make
 
 \--- no-print \---
 
@@ -33,13 +33,13 @@ You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and s
 
 ## title: What you will need
 
-### ハードウェア
+### Hardware
 
-+ Scratch 3を実行できるコンピュータ
++ A computer capable of running Scratch 3
 
-### ソフトウェア
+### Software
 
-+ Scratch 3 ([オンライン](https://rpf.io/scratchon)または[オフライン](https://rpf.io/scratchoff))
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 \--- /collapse \---
 
