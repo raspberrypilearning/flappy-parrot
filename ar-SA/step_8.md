@@ -1,4 +1,4 @@
-## التحدي: كائنات أخرى
+## Add a score
 
 The player should score a point every time Flappy makes it through a gap between pipes.
 
@@ -8,7 +8,7 @@ Make a new variable **for all sprites** and call it `score`{:class="block3variab
 
 [[[generic-scratch3-add-variable]]]
 
-\---/task--
+\--- /task \---
 
 Each 'Pipes' sprite clone should `wait until`{:class="block3control"} Flappy has flown past and then increase the `score`{:class="block3variables"}.
 
@@ -29,7 +29,7 @@ forever
 end
 ```
 
-\---/task\---
+\--- /task \---
 
 \--- task \---
 
@@ -65,7 +65,7 @@ when I start as a clone
 
 Then `change score by 1`{:class="block3variables"} and `play a sound`{:class="block3sound"}.
 
-\--- hint/ \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -88,7 +88,7 @@ x position
 () > ()
 ```
 
-\--- hint/ \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -103,9 +103,9 @@ change [score v] by (1)
 play sound (pop v)
 ```
 
-\--- hint/ \---
+\--- /hint \---
 
-\--- hints/ \---
+\--- /hints \---
 
 \--- /task \---
 
