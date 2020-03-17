@@ -22,7 +22,7 @@ end
 
 **Tip:** clones are just copies of a sprite, and they are really useful for creating games.
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -40,7 +40,7 @@ delete this clone
 
 **Tip:** you can stop the pipes scrolling by clicking the red **stop** button next to the green flag.
 
-\--- /görev \---
+\--- /task \---
 
 Now you should have lots of pipes, but their gaps are always in the same place.
 
@@ -62,4 +62,4 @@ show
 delete this clone
 ```
 
-\--- /görev \---
+\--- /task \---
