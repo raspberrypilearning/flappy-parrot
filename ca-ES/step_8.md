@@ -50,7 +50,7 @@ Add more code so that, when Flappy's `x` position is greater than the pipe clone
 
 You could use the 'pop' sound if you want, or add a sound from the library, for example 'bird'.
 
-\--- hint \---
+\--- hints \---
 
 \--- hint \---
 
@@ -105,7 +105,7 @@ play sound (pop v)
 
 \--- /hint \---
 
-\--- /hint \---
+\--- /hints \---
 
 \--- /task \---
 
