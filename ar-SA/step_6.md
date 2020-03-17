@@ -73,7 +73,7 @@ switch costume to (wings down v)
 when [space v] key pressed
 ```
 
-\--- hint/ \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -93,9 +93,9 @@ repeat (5)
 end
 ```
 
-\--- hint/ \---
+\--- /hint \---
 
-\--- hints/ \---
+\--- /hints \---
 
 \--- /task \---
 
