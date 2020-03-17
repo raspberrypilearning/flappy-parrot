@@ -43,9 +43,9 @@ Click on the **Costumes** tab, and name Flappy's costumes 'wings up' and 'wings 
 
 Can you make Flappy's costume change to `wings down` when you press <kbd>space</kbd>, and then change it back to `wings up` halfway through the upward movement?
 
-\--- sugestii \---
+\--- hints \---
 
-\--- indiciu \---
+\--- hint \---
 
 You need to split the upward motion in half so that you can use two `repeat`{:class="block3control"} blocks to change Flappy's costume at the beginning and in the middle of the movement.
 
@@ -73,9 +73,9 @@ switch costume to (wings down v)
 when [space v] key pressed
 ```
 
-\--- / indiciu \---
+\--- /hint \---
 
-\--- indiciu \---
+\--- hint \---
 
 Your code should look like this:
 
@@ -93,9 +93,9 @@ repeat (5)
 end
 ```
 
-\--- / indiciu \---
+\--- /hint \---
 
-\--- / sugestii \---
+\--- /hints \---
 
 \--- /task \---
 
