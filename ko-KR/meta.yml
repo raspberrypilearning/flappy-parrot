@@ -1,6 +1,6 @@
 ---
 title: Flappy parrot
-hero_image: images / banner.png
+hero_image: images/banner.png
 description: Create a game in which you guide a parrot past moving obstacles
 listed: true
 copyedit: true
@@ -8,7 +8,7 @@ version: 4.1
 last_tested: 2018-10-90
 steps:
   - 
-    title: 소개
+    title: Introduction
   - 
     title: Add the pipes
   - 
@@ -23,7 +23,7 @@ steps:
   - 
     title: Detect collisions
   - 
-    title: '도전 과제: 더 많은 목표물'
+    title: Add a score
   - 
     title: 'Challenge: adjust the difficulty'
     challenge: true
@@ -31,4 +31,4 @@ steps:
     title: 'Challenge: add a high score'
     challenge: true
   - 
-    title: '도전과제: 더 많은 연필들'
+    title: What next?
