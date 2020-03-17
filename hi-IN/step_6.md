@@ -1,24 +1,24 @@
-## तोते को उड़ाएँ
+## Make Flappy fly
 
-अब जब आप <kbd>space</kbd> बार को दबाएँगे तो आपका Flappy (तोता) ऊपर की तरफ उड़ेगा। जब आप गेम खेलते हैं, तो आपको अपने कुंजी दबाने के समय पर ध्यान देना होगा ताकि Flappy (तोता) पाइपों की खाली जगहों में से निकल सके।
+Now you will make Flappy flap upwards when you press the <kbd>space</kbd> bar. When you play the game, you have to time your taps to get Flappy through the gaps in the pipes.
 
 \--- no-print \---
 
-![जब स्पेस बार दबाया जाता है तो तोता ऊपर की ओर उड़ता है](images/flappy-flying.gif)
+![flappy flying upwards when space bar is pressed](images/flappy-flying.gif)
 
 \--- /no-print \---
 
-जब आप <kbd>space</kbd> बार को दबाएँगे तो Flappy (तोता) ऊपर की तरफ उड़ेगा।
+Make Flappy fly upwards when you tap the <kbd>space</kbd> bar.
 
 \--- task \---
 
-`space key is pressed`{:class="block3events"} होने पर, Flappy (तोता) `changing its y coordinate`{:class="block3motion"} थोड़ा सा, उदाहरण के लिए `6` ऊपर उठेगा।
+When the `space key is pressed`{:class="block3events"}, Flappy should move upwards by `changing its y coordinate`{:class="block3motion"} by a small amount, for example `6`.
 
-इस `repeating`{:class="block3control"} गतिविधि को `10 times`{:class="block3control"} बार करने पर Flappy (तोता) ऊपर की ओर उड़ता है।
+Flappy flies upwards by `repeating`{:class="block3control"} this movement `10 times`{:class="block3control"}.
 
-इस कोड को अपने `Flappy` स्प्राइट में जोड़ें:
+Add this code to your `Flappy` sprite:
 
-![तोता स्प्राइट](images/flappy-sprite.png)
+![parrot sprite](images/flappy-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -29,33 +29,33 @@ end
 
 \--- /task \---
 
-अब आपको तोते के पंखों को फड़फड़ाना होगा!
+Now you need to get Flappy's wings flapping!
 
 \--- task \---
 
-**Costumes (परिधान)** टैब पर क्लिक करें, और तोते के परिधानों का नाम 'wings up' (पंख ऊपर) और 'wings down' (पंख नीचे) रखें।
+Click on the **Costumes** tab, and name Flappy's costumes 'wings up' and 'wings down'.
 
-![परिधानों का नामकरण](images/flappy-wings.png)
+![naming the costumes](images/flappy-wings.png)
 
 \--- /task \---
 
 \--- task \---
 
-क्या आप तोते के परिधान को बीच रास्ते ऊपर की ओर उड़ते समय <kbd>space</kbd> दबाकर `wings down` में, और फिर इसे वापस `wings up` में बदल सकते हैं?
+Can you make Flappy's costume change to `wings down` when you press <kbd>space</kbd>, and then change it back to `wings up` halfway through the upward movement?
 
 \--- hints \---
 
 \--- hint \---
 
-आपको ऊपर के हिलने-डुलने को आधे हिस्से के रूप में बाँटना होगा ताकि आप तोते के परिधान को आरंभ में और बीच में बदलने के लिए दो `repeat`{:class="block3control"} ब्लॉकों का उपयोग कर सकें।
+You need to split the upward motion in half so that you can use two `repeat`{:class="block3control"} blocks to change Flappy's costume at the beginning and in the middle of the movement.
 
-तोता कैसा दिखता है इसे बदलने के लिए `switch costume to`{:class="block3looks"} ब्लॉक जोड़ें।
+Add `switch costume to`{:class="block3looks"} blocks to change how Flappy looks.
 
 \--- /hint \--- \--- hint \---
 
-आपको इन ब्लॉकों का उपयोग करने की आवश्यकता है:
+You need to use these blocks:
 
-![तोता स्प्राइट](images/flappy-sprite.png)
+![parrot sprite](images/flappy-sprite.png)
 
 ```blocks3
 repeat (5) 
@@ -77,9 +77,9 @@ when [space v] key pressed
 
 \--- hint \---
 
-आपका कोड इस प्रकार दिखना चाहिए:
+Your code should look like this:
 
-![तोता स्प्राइट](images/flappy-sprite.png)
+![parrot sprite](images/flappy-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -101,6 +101,6 @@ end
 
 \--- task \---
 
-अपने कोड का परीक्षण करें। जैसा कि आप देख रहे हैं, अगर आप तोते को पाइप से टकराने देते हैं तो इस समय कुछ भी नहीं होता है।
+Test your code. As you see, at the moment nothing happens if you let Flappy hit a pipe.
 
 \--- /task \---
