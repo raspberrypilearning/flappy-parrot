@@ -4,21 +4,21 @@ First, create the pipes.
 
 \--- task \---
 
-افتح مشروع Scratch جديدًا وفارغًا.
+Open a new empty Scratch project.
 
 [[[generic-scratch3-new-project]]]
 
-\---/task--
+\--- /task \---
 
 \--- task \---
 
 Add a backdrop with an outdoor landscape. 'Blue Sky' is a good choice.
 
-![لقطة الشاشة](images/flappy-stage.png)
+![screenshot](images/flappy-stage.png)
 
 [[[generic-scratch3-backdrop-from-library]]]
 
-\---/task\---
+\--- /task \---
 
 \--- task \---
 
@@ -32,7 +32,7 @@ The 'Pipes' sprite should be a pair of pipes with a gap in the middle. By moving
 
 This picture shows an example of how the pipes could be positioned. The parts of the sprite outside the Stage are normally hidden, you only see then when you drag the sprite:
 
-![لقطة الشاشة](images/flappy-pipes-position.png)
+![screenshot](images/flappy-pipes-position.png)
 
 You can't draw a sprite as big as the pipes need to be, but you can increase the size at which the sprite shows on the Stage.
 
@@ -79,6 +79,6 @@ Create a duplicate of the pipe by selecting it and then clicking on **Copy** and
 
 Drag the copy of the pipe to the bottom of the screen so that the copy is in line with the other pipe. There needs to be a gap between the two pipes.
 
-![لقطة الشاشة](images/flappy-pipes-duplicate2.png)
+![screenshot](images/flappy-pipes-duplicate2.png)
 
 \--- /task \---
