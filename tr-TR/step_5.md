@@ -16,7 +16,7 @@ The parrot sprite is a good choice.
 
 ![parrot sprite](images/flappy-sprite.png)
 
-\--- /görev \---
+\--- /task \---
 
 Flappy needs to be smaller.
 
@@ -31,7 +31,7 @@ when green flag clicked
 set size to (25) %
 ```
 
-\--- /görev \---
+\--- /task \---
 
 When the game starts, Flappy needs to be just left of the centre of the Stage, at coordinates `-50, 0`.
 
@@ -51,7 +51,7 @@ set size to (25) %
 
 [[[generic-scratch3-set-coordinates]]]
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -68,10 +68,10 @@ go to x: (-50) y: (0)
 end
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
 Test your code to make sure Flappy starts in the middle of the screen and falls to the bottom. When you drag Flappy to the top of the Stage, the sprite should fall again.
 
-\--- /görev \---
+\--- /task \---
