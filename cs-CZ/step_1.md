@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Úvod
+## Introduction
 
 Create a game in which you have to guide a parrot past scrolling pipes to score points.
 
-### Co budeš dělat
+### What you will make
 
 \--- no-print \---
 
@@ -35,11 +35,11 @@ You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and s
 
 ### Hardware
 
-+ Počítač schopný spustit aplikaci Scratch 3
++ A computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 3 (buď [online](https://rpf.io/scratchon) nebo [offline](https://rpf.io/scratchoff) verzi)
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 \--- /collapse \---
 
