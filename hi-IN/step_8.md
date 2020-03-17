@@ -1,22 +1,22 @@
-## स्कोर जोड़ें
+## Add a score
 
-हर बार जब तोता पाइपों के बीच की खाली जगह से निकल जाए तो खिलाड़ी को एक अंक प्राप्त होना चाहिए।
+The player should score a point every time Flappy makes it through a gap between pipes.
 
 \--- task \---
 
-एक नया वेरिएबल **for all sprites** (सभी स्प्राइट्स के लिए) और इसका नाम `score`{:class="block3variables"} रखें।
+Make a new variable **for all sprites** and call it `score`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-प्रत्येक 'Pipes' (पाइप्स) स्प्राइट क्लोन को `wait until`{:class="block3control"} तोते के उड़ कर निकल जाने की प्रतीक्षा करनी चाहिए और फिर `score`{:class="block3variables"} में वृद्धि करनी चाहिए।
+Each 'Pipes' sprite clone should `wait until`{:class="block3control"} Flappy has flown past and then increase the `score`{:class="block3variables"}.
 
 \--- task \---
 
-पहले, गेम के शुरू होने पर `set score to 0`{:class="block3variables"} का उपयोग करें:
+First, `set score to 0`{:class="block3variables"} when the game begins:
 
-![पाइप्स स्प्राइट](images/pipes-sprite.png)
+![pipes sprite](images/pipes-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -33,9 +33,9 @@ end
 
 \--- task \---
 
-फिर `Pipes` स्प्राइट में निम्नलिखित कोड जोड़ें:
+Then add the following code to the `Pipes` sprite:
 
-![पाइप्स स्प्राइट](images/pipes-sprite.png)
+![pipes sprite](images/pipes-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -46,32 +46,32 @@ wait until <>
 
 \--- task \---
 
-और अधिक कोड जोड़ें ताकि, जब तोते `x` की स्थिति पाइप क्लोन `x` की स्थिति से अधिक हो, तो `score`{:class="block3variables"} में `1` की वृद्धि होती है और आपकी पसंद की ध्वनि बजती है।
+Add more code so that, when Flappy's `x` position is greater than the pipe clone's `x` position, the `score`{:class="block3variables"} increases by `1` and a sound of your choice plays.
 
-यदि आप चाहें तो 'पॉप' की ध्वनि का उपयोग कर सकते हैं, या लाइब्रेरी से कोई ध्वनि जोड़ सकते हैं, उदाहरण के लिए 'पक्षी'।
+You could use the 'pop' sound if you want, or add a sound from the library, for example 'bird'.
 
 \--- hints \---
 
 \--- hint \---
 
-आपको `wait until`{:class="block3control"} तब तक प्रतीक्षा करनी होगी जब तक `Flappy's x position`{:class="block3sensing"} `Pipes` की `x position`{:class="block3motion"} स्थिति `greater than (>)`{:class="block3operators"} से अधिक हो।
+You need to `wait until`{:class="block3control"} `Flappy's x position`{:class="block3sensing"} is `greater than (>)`{:class="block3operators"} the `x position`{:class="block3motion"} of `Pipes`.
 
-![पाइप्स स्प्राइट](images/pipes-sprite.png)
+![pipes sprite](images/pipes-sprite.png)
 
 ```blocks3
 when I start as a clone
 + wait until <>
 ```
 
-फिर `change score by 1`{:class="block3variables"} बदलें और `play a sound`{:class="block3sound"} ध्वनि बजाएँ।
+Then `change score by 1`{:class="block3variables"} and `play a sound`{:class="block3sound"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-इन ब्लॉक्स का सही क्रम में उपयोग करें:
+Use these blocks in the correct order:
 
-![पाइप्स स्प्राइट](images/pipes-sprite.png)
+![pipes sprite](images/pipes-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -92,9 +92,9 @@ x position
 
 \--- hint \---
 
-आपका कोड इस प्रकार दिखना चाहिए:
+Your code should look like this:
 
-![पाइप्स स्प्राइट](images/pipes-sprite.png)
+![pipes sprite](images/pipes-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -111,6 +111,6 @@ play sound (pop v)
 
 \--- task \---
 
-अपने कोड का परीक्षण करें और सुनिश्चित करें कि हर बार जब तोता पाइपों के बीच की खाली जगह में से निकलता है तो आप एक अंक स्कोर करते हैं। जाँच करें कि जब आप कोई नया गेम शुरू करते हैं तो `score`{:class="block3variables"} स्कोर `0` पर सेट किया होता है।
+Test your code and make sure you score a point every time Flappy gets through a gap between pipes. Check whether the `score`{:class="block3variables"} is set to `0` when you start a new game.
 
 \--- /task \---
