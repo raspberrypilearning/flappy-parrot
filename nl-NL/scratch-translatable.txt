@@ -1,12 +1,12 @@
-Pipes
+Pijpen
 
-costume1
+uiterlijk1
 
 Flappy
 
-wings down
+wings-down
 
-wings up
+wings-up
 
 Game Over!
 
