@@ -19,7 +19,7 @@ Stel score eerst `in op 0`{:class="block3variables"} wanneer het spel begint:
 ![pijpen sprite](images/pipes-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when green flag clicked
 + maak [score v] [0]
 maak grootte (200) %
 verdwijn
@@ -38,8 +38,8 @@ Voeg vervolgens de volgende code toe aan de sprite van `Pijpen`:
 ![pijpen sprite](images/pipes-sprite.png)
 
 ```blocks3
-als ik als kloon start
-wacht tot <>
+when I start as a clone
+wait until <>
 ```
 
 --- /task ---
@@ -84,7 +84,7 @@ verander [score v] met (1)
 
 [x positie v] van (Flappy v)
 
-x positie
+x position
 
 () > ()
 ```

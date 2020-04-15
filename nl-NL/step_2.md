@@ -43,8 +43,8 @@ Je kunt een sprite niet net zo groot maken als de pijpen, maar je kunt de groott
 Voeg code toe om de sprite groter te maken.
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
-maak grootte (200) %
+when green flag clicked
+set size to (200) %
 ```
 
 Dit maakt het gemakkelijker om te zien hoe groot de pijpen moeten zijn.

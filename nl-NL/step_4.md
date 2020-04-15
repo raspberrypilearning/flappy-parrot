@@ -11,7 +11,7 @@ Laat de pijpen eerst verschijnen door code toe te voegen aan de sprite van Pipes
 ![pijpen sprite](images/pipes-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when green flag clicked
 maak grootte (200) %
 verdwijn
 herhaal

@@ -21,9 +21,9 @@ Voeg een nieuw `wanneer op de groene vlag wordt geklikt`{:class="block3control"}
 ![papegaai sprite](images/flappy-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
-wacht tot <&ltraak ik (Pipes v) ?&gt of <raak ik (rand v) ?>>
-start geluid (screech v)
+when green flag clicked
+wait until <<touching (Pijpen v) ?> or <touching (rand v) ?>>
+play sound (screech v)
 ```
 
 --- /task ---
@@ -43,11 +43,11 @@ Voeg de volgende code toe om het spel te stoppen nadat een botsing is waargenome
 ![papegaai sprite](images/flappy-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
-wacht tot <&ltraak ik (Pipes v) ?&gt of <raak ik (rand v) ?>>
-start geluid (screech v)
-+ zeg [Game Over!]
-+ zend signaal (game over v)
+when green flag clicked
+wait until <<touching (Pijpen v) ?> or <touching (rand v) ?>>
+play sound (screech v)
++ say [Game Over!]
++ broadcast (Game Over v)
 + stop [andere scripts in sprite v]
 ```
 

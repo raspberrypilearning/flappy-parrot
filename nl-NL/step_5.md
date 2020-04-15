@@ -27,8 +27,8 @@ Voeg code toe om `maak grootte 25 %`{:class="block3looks"} uit te voeren `wannee
 ![papegaai sprite](images/flappy-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
-maak grootte (25) %
+when green flag clicked
+set size to (25) %
 ```
 
 --- /task ---
@@ -44,9 +44,9 @@ Voeg code toe om Flappy naar de `x en y`{:class="block3motion"} startpositie van
 ![papegaai sprite](images/flappy-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
-maak grootte (25) %
-+ ga naar x: (-50) y: (0)
+when green flag clicked
+set size to (25) %
++ go to x: (-50) y: (0)
 ```
 
 [[[generic-scratch3-set-coordinates]]]
@@ -60,12 +60,12 @@ Laat Flappy nu `voor altijd`{:class="block3control"} van het speelveld vallen do
 ![papegaai sprite](images/flappy-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
-maak grootte (25) %
-ga naar x: (-50) y: (0)
-+ herhaal
-    verander y met (-3)
-einde
+when green flag clicked
+set size to (25) %
+go to x: (-50) y: (0)
++ forever 
+    change y by (-3)
+end
 ```
 
 --- /task ---
