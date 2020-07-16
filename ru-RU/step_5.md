@@ -1,52 +1,52 @@
-## Make Flappy fall
+## Сделай Flappy падающим
 
-Now add a sprite called Flappy and create code it so Flappy falls down the Stage. In the next step, you will add the code to make Flappy fly when you press a key.
+Теперь добавь спрайт под названием Flappy и создайте код так, чтобы Flappy падал на Сцене. На следующем шаге ты добавишь код, чтобы Flappy взлетал при нажатии клавиши.
 
 \--- no-print \---
 
-![flappy falling animation](images/flappy-falling.gif)
+![анимация падающего Flappy](images/flappy-falling.gif)
 
 \--- /no-print \---
 
 \--- task \---
 
-Add a new sprite that has two costumes, for 'wings up' and 'wings down', and name it `Flappy`.
+Добавь новый спрайт, который имеет два костюма, 'крылья вверх' и 'крылья вниз', и назови его `Flappy`.
 
-The parrot sprite is a good choice.
+Спрайт попугай - это хороший выбор.
 
-![parrot sprite](images/flappy-sprite.png)
+![спрайт попугая](images/flappy-sprite.png)
 
 \--- /task \---
 
-Flappy needs to be smaller.
+Flappy должен быть поменьше.
 
 \--- task \---
 
-Add code to `set Flappy's size to 25%`{:class="block3looks"} `when the green flag is clicked`{:class="block3events"}.
+Добавь код в `установить размер Flappy 25%`{:class="block3looks"} `когда зеленый флаг нажат`{:class="block3events"}.
 
-![parrot sprite](images/flappy-sprite.png)
+![спрайт попугая](images/flappy-sprite.png)
 
 ```blocks3
-when green flag clicked
-set size to (25) %
+когда щёлкнут по зелёному флагу
+установить размер (25) %
 ```
 
 \--- /task \---
 
-When the game starts, Flappy needs to be just left of the centre of the Stage, at coordinates `-50, 0`.
+Когда игра начинается, Flappy нужно быть просто чуть левее от центра Сцены, с координатами `-50, 0`.
 
-![flappy shown at the start position](images/flappy-starting-position.png)
+![flappy, показан в стартовой позиции](images/flappy-starting-position.png)
 
 \--- task \---
 
-Add code to make Flappy `go to the x and y`{:class="block3motion"} starting position of `x: -50`{:class="block3motion"} and `y: 0`{:class="block3motion"}.
+Добавь код, чтобы Flappy `перешёл к x и y`{:class="block3motion"} с начальной позицией `x: -50`{:class="block3motion"} и `y: 0`{:Класс="block3motion"}.
 
-![parrot sprite](images/flappy-sprite.png)
+![спрайт попугая](images/flappy-sprite.png)
 
 ```blocks3
-when green flag clicked
-set size to (25) %
-+ go to x: (-50) y: (0)
+когда щёлкнут по зелёному флагу
+установить размер (25) %
+перейти в x: (-50) y: (0)
 ```
 
 [[[generic-scratch3-set-coordinates]]]
@@ -55,16 +55,16 @@ set size to (25) %
 
 \--- task \---
 
-Now make Flappy keep falling down the Stage by `forever`{:class="block3control"} `changing the sprite's y position by -3`{:class="block3motion"}.
+Теперь сделай так, чтобы Flappy всегда падал вниз Сцены с помощью `повторять всегда`{:class="block3control"}`, изменяя позицию спрайта по y на -3`{:Класс="block3motion"}.
 
-![parrot sprite](images/flappy-sprite.png)
+![спрайт попугая](images/flappy-sprite.png)
 
 ```blocks3
-when green flag clicked
-set size to (25) %
-go to x: (-50) y: (0)
-+ forever 
-    change y by (-3)
+когда щёлкнут по зелёному флагу
+установить размер (25) %
+перейти в x: (-50) y: (0)
+повторять всегда 
+  изменить y на (-3)
 end
 ```
 
@@ -72,6 +72,6 @@ end
 
 \--- task \---
 
-Test your code to make sure Flappy starts in the middle of the screen and falls to the bottom. When you drag Flappy to the top of the Stage, the sprite should fall again.
+Проверь свой код, чтобы убедиться, что Flappy стартует в середине экрана и падает вниз. Когда ты перетащишь Flappy на верхнюю часть Сцены, спрайт должен снова упасть.
 
 \--- /task \---
