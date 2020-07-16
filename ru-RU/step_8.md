@@ -1,31 +1,31 @@
-## Add a score
+## Добавь счёт
 
-The player should score a point every time Flappy makes it through a gap between pipes.
+Игрок должен набирать очки каждый раз, когда Flappy пролетает сквозь щели между трубами.
 
 \--- task \---
 
-Make a new variable **for all sprites** and call it `score`{:class="block3variables"}.
+Создай новую переменную **для всех спрайтов** и назови её `счёт`:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-Each 'Pipes' sprite clone should `wait until`{:class="block3control"} Flappy has flown past and then increase the `score`{:class="block3variables"}.
+Каждый клон спрайта 'Трубы' должен `ждать пока`{:class="block3control"} Flappy не пролетит мимо и затем увеличить `счёт`{:class="block3variables"}.
 
 \--- task \---
 
-First, `set score to 0`{:class="block3variables"} when the game begins:
+Сначала, `установи счёт на 0`{:class="block3variables"}, когда игра начинается:
 
-![pipes sprite](images/pipes-sprite.png)
+![спрайт трубы](images/pipes-sprite.png)
 
 ```blocks3
-when green flag clicked
-+ set [score v] to [0]
-set size to (200) %
-hide
-forever 
-  create clone of (myself v)
-  wait (2) seconds
+когда щёлкнут по зелёному флагу
+задать [счёт v] значение [0]
+установить размер (200) %
+спрятаться
+повторять всегда 
+  создать клон (самого себя v)
+  ждать (2) секунд
 end
 ```
 
@@ -33,74 +33,74 @@ end
 
 \--- task \---
 
-Then add the following code to the `Pipes` sprite:
+Затем добавь следующий код в спрайт `Трубы`:
 
-![pipes sprite](images/pipes-sprite.png)
+![спрайт трубы](images/pipes-sprite.png)
 
 ```blocks3
-when I start as a clone
-wait until <>
+когда я начинаю как клон
+ждать до <>
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add more code so that, when Flappy's `x` position is greater than the pipe clone's `x` position, the `score`{:class="block3variables"} increases by `1` and a sound of your choice plays.
+Добавь еще кода так, чтобы когда у Flappy положение `x` станет больше, чем положение `x` у клона трубы, то `счёт`{:class="block3variables"} увеличится на `1` и прозвучит сигнал, который ты выбрал.
 
-You could use the 'pop' sound if you want, or add a sound from the library, for example 'bird'.
+Если хочешь, ты можешь использовать звук «pop» или добавить звук из библиотеки, например, «bird».
 
 \--- hints \---
 
 \--- hint \---
 
-You need to `wait until`{:class="block3control"} `Flappy's x position`{:class="block3sensing"} is `greater than (>)`{:class="block3operators"} the `x position`{:class="block3motion"} of `Pipes`.
+Тебе нужно `ждать, пока`{:class="block3control"} `положение х у Flappy`:class="block3sensing"} станет `больше чем (>)`{:class="block3operators"} `положение x`:class="block3motion"} у `Труб`.
 
-![pipes sprite](images/pipes-sprite.png)
+![спрайт трубы](images/pipes-sprite.png)
 
 ```blocks3
-when I start as a clone
-+ wait until <>
+когда я начинаю как клон
+ждать до <>
 ```
 
-Then `change score by 1`{:class="block3variables"} and `play a sound`{:class="block3sound"}.
+Затем `изменить счёт на 1`{:class="block3variables"} и `воспроизвести звук`:class="block3sound"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Use these blocks in the correct order:
+Используй эти блоки в правильном порядке:
 
-![pipes sprite](images/pipes-sprite.png)
+![спрайт трубы](images/pipes-sprite.png)
 
 ```blocks3
-when I start as a clone
-wait until <>
+когда я начинаю как клон
+ждать до <>
 
-play sound (pop v)
+включить звук (pop v)
 
-change [score v] by (1)
+изменить [счёт v] на (1)
 
-[x position v] of (Flappy v)
+([x положение v] от (Flappy v))
 
-x position
+(положение x)
 
-() > ()
+<() > ()>
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Your code should look like this:
+Твой код должен выглядеть вот так:
 
-![pipes sprite](images/pipes-sprite.png)
+![спрайт трубы](images/pipes-sprite.png)
 
 ```blocks3
-when I start as a clone
-wait until <([x position v] of (Flappy v)) > (x position)>
-change [score v] by (1)
-play sound (pop v)
+когда я начинаю как клон
+ждать до <([x положение v] от (Flappy v)) > (положение x)>
+изменить [счёт v] на (1)
+включить звук (pop v)
 ```
 
 \--- /hint \---
@@ -111,6 +111,6 @@ play sound (pop v)
 
 \--- task \---
 
-Test your code and make sure you score a point every time Flappy gets through a gap between pipes. Check whether the `score`{:class="block3variables"} is set to `0` when you start a new game.
+Протестируй свой код и убедись, что ты набираешь очки каждый раз, когда Flappy пролетает через щели между трубами. Проверь, устанавливается ли `счёт`{:class="block3variables"} на `0` при запуске новой игры.
 
 \--- /task \---
