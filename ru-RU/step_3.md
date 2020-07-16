@@ -1,11 +1,11 @@
-## Challenge: make better pipes
+## Задача: сделать трубы лучше
 
-Can you make your pipes look better?
+Можешь ли ты сделать так, чтобы трубы выглядели лучше?
 
-+ Shade your pipes with a left-to-right gradient.
++ Закрась свои трубы с помощью градиента слева направо.
 
-![screenshot](images/flappy-pipes-filled.png)
+![скриншот](images/flappy-pipes-filled.png)
 
-+ Add extra rectangles to the ends of the pipes:
++ Добавь дополнительные прямоугольники к концам труб:
 
-![screenshot](images/flappy-pipes-ends.png)
+![скриншот](images/flappy-pipes-ends.png)
