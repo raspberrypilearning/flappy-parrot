@@ -1,10 +1,10 @@
-## What next?
+## Что дальше?
 
-Try the [Binary hero](https://projects.raspberrypi.org/en/projects/binary-hero?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will make a game in which you play the notes of a song as they scroll down the Stage.
+Попробуй проект [Двоичный герой](https://projects.raspberrypi.org/en/projects/binary-hero?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), где ты сделаешь игру, в которой будешь играть ноты песни, когда они прокручиваются вниз по Сцене.
 
 \--- no-print \---
 
-Click the green flag to start the game. Use the <kbd>z</kbd>, <kbd>x</kbd>, <kbd>c</kbd>, and <kbd>v</kbd> keys to play the correct notes when these reach the bottom of the Stage. You'll score ten points for every correct note you play.
+Нажми на зеленый флаг, чтобы начать. Используй клавиши <kbd>z</kbd>, <kbd>x</kbd>, <kbd>c</kbd>, и <kbd>v</kbd> чтобы проиграть правильные ноты когда они достигнут нижней части Сцены. Ты получишь десять очков за каждую правильную ноту, которую сыграешь.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/259028053/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -14,6 +14,6 @@ Click the green flag to start the game. Use the <kbd>z</kbd>, <kbd>x</kbd>, <kbd
 
 \--- print-only \---
 
-The notes will fall from above, and you will have to press keys to "catch" and play the notes. ![showcase](images/binary-showcase.png)
+Ноты будут падать сверху и тебе нужно нажимать клавиши, чтобы «поймать» и сыграть их. ![пример](images/binary-showcase.png)
 
 \--- /print-only \---
