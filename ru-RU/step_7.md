@@ -1,77 +1,77 @@
-## Detect collisions
+## Обнаружение столкновений
 
-To make the game a challenge, the player needs to guide Flappy through the gaps without letting the parrot touch the pipes or the edges of the Stage. You need to add some blocks to detect when Flappy hits something.
+Чтобы сделать игру сложной, игрок должен провести Flappy через щели, не позволяя попугаю касаться труб или краев Сцены. Тебе нужно добавить несколько блоков, чтобы определить, когда Flappy обо что-то ударится.
 
-This is called **collision detection**.
+Это называется **обнаружением столкновений**.
 
 \--- task \---
 
-Import a sound from the library that you want to play when Flappy collides with something. The 'screech' sound is a good choice.
+Загрузи звук из библиотеки, который ты хочешь воспроизвести, когда Flappy сталкивается с чем-либо. Звук «screech (визг)» - хороший выбор.
 
 [[[generic-scratch3-sound-from-library]]]
 
 \--- /task \---
 
-A `wait until`{:class="block3control"} block is necessart to check whether Flappy is `touching the pipes`{:class="block3sensing"} `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}.
+Блок `ждать до`{: class = "block3control"} необходим для проверки того, что Flappy `касается труб`{: class = "block3sensing"} `или`{: class = "block3operators"} `касается края`{: Класс = "block3sensing"}.
 
 \--- task \---
 
-Add a new `when green flag clicked`{:class="block3control"} block to the 'Flappy' sprite, and also add the following code:
+Добавь новый блок `когда зелёный флаг нажат`{:class="block3control"} в спрайт 'Flappy', а также добавь следующий код:
 
-![parrot sprite](images/flappy-sprite.png)
+![спрайт попугая](images/flappy-sprite.png)
 
 ```blocks3
-when green flag clicked
-wait until <<touching (Pipes v) ?> or <touching (edge v) ?>>
-play sound (screech v)
+когда щёлкнут по зелёному флагу
+ждать до <<касается (Pipes v)?> или <касается (edge v)?>>
+включить звук (screech v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. If Flappy touches a pipe, the 'screech' sound should play.
+Проверь свою программу. Если Flappy касается трубы, должен прозвучать звук «визг».
 
 \--- /task \---
 
-Next, update the code so that the game stops when Flappy hits a pipe.
+Далее, обнови код, чтобы игра остановилась, когда Flappy ударится о трубу.
 
 \--- task \---
 
-Add the following code to stop the game after a collision is detected:
+Добавь следующий код, чтобы остановить игру после того, как столкновение произошло:
 
-![parrot sprite](images/flappy-sprite.png)
+![спрайт попугая](images/flappy-sprite.png)
 
 ```blocks3
-when green flag clicked
-wait until <<touching (Pipes v) ?> or <touching (edge v) ?>>
-play sound (screech v)
-+ say [Game Over!]
-+ broadcast (Game Over v)
-+ stop [other scripts in sprite v]
+когда щёлкнут по зелёному флагу
+ждать до <<touching (Pipes v) ?> или <touching (edge v) ?>>
+включить звук (screech v)
+сказать [Game Over!]
+передать (Game Over v)
+стоп [другие скрипты спрайта v]
 ```
 
-The `broadcast`{:class="block3events"} block tells other sprites that the game is over.
+Блок `передать`{:class="block3events"} говорит другим спрайтам, что игра закончена.
 
-The `stop`{:class="block3control"} block stops other Flappy scripts that are running so that Flappy stops falling after a collision.
+Блок `стоп`{: class = "block3control"} останавливает другие запущенные скрипты Flappy, поэтому Flappy перестает падать после столкновения.
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add the following code to the `Pipes` sprite so that pipes `stop`{:class="block3control"} appearing `when the sprite receives Game Over`{:class="block3events"}.
+Наконец, добавь следующий код в спрайт `Трубы`, чтобы трубы `перестали`{: class = "block3control"} появляться `когда спрайт получит Game Over`{: Класс = "block3events"}.
 
-![pipes sprite](images/pipes-sprite.png)
+![спрайт труб](images/pipes-sprite.png)
 
 ```blocks3
-when I receive [Game Over v]
-stop [other scripts in sprite v]
+когда я получу [Game Over v]
+стоп [другие скрипты спрайта v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game and see how long you can play before it's 'Game over'!
+Протестируй свою игру и посмотри, как долго ты сможешь продержаться!
 
 \--- /task \---
