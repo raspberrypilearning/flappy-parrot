@@ -1,5 +1,5 @@
-## Challenge: adjust the difficulty
+## Задача: отрегулировать сложность
 
-Is the game too hard or too easy for you? How many ways can you find to change the difficulty?
+Игра слишком сложна или легка для тебя? Сколько способов изменить сложность ты можешь найти?
 
-Adjust the game until you are happy with its difficulty!
+Настраивай игру, пока ты не будешь доволен её сложностью!
