@@ -1,13 +1,13 @@
-Pipes
+Трубы
 
 costume1
 
 Flappy
 
-wings down
+крылья вниз
 
-wings up
+крылья вверх
 
 Game Over!
 
-score
+счёт
