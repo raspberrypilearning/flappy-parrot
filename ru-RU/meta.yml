@@ -1,34 +1,34 @@
 ---
-title: Flappy parrot
+title: Попугай Flappy
 hero_image: images/banner.png
-description: Create a game in which you guide a parrot past moving obstacles
+description: Создай игру, в которой ты управляешь попугаем, пролетающем мимо движущихся препятствий
 listed: true
 copyedit: true
 version: 4.1
 last_tested: 2018-10-90
 steps:
   - 
-    title: Introduction
+    title: Введение
   - 
-    title: Add the pipes
+    title: Добавь трубы
   - 
-    title: "Challenge: make better pipes"
+    title: "Задача: сделать трубы лучше"
     challenge: true
   - 
-    title: Make the pipes move
+    title: Заставь трубы двигаться
   - 
-    title: Make Flappy fall
+    title: Сделай Flappy падающим
   - 
-    title: Make Flappy fly
+    title: Сделай Flappy летающим
   - 
-    title: Detect collisions
+    title: Обнаружение столкновений
   - 
-    title: Add a score
+    title: Добавь счёт
   - 
-    title: 'Challenge: adjust the difficulty'
+    title: 'Задача: отрегулировать сложность'
     challenge: true
   - 
-    title: 'Challenge: add a high score'
+    title: 'Задача: добавить лучший результат'
     challenge: true
   - 
-    title: What next?
+    title: Что дальше?
