@@ -1,8 +1,8 @@
-## Challenge: add a high score
+## Задача: добавить лучший результат
 
 \--- challenge \---
 
-Can you add a high score to the game so that, in addition to keeping track of score for the current round, it keeps track of the highest score you've ever reached?
+Можешь ли ты добавить лучший результат в игру, чтобы, помимо отслеживания счёта за текущий раунд, он отслеживал самый высокий результат, который ты когда-либо достигал?
 
 [[[generic-scratch3-high-score]]]
 
