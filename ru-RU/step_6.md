@@ -1,95 +1,95 @@
-## Make Flappy fly
+## Сделай Flappy летающим
 
-Now you will make Flappy flap upwards when you press the <kbd>space</kbd> bar. When you play the game, you have to time your taps to get Flappy through the gaps in the pipes.
+Теперь ты сделаешь, так что Flappy будет махать крыльями и лететь вверх, при нажатии клавиши <kbd>Пробел</kbd>. Когда ты играешь в игру, тебе нужно рассчитывать время нажатий так, чтобы у Flappy получалось пролетать между трубами.
 
 \--- no-print \---
 
-![flappy flying upwards when space bar is pressed](images/flappy-flying.gif)
+![flappy летит вверх, когда клавиша пробел нажата](images/flappy-flying.gif)
 
 \--- /no-print \---
 
-Make Flappy fly upwards when you tap the <kbd>space</kbd> bar.
+Заставь Flappy лететь вверх, когда ты нажимаешь на клавишу <kbd>пробел</kbd>.
 
 \--- task \---
 
-When the `space key is pressed`{:class="block3events"}, Flappy should move upwards by `changing its y coordinate`{:class="block3motion"} by a small amount, for example `6`.
+Когда `клавиша пробел нажата`{: class = "block3events"}, Flappy должен двигаться вверх, `изменяя свою координату y`{: class = "block3motion"} на небольшое значение, например `6`.
 
-Flappy flies upwards by `repeating`{:class="block3control"} this movement `10 times`{:class="block3control"}.
+Flappy летит вверх, `повторяя`{: class = "block3control"} это движение `10 раз`{: Класс = "block3control"}.
 
-Add this code to your `Flappy` sprite:
+Добавь этот код в свой спрайт `Flappy`:
 
-![parrot sprite](images/flappy-sprite.png)
+![спрайт попугая](images/flappy-sprite.png)
 
 ```blocks3
-when [space v] key pressed
-repeat (10) 
-  change y by (6)
+когда клавиша [space v] нажата
+повторить (10) раз 
+  изменить y на (6)
 end
 ```
 
 \--- /task \---
 
-Now you need to get Flappy's wings flapping!
+Теперь тебе нужно сделать так, чтобы Flappy махал крыльями!
 
 \--- task \---
 
-Click on the **Costumes** tab, and name Flappy's costumes 'wings up' and 'wings down'.
+Нажми на вкладку **Костюмы** и назови костюмы Flappy 'крылья вверх' и 'крылья вниз'.
 
-![naming the costumes](images/flappy-wings.png)
+![переименование костюмов](images/flappy-wings.png)
 
 \--- /task \---
 
 \--- task \---
 
-Can you make Flappy's costume change to `wings down` when you press <kbd>space</kbd>, and then change it back to `wings up` halfway through the upward movement?
+Можешь ли ты сделать смену костюма Flappy на `крылья вниз` при нажатии <kbd>пробела</kbd>, и затем снова изменить его на `крылья вверх` на полпути движения вверх?
 
 \--- hints \---
 
 \--- hint \---
 
-You need to split the upward motion in half so that you can use two `repeat`{:class="block3control"} blocks to change Flappy's costume at the beginning and in the middle of the movement.
+Тебе нужно разделить движение вверх пополам, чтобы можно было использовать два блока `повторить`{:class="block3control"}, чтобы изменять костюм Flappy в начале и в середине движения.
 
-Add `switch costume to`{:class="block3looks"} blocks to change how Flappy looks.
+Добавь блоки`переключить костюм на`{:class="block3looks"}, чтобы изменить внешний вид Flappy.
 
 \--- /hint \--- \--- hint \---
 
-You need to use these blocks:
+Тебе нужно использовать эти блоки:
 
-![parrot sprite](images/flappy-sprite.png)
+![спрайт попугая](images/flappy-sprite.png)
 
 ```blocks3
-repeat (5) 
-  change y by (6)
+повторить (5) раз 
+  изменить y на (6)
 end
 
-repeat (5) 
-  change y by (6)
+повторить (5) раз 
+  изменить y на (6)
 end
 
-switch costume to (wings up v)
+изменить костюм на (крылья вверх v)
 
-switch costume to (wings down v)
+изменить костюм на (крылья вниз v)
 
-when [space v] key pressed
+когда клавиша [пробел v] нажата
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Your code should look like this:
+Твой код должен выглядеть так:
 
-![parrot sprite](images/flappy-sprite.png)
+![спрайт попугая](images/flappy-sprite.png)
 
 ```blocks3
-when [space v] key pressed
-switch costume to (wings down v)
-repeat (5) 
-  change y by (6)
+когда клавиша [пробел v] нажата
+изменить костюм на (крылья вниз v)
+повторить (5) раз 
+  изменить y на (6)
 end
-switch costume to (wings up v)
-repeat (5) 
-  change y by (6)
+изменить костюм на (крылья вверх v)
+повторить (5) раз 
+  изменить y на (6)
 end
 ```
 
@@ -101,6 +101,6 @@ end
 
 \--- task \---
 
-Test your code. As you see, at the moment nothing happens if you let Flappy hit a pipe.
+Проверь свою программу. Как ты видишь, пока что ничего не происходит, когда Flappy ударяется об трубу.
 
 \--- /task \---
