@@ -57,8 +57,9 @@ title: Lo que aprenderás
 --- /collapse ---
 
 --- collapse ---
-
-## título: Notas adicionales para educadores
+---
+title: Notas adicionales para educadores
+---
 
 --- no-print ---
 
