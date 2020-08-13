@@ -74,4 +74,4 @@ stop [other scripts in sprite v]
 
 ¡Prueba tu juego y mira cuánto tiempo puedes jugar antes de que termine el juego!
 
---- / tarea ---
+--- /task ---
