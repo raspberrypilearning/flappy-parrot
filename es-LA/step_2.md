@@ -79,6 +79,6 @@ Crea un duplicado de la tubería seleccionándola y luego haz clic en **Copiar**
 
 Arrastra la copia de la tubería a la parte inferior de la pantalla para que la copia esté alineada con la otra tubería. Debe haber un espacio entre las dos tuberías.
 
-![captura de pantalla](imagen/flappy-pipes-duplicate2.png)
+![captura de pantalla](images/flappy-pipes-duplicate2.png)
 
 --- /task ---
