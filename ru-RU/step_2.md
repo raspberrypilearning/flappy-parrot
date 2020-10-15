@@ -71,7 +71,7 @@ set size to (200) %
 
 Создай дубликат трубы, выделив её и нажав **Копировать** и **Вставить**.
 
-![скопировать и вставить трубу](images/flappy-pipes-rectangle.png)
+![скопировать и вставить трубу](images/flappy-pipes-duplicate1-annotated.png)
 
 --- /task ---
 
@@ -79,6 +79,6 @@ set size to (200) %
 
 Перетащи копию трубы в нижнюю часть экрана, так чтобы она находилась на одной линии с другой трубой. Между двумя трубами должна быть щель.
 
-![скриншот](images/flappy-pipes-rectangle.png)
+![скриншот](images/flappy-pipes-duplicate2.png)
 
 --- /task ---
