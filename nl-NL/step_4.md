@@ -6,7 +6,7 @@ Vervolgens ga je de pijpen over het scherm laten bewegen om een hindernisbaan te
 
 \--- task \---
 
-Laat de pijpen eerst verschijnen door code toe te voegen aan de sprite van Pipes zodat, `wanneer op de groene vlag wordt geklikt`{:class="block3events"}, de sprite `continu`{:class="block3control"} om de twee seconden `een kloon van zichzelf`{:class="block3control"} maakt.
+Laat de pijpen eerst verschijnen door code toe te voegen aan de sprite van Pijpen zodat, `wanneer op de groene vlag wordt geklikt`{:class="block3events"}, de sprite `continu`{:class="block3control"} om de twee seconden `een kloon van zichzelf`{:class="block3control"} maakt.
 
 ![pijpen sprite](images/pipes-sprite.png)
 
