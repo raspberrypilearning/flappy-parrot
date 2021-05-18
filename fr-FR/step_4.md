@@ -1,14 +1,14 @@
-## Make the pipes move
+## Faire bouger les tuyaux
 
-Next you're going to make the pipes move across the screen to create an obstacle course.
+Maintenant, tu vas faire bouger les tuyaux sur l'écran pour créer un parcours d'obstacles.
 
-![pipes moving across the screen](images/flappy-clones-test.png)
+![tuyaux se déplaçant sur l'écran](images/flappy-clones-test.png)
 
 \--- task \---
 
-First make the pipes appear by adding code to the Pipes sprite so that, `when the green flag is clicked`{:class="block3events"}, the sprite `forever`{:class="block3control"} `creates a clone of itself`{:class="block3control"} every two seconds.
+Commence par faire apparaître les tuyaux en ajoutant du code au sprite « Tuyaux » afin que, `quand le drapeau vert est cliqué`{:class="block3events"}, le sprite `répéter indéfiniment`{:class="block3control"} `crée un clone de lui-même`{:class="block3control"} toutes les deux secondes.
 
-![pipes sprite](images/pipes-sprite.png)
+![sprite tuyaux](images/pipes-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -20,15 +20,15 @@ forever
 end
 ```
 
-**Tip:** clones are just copies of a sprite, and they are really useful for creating games.
+**Astuce :** les clones ne sont que des copies d'un sprite, et ils sont vraiment utiles pour créer des jeux.
 
 \--- /task \---
 
 \--- task \---
 
-Next make the pipes move by adding code so that, `when a clone starts`{:class="block3control"}, the clone appears on the right side of the Stage and `glides`{:class="block3motion"} across to the left.
+Fais bouger les tuyaux en ajoutant du code de sorte que, `quand un clone démarre`{:class="block3control"}, le clone apparaît sur le côté droit de la scène et `glisse`{:class="block3motion"} sur la gauche.
 
-![pipes sprite](images/pipes-sprite.png)
+![sprite tuyaux](images/pipes-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -38,21 +38,21 @@ glide (4) secs to x: (-240) y: (0)
 delete this clone
 ```
 
-**Tip:** you can stop the pipes scrolling by clicking the red **stop** button next to the green flag.
+**Astuce :** tu peux arrêter le défilement des tuyaux en cliquant sur le bouton rouge **stop** à côté du drapeau vert.
 
 \--- /task \---
 
-Now you should have lots of pipes, but their gaps are always in the same place.
+Maintenant, tu devrais avoir beaucoup de tuyaux, mais leurs espaces sont toujours au même endroit.
 
-You can add some variety by using a `random`{:class="block3operators"} number for the Pipes sprite's `y position`{:class="block3motion"}.
+Tu peux ajouter de la variété en utilisant un nombre `aléatoire`{:class="block3operators"} pour l'`ordonnée y` du sprite « Tuyaux »{:class="block3motion"}.
 
-![pipes at different heights](images/flappy-height-test.png)
+![tuyaux à différentes hauteurs](images/flappy-height-test.png)
 
 \--- task \---
 
-Modify your sprite's code so that each sprite clone `picks a random number from -80 to 80`{:class="block3operators"} and `glides`{:class="block3motion"} to that `y position`{:class="block3motion"}:
+Modifie le code de ton sprite pour que chaque clone de sprite `choisis un nombre aléatoire entre -80 et 80`{:class="block3operators"} et `glisse`{:class="block3motion"} à cet `abscisse x`{:class="block3motion"} :
 
-![pipes sprite](images/pipes-sprite.png)
+![sprite tuyaux](images/pipes-sprite.png)
 
 ```blocks3
 when I start as a clone
