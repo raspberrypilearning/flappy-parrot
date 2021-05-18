@@ -1,22 +1,22 @@
-## Add a score
+## Ajouter un score
 
-The player should score a point every time Flappy makes it through a gap between pipes.
+Le joueur doit marquer un point à chaque fois que Flappy franchit un espace entre les tuyaux.
 
 \--- task \---
 
-Make a new variable **for all sprites** and call it `score`{:class="block3variables"}.
+Crée une nouvelle variable **pour tous les sprites** et appelle-la `score`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-Each 'Pipes' sprite clone should `wait until`{:class="block3control"} Flappy has flown past and then increase the `score`{:class="block3variables"}.
+Chaque clone de sprite « Tuyaux » doit `attendre jusqu'à ce que`{:class="block3control"} Flappy soit passé et ensuite augmente le `score`{:class="block3variables"}.
 
 \--- task \---
 
-First, `set score to 0`{:class="block3variables"} when the game begins:
+Tout d'abord, `mets le score à 0`{:class="block3variables"} lorsque le jeu commence :
 
-![pipes sprite](images/pipes-sprite.png)
+![sprite tuyaux](images/pipes-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -33,9 +33,9 @@ end
 
 \--- task \---
 
-Then add the following code to the `Pipes` sprite:
+Ajoute ensuite le code suivant au sprite `Tuyaux` :
 
-![pipes sprite](images/pipes-sprite.png)
+![sprite tuyaux](images/pipes-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -46,32 +46,32 @@ wait until <>
 
 \--- task \---
 
-Add more code so that, when Flappy's `x` position is greater than the pipe clone's `x` position, the `score`{:class="block3variables"} increases by `1` and a sound of your choice plays.
+Ajoute plus de code pour que, lorsque l'abscisse `x` de Flappy est supérieure à l'abscisse `x` du clone de tuyau, le `score`{:class="block3variables"} augmente de `1` et un son de ton choix est joué.
 
-You could use the 'pop' sound if you want, or add a sound from the library, for example 'bird'.
+Tu peux utiliser le son « pop » si tu le souhaites, ou ajoute un son à partir de la bibliothèque, par exemple « bird ».
 
 \--- hints \---
 
 \--- hint \---
 
-You need to `wait until`{:class="block3control"} `Flappy's x position`{:class="block3sensing"} is `greater than (>)`{:class="block3operators"} the `x position`{:class="block3motion"} of `Pipes`.
+Tu dois `attendre jusqu'à ce que`{:class="block3control"} `l'abscisse x de Flappy `{:class="block3sensing"} soit `supérieur à (>)`{:class="block3operators"} `l' abscisse x`(:class="block3motion"} des `tuyaux`.
 
-![pipes sprite](images/pipes-sprite.png)
+![sprite tuyaux](images/pipes-sprite.png)
 
 ```blocks3
 when I start as a clone
 + wait until <>
 ```
 
-Then `change score by 1`{:class="block3variables"} and `play a sound`{:class="block3sound"}.
+Ensuite, `ajoute 1 à score `{:class="block3variables"} et `joue un son`{:class="block3sound"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Use these blocks in the correct order:
+Utilise ces blocs dans le bon ordre :
 
-![pipes sprite](images/pipes-sprite.png)
+![sprite tuyaux](images/pipes-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -92,9 +92,9 @@ x position
 
 \--- hint \---
 
-Your code should look like this:
+Ton code devrait ressembler à ceci :
 
-![pipes sprite](images/pipes-sprite.png)
+![sprite tuyaux](images/pipes-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -111,6 +111,6 @@ play sound (pop v)
 
 \--- task \---
 
-Test your code and make sure you score a point every time Flappy gets through a gap between pipes. Check whether the `score`{:class="block3variables"} is set to `0` when you start a new game.
+Teste ton code et assure-toi de marquer un point à chaque fois que Flappy traverse un espace entre les tuyaux. Vérifie si le `score`{:class="block3variables"} est défini sur `0` lorsque tu démarres une nouvelle partie.
 
 \--- /task \---
