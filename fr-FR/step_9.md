@@ -1,5 +1,5 @@
-## Challenge: adjust the difficulty
+## Défi : Ajuster la difficulté
 
-Is the game too hard or too easy for you? How many ways can you find to change the difficulty?
+Le jeu est-il trop difficile ou trop facile pour toi ? Combien de façons peux-tu trouver pour changer la difficulté ?
 
-Adjust the game until you are happy with its difficulty!
+Ajuste le jeu jusqu'à ce que tu sois satisfait de sa difficulté !
