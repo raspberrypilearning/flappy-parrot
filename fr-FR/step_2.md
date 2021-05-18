@@ -1,10 +1,10 @@
-## Add the pipes
+## Ajouter les tuyaux
 
-First, create the pipes.
+Pour commencer, crée les tuyaux.
 
 \--- task \---
 
-Open a new empty Scratch project.
+Ouvre un nouveau projet Scratch vide.
 
 [[[generic-scratch3-new-project]]]
 
@@ -12,9 +12,9 @@ Open a new empty Scratch project.
 
 \--- task \---
 
-Add a backdrop with an outdoor landscape. 'Blue Sky' is a good choice.
+Ajoute un arrière-plan avec un paysage. « Blue Sky » est un bon choix.
 
-![screenshot](images/flappy-stage.png)
+![capture d'écran](images/flappy-stage.png)
 
 [[[generic-scratch3-backdrop-from-library]]]
 
@@ -22,63 +22,63 @@ Add a backdrop with an outdoor landscape. 'Blue Sky' is a good choice.
 
 \--- task \---
 
-Create a new sprite and name it 'Pipes'.
+Crée un nouveau sprite et nomme-le « Tuyaux ».
 
 [[[generic-scratch3-draw-sprite]]]
 
 \--- /task \---
 
-The 'Pipes' sprite should be a pair of pipes with a gap in the middle. By moving the sprite up or down, you can put the gap in a different place.
+Le sprite « Tuyaux » doit être une paire de tuyaux avec un espace au milieu. En déplaçant le sprite vers le haut ou vers le bas, tu peux placer l'espace à un autre endroit.
 
-This picture shows an example of how the pipes could be positioned. The parts of the sprite outside the Stage are normally hidden, you only see then when you drag the sprite:
+Cette image montre un exemple de la façon dont les tuyaux pourraient être positionnés. Les parties du sprite en dehors de la scène sont normalement masquées, tu les vois quand tu fais glisser le sprite :
 
-![screenshot](images/flappy-pipes-position.png)
+![capture d'écran](images/flappy-pipes-position.png)
 
-You can't draw a sprite as big as the pipes need to be, but you can increase the size at which the sprite shows on the Stage.
+Tu ne peux pas dessiner un sprite aussi grand que les tuyaux doivent l'être, mais tu peux augmenter la taille à laquelle le sprite apparaît sur la scène.
 
 \--- task \---
 
-![pipes sprite](images/pipes-sprite.png)
+![sprite tuyaux](images/pipes-sprite.png)
 
-Add code to make the sprite bigger.
+Ajoute du code pour agrandir le sprite.
 
 ```blocks3
-when green flag clicked
-set size to (200) %
+quand le drapeau vert est cliqué
+mettre la taille à (200) % de la taille initiale
 ```
 
-This makes it's easier to see how big the pipes should be.
+Cela permet de voir plus facilement la taille des tuyaux.
 
 \--- /task \---
 
 \--- task \---
 
-Draw a rectangle for the top pipe as shown here:
+Dessine un rectangle pour le tuyau supérieur comme indiqué ici :
 
-![rectangle for the pipe](images/flappy-pipes-rectangle.png)
-
-\--- /task \---
-
-\--- task \---
-
-Fill the pipe with a colour you like.
-
-![fill the rectangle](images/flappy-pipes-fill-rectangle.png)
+![rectangle pour le tuyau](images/flappy-pipes-rectangle.png)
 
 \--- /task \---
 
 \--- task \---
 
-Create a duplicate of the pipe by selecting it and then clicking on **Copy** and **Paste**.
+Remplis le tuyau par une couleur que tu aimes.
 
-![copy and paste pipe](images/flappy-pipes-duplicate1-annotated.png)
+![remplir le rectangle](images/flappy-pipes-fill-rectangle.png)
 
 \--- /task \---
 
 \--- task \---
 
-Drag the copy of the pipe to the bottom of the screen so that the copy is in line with the other pipe. There needs to be a gap between the two pipes.
+Crée une copie du tuyau en le sélectionnant puis en cliquant sur **Copier** et **Coller**.
 
-![screenshot](images/flappy-pipes-duplicate2.png)
+![copier et coller le tuyau](images/flappy-pipes-duplicate1-annotated.png)
+
+\--- /task \---
+
+\--- task \---
+
+Fais glisser la copie du tuyau vers le bas de l'écran afin que la copie soit alignée avec l'autre tuyau. Il doit y avoir un espace entre les deux tuyaux.
+
+![capture d'écran](images/flappy-pipes-duplicate2.png)
 
 \--- /task \---
