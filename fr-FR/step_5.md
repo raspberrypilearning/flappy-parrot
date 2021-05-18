@@ -1,30 +1,30 @@
-## Make Flappy fall
+## Faire tomber Flappy
 
-Now add a sprite called Flappy and create code it so Flappy falls down the Stage. In the next step, you will add the code to make Flappy fly when you press a key.
+Maintenant, ajoute un sprite appelé « Flappy » et crée le code pour que Flappy tombe sur la scène. Dans l'étape suivante, tu ajouteras le code pour faire voler Flappy lorsque tu appuies sur une touche.
 
 \--- no-print \---
 
-![flappy falling animation](images/flappy-falling.gif)
+![animation de chute flappy](images/flappy-falling.gif)
 
 \--- /no-print \---
 
 \--- task \---
 
-Add a new sprite that has two costumes, for 'wings up' and 'wings down', and name it `Flappy`.
+Ajoute un nouveau sprite qui a deux costumes, pour « ailes en haut » et « ailes en bas », et nomme-le `Flappy`.
 
-The parrot sprite is a good choice.
+Le sprite « Parrot » est un bon choix.
 
-![parrot sprite](images/flappy-sprite.png)
+![sprite perroquet](images/flappy-sprite.png)
 
 \--- /task \---
 
-Flappy needs to be smaller.
+Flappy doit être plus petit.
 
 \--- task \---
 
-Add code to `set Flappy's size to 25%`{:class="block3looks"} `when the green flag is clicked`{:class="block3events"}.
+Ajoute du code pour `mettre la taille de Flappy à 25 %`{:class="block3looks"} `quand le drapeau vert est cliqué`{:class="block3events"}.
 
-![parrot sprite](images/flappy-sprite.png)
+![sprite perroquet](images/flappy-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -33,15 +33,15 @@ set size to (25) %
 
 \--- /task \---
 
-When the game starts, Flappy needs to be just left of the centre of the Stage, at coordinates `-50, 0`.
+Lorsque le jeu commence, Flappy doit être juste à gauche du centre de la scène, aux coordonnées `-50, 0`.
 
-![flappy shown at the start position](images/flappy-starting-position.png)
+![flappy montré à la position de départ](images/flappy-starting-position.png)
 
 \--- task \---
 
-Add code to make Flappy `go to the x and y`{:class="block3motion"} starting position of `x: -50`{:class="block3motion"} and `y: 0`{:class="block3motion"}.
+Ajoute du code pour que Flappy `se déplace à x et y`{:class="block3motion"} de la position de départ `x: -50`{:class="block3motion"} et `y: 0`{:class="block3motion "}.
 
-![parrot sprite](images/flappy-sprite.png)
+![sprite perroquet](images/flappy-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -55,9 +55,9 @@ set size to (25) %
 
 \--- task \---
 
-Now make Flappy keep falling down the Stage by `forever`{:class="block3control"} `changing the sprite's y position by -3`{:class="block3motion"}.
+Maintenant, fais en sorte que Flappy continue de tomber sur la scène `indéfiniment`{:class="block3control"} en `ajoutant -3 à l'ordonnée y du sprite`{:class="block3motion"}.
 
-![parrot sprite](images/flappy-sprite.png)
+![sprite perroquet](images/flappy-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -72,6 +72,6 @@ end
 
 \--- task \---
 
-Test your code to make sure Flappy starts in the middle of the screen and falls to the bottom. When you drag Flappy to the top of the Stage, the sprite should fall again.
+Teste ton code pour t'assurer que Flappy démarre au milieu de l'écran et tombe vers le bas. Lorsque tu fais glisser Flappy vers le haut de la scène, le sprite doit tomber à nouveau.
 
 \--- /task \---
