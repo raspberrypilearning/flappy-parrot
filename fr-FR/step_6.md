@@ -1,24 +1,24 @@
-## Make Flappy fly
+## Faire voler Flappy
 
-Now you will make Flappy flap upwards when you press the <kbd>space</kbd> bar. When you play the game, you have to time your taps to get Flappy through the gaps in the pipes.
+Maintenant, tu vas faire voler Flappy vers le haut lorsque tu appuies sur la barre d'<kbd>espace</kbd>. Lorsque tu joues au jeu, tu dois contrôler tes tapotements pour faire passer Flappy entre les tuyaux.
 
 \--- no-print \---
 
-![flappy flying upwards when space bar is pressed](images/flappy-flying.gif)
+![flappy volant vers le haut quand la touche espace est pressée](images/flappy-flying.gif)
 
 \--- /no-print \---
 
-Make Flappy fly upwards when you tap the <kbd>space</kbd> bar.
+Fais voler Flappy vers le haut lorsque tu appuies sur la barre d'<kbd>espace</kbd>.
 
 \--- task \---
 
-When the `space key is pressed`{:class="block3events"}, Flappy should move upwards by `changing its y coordinate`{:class="block3motion"} by a small amount, for example `6`.
+Lorsque la `touche d'espace est pressée`{:class="block3events"}, Flappy doit se déplacer vers le haut en `ajoutant à l'ordonnée y`{:class="block3motion"} un petit nombre, par exemple `6`.
 
-Flappy flies upwards by `repeating`{:class="block3control"} this movement `10 times`{:class="block3control"}.
+Flappy vole vers le haut en `répétant`{:class="block3control"} ce mouvement `10 fois`{:class="block3control"}.
 
-Add this code to your `Flappy` sprite:
+Ajoute ce code à ton sprite `Flappy` :
 
-![parrot sprite](images/flappy-sprite.png)
+![sprite perroquet](images/flappy-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -29,68 +29,68 @@ end
 
 \--- /task \---
 
-Now you need to get Flappy's wings flapping!
+Maintenant, tu dois faire battre les ailes de Flappy !
 
 \--- task \---
 
-Click on the **Costumes** tab, and name Flappy's costumes 'wings up' and 'wings down'.
+Clique sur l'onglet **Costumes** et nomme les costumes de Flappy « ailes en haut » et « ailes en bas ».
 
-![naming the costumes](images/flappy-wings.png)
+![nommer les costumes](images/flappy-wings.png)
 
 \--- /task \---
 
 \--- task \---
 
-Can you make Flappy's costume change to `wings down` when you press <kbd>space</kbd>, and then change it back to `wings up` halfway through the upward movement?
+Peux-tu faire changer le costume de Flappy sur `ailes en bas` lorsque tu appuies sur la barre d'<kbd>espace</kbd>, puis le changer sur `ailes en haut` à mi-chemin ?
 
 \--- hints \---
 
 \--- hint \---
 
-You need to split the upward motion in half so that you can use two `repeat`{:class="block3control"} blocks to change Flappy's costume at the beginning and in the middle of the movement.
+Tu dois diviser le mouvement vers le haut en deux afin de pouvoir utiliser deux `répéter`{:class="block3control"} pour changer le costume de Flappy au début et au milieu du mouvement.
 
-Add `switch costume to`{:class="block3looks"} blocks to change how Flappy looks.
+Ajoute le bloc `basculer sur le costume`{:class="block3looks"} pour changer l'apparence de Flappy.
 
 \--- /hint \--- \--- hint \---
 
-You need to use these blocks:
+Tu dois utiliser ces blocs :
 
-![parrot sprite](images/flappy-sprite.png)
+![sprite perroquet](images/flappy-sprite.png)
 
 ```blocks3
-repeat (5) 
-  change y by (6)
-end
+répéter (5) fois
+  ajouter (6) à y
+fin
 
-repeat (5) 
-  change y by (6)
-end
+répéter (5) fois
+  ajouter (6) à y
+fin
 
-switch costume to (wings up v)
+basculer sur le costume (ailes en haut v)
 
-switch costume to (wings down v)
+basculer sur le costume (ailes en bas v)
 
-when [space v] key pressed
+quand la touche [espace v] est pressée
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Your code should look like this:
+Ton code devrait ressembler à ceci :
 
-![parrot sprite](images/flappy-sprite.png)
+![sprite perroquet](images/flappy-sprite.png)
 
 ```blocks3
-when [space v] key pressed
-switch costume to (wings down v)
-repeat (5) 
-  change y by (6)
-end
-switch costume to (wings up v)
-repeat (5) 
-  change y by (6)
-end
+quand la touche [espace v] est pressée
+basculer sur le costume (ailes en bas v)
+répéter (5) fois
+  ajouter (6) à y
+fin
+basculer sur le costume (ailes en haut v)
+répéter (5) fois
+  ajouter (6) à y
+fin
 ```
 
 \--- /hint \---
@@ -101,6 +101,6 @@ end
 
 \--- task \---
 
-Test your code. As you see, at the moment nothing happens if you let Flappy hit a pipe.
+Teste ton code. Comme tu peux le voir, pour le moment, rien ne se passe si tu laisses Flappy toucher un tuyau.
 
 \--- /task \---
