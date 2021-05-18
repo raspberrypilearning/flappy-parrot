@@ -1,11 +1,11 @@
-## Challenge: make better pipes
+## Défi : Créer de meilleurs tuyaux
 
-Can you make your pipes look better?
+Peux-tu améliorer l'apparence de tes tuyaux ?
 
-+ Shade your pipes with a left-to-right gradient.
++ Ombre tes tuyaux avec un dégradé de gauche à droite.
 
-![screenshot](images/flappy-pipes-filled.png)
+![capture d'écran](images/flappy-pipes-filled.png)
 
-+ Add extra rectangles to the ends of the pipes:
++ Ajoute des rectangles supplémentaires aux extrémités des tuyaux :
 
-![screenshot](images/flappy-pipes-ends.png)
+![capture d’écran](images/flappy-pipes-ends.png)
