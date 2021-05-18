@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flappy-parrot-scratch2).
+Ceci est la version **Scratch 3** du projet. Il existe également une version [Scratch 2 du projet](https://projects.raspberrypi.org/en/projects/flappy-parrot-scratch2).
 
 \--- /no-print \---
 
 ## Introduction
 
-Create a game in which you have to guide a parrot past scrolling pipes to score points.
+Crée un jeu dans lequel tu dois guider un perroquet entre les tuyaux qui se déplacent pour marquer des points.
 
-### What you will make
+### Ce que tu feras
 
 \--- no-print \---
 
-Click the green flag to start the game. Press the <kbd>space</kbd> bar to make the parrot flap its wings, and try to get it to fly through the gaps in the pipes! You score one point for every pipe that you manage to get the parrot past.
+Clique sur le drapeau vert pour démarrer le jeu. Appuie sur la barre d'<kbd>espace</kbd> pour faire battre les ailes du perroquet, et essaie de le faire passer entre les tuyaux ! Tu marques un point pour chaque tuyau que tu parviens à franchir avec le perroquet.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258349724/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,47 +23,47 @@ Click the green flag to start the game. Press the <kbd>space</kbd> bar to make t
 
 \--- print-only \---
 
-You will press the <kbd>space</kbd> bar to make the parrot flap its wings, and score one point for every pipe that you manage to get the parrot past.
+Tu appuieras sur la barre d'<kbd>espace</kbd> pour faire battre les ailes du perroquet, et marquera un point pour chaque tuyau que tu parviens à franchir avec le perroquet.
 
-![flappy parrot game being played](images/flappy-parrot-showcase.png)
+![jeu flappy parrot en cours de jeu](images/flappy-parrot-showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Ce qu'il te faut
 
-### Hardware
+### Matériel informatique
 
-+ A computer capable of running Scratch 3
++ Un ordinateur capable d'exécuter Scratch 3
 
-### Software
+### Logiciel
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to create sprites using Vector mode
-+ How to use sounds 
-+ How to detect collisions
-+ How to control a sprite using the keyboard 
++ Scratch 3 (soit [en ligne](https://rpf.io/scratchon) ou [hors ligne](https://rpf.io/scratchoff))
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Ce que tu vas apprendre
+
++ Comment créer des sprites en utilisant le mode vectoriel
++ Comment utiliser les sons 
++ Comment détecter les collisions
++ Comment contrôler un sprite à l'aide du clavier 
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Informations supplémentaires pour les éducateurs
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/flappy-parrot/print){:target="_blank"}.
+Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/en/projects/flappy-parrot/print) {:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](https://rpf.io/p/en/flappy-parrot-get).
+Vous pouvez trouver le [projet terminé ici](https://rpf.io/p/en/flappy-parrot-get) .
 
 \--- /collapse \---
