@@ -1,13 +1,13 @@
-Pipes
+Tuyaux
 
 costume1
 
 Flappy
 
-wings down
+ailes en bas
 
-wings up
+ailes en haut
 
-Game Over!
+Partie terminée !
 
 score
