@@ -84,7 +84,7 @@ verander [score v] met (1)
 
 [x positie v] van (Flappy v)
 
-x positiion
+x position
 
 () > ()
 ```
