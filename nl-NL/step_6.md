@@ -33,7 +33,7 @@ Nu moet je Flappy's vleugels laten fladderen!
 
 --- task ---
 
-Klik op het tabblad **Uiterlijken** en noem Flappy's kostuums 'wings up' en 'wings down'.
+Klik op het tabblad **Uiterlijken** en noem Flappy's kostuums 'vleugels op' en 'vleugels neer'.
 
 ![namen van de uiterlijken](images/flappy-wings.png)
 
@@ -41,7 +41,7 @@ Klik op het tabblad **Uiterlijken** en noem Flappy's kostuums 'wings up' en 'win
 
 --- task ---
 
-Kun je het uiterlijk van Flappy veranderen in `wings down` als je op <kbd>spatiebalk</kbd> drukt, en dan terug naar `wings up` halverwege de opwaartse beweging?
+Kun je het uiterlijk van Flappy veranderen in `vleugels neer` als je op <kbd>spatiebalk</kbd> drukt, en dan terug naar `vleugels op` halverwege de opwaartse beweging?
 
 --- hints ---
 
@@ -67,9 +67,9 @@ herhaal (5)
   verander y met (6)
 einde
 
-verander uiterlijk naar (wings up v)
+verander uiterlijk naar (vleugels op v)
 
-verander uiterlijk naar (wings down v)
+verander uiterlijk naar (vleugels neer v)
 
 wanneer [spatiebalk v] is ingedrukt
 ```
@@ -84,11 +84,11 @@ Je code zou er als volgt uit moeten zien:
 
 ```blocks3
 wanneer [spatiebalk v] is ingedrukt
-verander uiterlijk naar (wings down v)
+verander uiterlijk naar (vleugels neer v)
 herhaal (5) 
   verander y met (6)
 einde
-verander uiterlijk naar (wings up v)
+verander uiterlijk naar (vleugels op v)
 herhaal (5) 
   verander y met (6)
 einde

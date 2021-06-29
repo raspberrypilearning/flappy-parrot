@@ -84,7 +84,7 @@ verander [score v] met (1)
 
 [x positie v] van (Flappy v)
 
-x positie
+x positiion
 
 () > ()
 ```
@@ -98,10 +98,10 @@ Je code zou er als volgt uit moeten zien:
 ![pijpen sprite](images/pipes-sprite.png)
 
 ```blocks3
-wanneer ik als kloon start
-wacht tot <([x positie v] van (Flappy v)) > (x positie)>
-verander [score v] met (1)
-start geluid (pop v)
+when I start as a clone
+wait until <([x positie v] of (Flappy v)) > (x position)>
+change [score v] by (1)
+play sound (pop v)
 ```
 
 --- /hint ---
