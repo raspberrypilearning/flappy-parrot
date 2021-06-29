@@ -10,7 +10,7 @@ Maak een nieuwe variabele **voor alle sprites** en noem deze `score`{:class="blo
 
 --- /task ---
 
-Elke sprite kloon van 'Pipes' moet `wachten tot`{:class="block3control"} Flappy is voorbijgevlogen en verhoogt dan de `score`{:class="block3variables"}.
+Elke sprite kloon van 'Pijpen' moet `wachten tot`{:class="block3control"} Flappy is voorbijgevlogen en verhoogt dan de `score`{:class="block3variables"}.
 
 --- task ---
 
@@ -98,10 +98,10 @@ Je code zou er als volgt uit moeten zien:
 ![pijpen sprite](images/pipes-sprite.png)
 
 ```blocks3
-wanneer ik als kloon start
-wacht tot <([x positie v] van (Flappy v)) > (x positie)>
-verander [score v] met (1)
-start geluid (pop v)
+when I start as a clone
+wait until <([x positie v] of (Flappy v)) > (x position)>
+change [score v] by (1)
+play sound (pop v)
 ```
 
 --- /hint ---

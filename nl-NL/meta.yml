@@ -5,7 +5,7 @@ description: Maak een spel waarin je een papegaai langs bewegende obstakels leid
 listed: true
 copyedit: true
 version: 4.1
-last_tested: 2018-10-90
+last_tested: 2018-10-09
 steps:
   - title: Inleiding
   - title: Voeg de pijpen toe
