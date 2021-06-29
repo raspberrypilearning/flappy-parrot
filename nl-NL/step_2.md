@@ -22,13 +22,13 @@ Voeg een achtergrond toe met een buitenlandschap. 'Blue Sky' is een goede keuze.
 
 --- task ---
 
-Maak een nieuwe sprite en noem deze 'Pijpen'.
+Maak een nieuwe sprite en noem deze 'Pipes'.
 
 [[[generic-scratch3-draw-sprite]]]
 
 --- /task ---
 
-De sprite 'Pijpen' moet een paar pijpen zijn met een opening in het midden. Door de sprite omhoog of omlaag te bewegen, kun je de opening op een andere plek plaatsen.
+De sprite 'Pipes' moet een paar pijpen zijn met een opening in het midden. Door de sprite omhoog of omlaag te bewegen, kun je de opening op een andere plek plaatsen.
 
 Deze afbeelding toont een voorbeeld van hoe de pijpen kunnen worden geplaatst. De delen van de sprite buiten het speelveld zijn normaal verborgen, je ziet ze alleen als je de sprite sleept:
 

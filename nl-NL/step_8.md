@@ -10,7 +10,7 @@ Maak een nieuwe variabele **voor alle sprites** en noem deze `score`{:class="blo
 
 --- /task ---
 
-Elke sprite kloon van 'Pipes' moet `wachten tot`{:class="block3control"} Flappy is voorbijgevlogen en verhoogt dan de `score`{:class="block3variables"}.
+Elke sprite kloon van 'Pijpen' moet `wachten tot`{:class="block3control"} Flappy is voorbijgevlogen en verhoogt dan de `score`{:class="block3variables"}.
 
 --- task ---
 
@@ -84,7 +84,7 @@ verander [score v] met (1)
 
 [x positie v] van (Flappy v)
 
-x position
+x positie
 
 () > ()
 ```
