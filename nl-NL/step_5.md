@@ -10,7 +10,7 @@ Voeg nu een sprite toe met de naam Flappy en maak code zodat Flappy in het speel
 
 \--- task \---
 
-Voeg een nieuwe sprite toe met twee uiterlijken, voor 'wings up' (vleugels op) en 'wings down' (vleugels neer), en noem het `Flappy`.
+Voeg een nieuwe sprite toe met twee uiterlijken, voor 'vleugels op' en 'vleugels neer', en noem het `Flappy`.
 
 De papegaaiensprite is een goede keuze.
 
