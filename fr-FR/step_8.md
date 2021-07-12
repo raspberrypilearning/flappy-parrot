@@ -55,7 +55,7 @@ Tu peux utiliser le son « pop » si tu le souhaites, ou ajoute un son à partir
 
 --- hint ---
 
-Tu dois `attendre jusqu'à ce que`{:class="block3control"} `l'abscisse x de Flappy`{:class="block3sensing"} soit `supérieur à (>)`{:class="block3operators"} `l' abscisse x`(:class="block3motion"} des `tuyaux`.
+Tu dois `attendre jusqu'à ce que`{:class="block3control"} `l'abscisse x de Flappy`{:class="block3sensing"} soit `supérieur à (>)`{:class="block3operators"} `l'abscisse x`(:class="block3motion"} des `tuyaux`.
 
 ![sprite tuyaux](images/pipes-sprite.png)
 

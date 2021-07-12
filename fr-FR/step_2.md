@@ -43,7 +43,7 @@ Tu ne peux pas dessiner un sprite aussi grand que les tuyaux doivent l'être, ma
 Ajoute du code pour agrandir le sprite.
 
 ```blocks3
-quand le drapeau vert est cliqué
+when green flag clicked
 mettre la taille à (200) % de la taille initiale
 ```
 

@@ -44,7 +44,7 @@ delete this clone
 
 Maintenant, tu devrais avoir beaucoup de tuyaux, mais leurs espaces sont toujours au même endroit.
 
-Tu peux ajouter de la variété en utilisant un nombre `aléatoire`{:class="block3operators"} pour l'`ordonnée y` du sprite « Tuyaux »{:class="block3motion"}.
+Tu peux ajouter de la variété en utilisant un nombre `aléatoire`{:class="block3operators"} pour l'`ordonnée y`{:class="block3motion"} du sprite « Tuyaux ».
 
 ![tuyaux à différentes hauteurs](images/flappy-height-test.png)
 
