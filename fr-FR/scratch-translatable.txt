@@ -1,0 +1,13 @@
+Tuyaux
+
+costume1
+
+Flappy
+
+ailes en bas
+
+ailes en haut
+
+Partie terminée !
+
+score
