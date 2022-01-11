@@ -1,23 +1,26 @@
 ---
 title: El papagayo Plumita
 hero_image: images/banner.png
-description: Crea un juego en el que guíes a un papagayo a través de obstáculos en movimiento
+description: Crea un juego en el que guíes a un papagayo a través de obstáculos en
+  movimiento
 listed: true
 copyedit: true
 version: 4.1
 last_tested: 2018-10-90
 steps:
-  - title: Introducción
-  - title: Agrega las tuberías
-  - title: "Desafío: haz mejores tuberías"
-    challenge: true
-  - title: Haz que las tuberías se muevan
-  - title: Haz que Plumita se caiga
-  - title: Haz que Plumita vuele
-  - title: Detectar colisiones
-  - title: Añade un puntaje
-  - title: 'Desafío: ajusta la dificultad'
-    challenge: true
-  - title: 'Desafío: añade un puntaje máximo'
-    challenge: true
-  - title: '¿Qué sigue?'
+- title: Introducción
+  completion: engaged
+- title: Agrega las tuberías
+- title: 'Desafío: haz mejores tuberías'
+  challenge: true
+- title: Haz que las tuberías se muevan
+- title: Haz que Plumita se caiga
+- title: Haz que Plumita vuele
+- title: Detectar colisiones
+  completion: internal
+- title: Añade un puntaje
+- title: 'Desafío: ajusta la dificultad'
+  challenge: true
+- title: 'Desafío: añade un puntaje máximo'
+  challenge: true
+- title: "¿Qué sigue?"
