@@ -7,17 +7,21 @@ copyedit: true
 version: 4.1
 last_tested: 2018-10-09
 steps:
-  - title: Inleiding
-  - title: Voeg de pijpen toe
-  - title: "Uitdaging: betere pijpen maken"
-    challenge: true
-  - title: Laat de pijpen bewegen
-  - title: Laat Flappy vallen
-  - title: Laat Flappy vliegen
-  - title: Neem botsingen waar
-  - title: Een score toevoegen
-  - title: 'Uitdaging: pas de moeilijkheidsgraad aan'
-    challenge: true
-  - title: 'Uitdaging: voeg een topscore toe'
-    challenge: true
-  - title: Wat kun je verder nog doen?
+- title: Inleiding
+- title: Voeg de pijpen toe
+- title: 'Uitdaging: betere pijpen maken'
+  challenge: true
+- title: Laat de pijpen bewegen
+  completion:
+  - engaged
+- title: Laat Flappy vallen
+- title: Laat Flappy vliegen
+- title: Neem botsingen waar
+- title: Een score toevoegen
+  completion:
+  - internal
+- title: 'Uitdaging: pas de moeilijkheidsgraad aan'
+  challenge: true
+- title: 'Uitdaging: voeg een topscore toe'
+  challenge: true
+- title: Wat kun je verder nog doen?

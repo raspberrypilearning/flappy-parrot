@@ -1,23 +1,28 @@
 ---
 title: Flappy parrot
 hero_image: images/banner.png
-description: Créer un jeu dans lequel tu guides un perroquet à travers des obstacles en mouvement
+description: Créer un jeu dans lequel tu guides un perroquet à travers des obstacles
+  en mouvement
 listed: true
 copyedit: true
 version: 4.1
 last_tested: 2018-10-09
 steps:
-  - title: Introduction
-  - title: Ajouter les tuyaux
-  - title: "Défi : Créer de meilleurs tuyaux"
-    challenge: true
-  - title: Faire bouger les tuyaux
-  - title: Faire tomber Flappy
-  - title: Faire voler Flappy
-  - title: Détecter les collisions
-  - title: Ajouter un score
-  - title: 'Défi : Ajuster la difficulté'
-    challenge: true
-  - title: 'Défi : Ajouter un meilleur score'
-    challenge: true
-  - title: Et ensuite ?
+- title: Introduction
+- title: Ajouter les tuyaux
+- title: 'Défi : Créer de meilleurs tuyaux'
+  challenge: true
+- title: Faire bouger les tuyaux
+  completion:
+  - engaged
+- title: Faire tomber Flappy
+- title: Faire voler Flappy
+- title: Détecter les collisions
+- title: Ajouter un score
+  completion:
+  - internal
+- title: 'Défi : Ajuster la difficulté'
+  challenge: true
+- title: 'Défi : Ajouter un meilleur score'
+  challenge: true
+- title: Et ensuite ?
