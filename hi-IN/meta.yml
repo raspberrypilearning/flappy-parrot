@@ -9,16 +9,18 @@ version: 4.1
 last_tested: 2018-10-90
 steps:
 - title: भूमिका
-  completion: engaged
 - title: पाइप जोड़ें
 - title: 'चुनौती: बेहतर पाइप बनाएँ'
   challenge: true
 - title: पाइपों को चलाएँ
+  completion:
+  - engaged
 - title: फ्लैपी को गिराएँ
 - title: फ्लैपी को उड़ाएँ
 - title: टकरावों का पता लगाएँ
-  completion: internal
 - title: स्कोर जोड़ें
+  completion:
+  - internal
 - title: 'चुनौती: कठिनाई को समायोजित करें'
   challenge: true
 - title: 'चुनौती: एक उच्च स्कोर जोड़ें'

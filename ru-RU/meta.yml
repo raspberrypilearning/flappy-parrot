@@ -9,16 +9,18 @@ version: 4.1
 last_tested: 2018-10-90
 steps:
 - title: Введение
-  completion: engaged
 - title: Добавь трубы
 - title: 'Задача: сделать трубы лучше'
   challenge: true
 - title: Заставь трубы двигаться
+  completion:
+  - engaged
 - title: Сделай Flappy падающим
 - title: Сделай Flappy летающим
 - title: Обнаружение столкновений
-  completion: internal
 - title: Добавь счёт
+  completion:
+  - internal
 - title: 'Задача: отрегулировать сложность'
   challenge: true
 - title: 'Задача: добавить лучший результат'

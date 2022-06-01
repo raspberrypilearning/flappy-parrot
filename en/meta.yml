@@ -8,16 +8,18 @@ version: 4.1
 last_tested: 2018-10-90
 steps:
 - title: Introduction
-  completion: engaged
 - title: Add the pipes
 - title: 'Challenge: make better pipes'
   challenge: true
 - title: Make the pipes move
+  completion:
+  - engaged
 - title: Make Flappy fall
 - title: Make Flappy fly
 - title: Detect collisions
-  completion: internal
 - title: Add a score
+  completion:
+  - internal
 - title: 'Challenge: adjust the difficulty'
   challenge: true
 - title: 'Challenge: add a high score'

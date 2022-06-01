@@ -9,16 +9,18 @@ version: 4.1
 last_tested: 2018-10-09
 steps:
 - title: Introduction
-  completion: engaged
 - title: Ajouter les tuyaux
 - title: 'Défi : Créer de meilleurs tuyaux'
   challenge: true
 - title: Faire bouger les tuyaux
+  completion:
+  - engaged
 - title: Faire tomber Flappy
 - title: Faire voler Flappy
 - title: Détecter les collisions
-  completion: internal
 - title: Ajouter un score
+  completion:
+  - internal
 - title: 'Défi : Ajuster la difficulté'
   challenge: true
 - title: 'Défi : Ajouter un meilleur score'

@@ -9,16 +9,18 @@ version: 4.1
 last_tested: 2018-10-90
 steps:
 - title: Introducción
-  completion: engaged
 - title: Agrega las tuberías
 - title: 'Desafío: haz mejores tuberías'
   challenge: true
 - title: Haz que las tuberías se muevan
+  completion:
+  - engaged
 - title: Haz que Plumita se caiga
 - title: Haz que Plumita vuele
 - title: Detectar colisiones
-  completion: internal
 - title: Añade un puntaje
+  completion:
+  - internal
 - title: 'Desafío: ajusta la dificultad'
   challenge: true
 - title: 'Desafío: añade un puntaje máximo'
