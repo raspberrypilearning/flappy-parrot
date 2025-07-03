@@ -25,3 +25,5 @@ steps:
   challenge: true
 - title: 'Défi : Ajouter un meilleur score'
   challenge: true
+  completion:
+  - external

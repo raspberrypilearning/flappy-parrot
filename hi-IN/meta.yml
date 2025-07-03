@@ -25,3 +25,5 @@ steps:
   challenge: true
 - title: 'चुनौती: एक उच्च स्कोर जोड़ें'
   challenge: true
+  completion:
+  - external

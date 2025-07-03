@@ -25,3 +25,5 @@ steps:
   challenge: true
 - title: 'Desafío: añade un puntaje máximo'
   challenge: true
+  completion:
+  - external

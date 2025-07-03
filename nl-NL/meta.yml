@@ -24,3 +24,5 @@ steps:
   challenge: true
 - title: 'Uitdaging: voeg een topscore toe'
   challenge: true
+  completion:
+  - external
