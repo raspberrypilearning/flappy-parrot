@@ -25,4 +25,5 @@ steps:
   challenge: true
 - title: 'Desafío: añade un puntaje máximo'
   challenge: true
-- title: "¿Qué sigue?"
+  completion:
+  - external

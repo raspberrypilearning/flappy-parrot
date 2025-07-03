@@ -25,4 +25,5 @@ steps:
   challenge: true
 - title: 'Задача: добавить лучший результат'
   challenge: true
-- title: Что дальше?
+  completion:
+  - external
