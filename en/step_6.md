@@ -44,38 +44,6 @@ Click on the **Costumes** tab, and name Flappy's costumes 'wings up' and 'wings 
 Can you make Flappy's costume change to `wings down` when you press <kbd>space</kbd>, and then change it back to `wings up` halfway through the upward movement?
 
 --- hints ---
-
---- hint ---
-
-You need to split the upward motion in half so that you can use two `repeat`{:class="block3control"} blocks to change Flappy's costume at the beginning and in the middle of the movement.
-
-Add `switch costume to`{:class="block3looks"} blocks to change how Flappy looks.
-
---- /hint ---
---- hint ---
-
-You need to use these blocks:
-
-![parrot sprite](images/flappy-sprite.png)
-
-```blocks3
-repeat (5) 
-  change y by (6)
-end
-
-repeat (5) 
-  change y by (6)
-end
-
-switch costume to (wings up v)
-
-switch costume to (wings down v)
-
-when [space v] key pressed
-```
-
---- /hint ---
-
 --- hint ---
 
 Your code should look like this:
@@ -95,8 +63,8 @@ end
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 --- /task ---
 
